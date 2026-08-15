@@ -21,6 +21,7 @@ CURATED_PROVIDERS = [
      "specialty": "Serology blood draw · patient service centers statewide",
      "address": "", "city": "Phoenix", "state": "AZ", "zip": "", "phone": ""},
 ]
+# CURATED_PROVIDERS = []
 
 app = Flask(__name__)
 app.secret_key = os.urandom(32)  # clears all sessions on restart
@@ -155,30 +156,6 @@ def api_providers():
     return jsonify({"source": "fallback", "providers": CURATED_PROVIDERS})
 
 
-@app.route("/api/submit", methods=["POST"])
-def api_submit():
-    """Receive everything the checker form collected.
-
-    The front end POSTs a JSON payload of the questionnaire answers plus
-    the uploaded X-ray's metadata (never the file bytes). Wire this up to
-    the real backend / datastore / model here. For now we just acknowledge
-    receipt so the client flow works end to end.
-    """
-    payload = request.get_json(silent=True) or {}
-    user = session.get("user")
-    answer_count = len(payload.get("answers") or {})
-    has_file = bool(payload.get("file"))
-    # TODO: forward `payload` to the backend (queue, DB, or model service).
-    print(f"[submit] user={user!r} answers={answer_count} xray_attached={has_file}", flush=True)
-    return jsonify({"ok": True, "received": True})
-
-
-@app.route("/logout")
-def logout():
-    session.pop("user", None)
-    return redirect(url_for("main"))
-
-
 
 import torch
 import torch.nn as nn
@@ -206,23 +183,132 @@ transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406],     # ImageNet mean...
                          std=[0.229, 0.224, 0.225])    # ...and std
 ])
-image_paths = [
-    "test/0004cfab-14fd-4e49-80ba-63a80b6bddd6.jpg",
-    "test/01be392f-a46d-4aef-a57e-9cd1a80dd47e.jpg",
-]
-images = []
-for path in image_paths:
-    try:
-        img = Image.open(path).convert("RGB")
-        images.append(transform(img))
-    except FileNotFoundError:
-        raise FileNotFoundError(f"Image not found: {path}")
 
-images = torch.stack(images).to(device)
-with torch.no_grad():  
-    outputs = m(images)  
-    outputs = outputs.squeeze(1).cpu().numpy()
-    print(outputs)
+
+@app.route("/api/submit", methods=["POST"])
+def api_submit():
+    """Receive everything the checker form collected.
+
+    The front end POSTs a JSON payload of the questionnaire answers plus
+    the uploaded X-ray's metadata (never the file bytes). Wire this up to
+    the real backend / datastore / model here. For now we just acknowledge
+    receipt so the client flow works end to end.
+    """
+    payload = request.get_json(silent=True) or {}
+    user = session.get("user")
+    answer_count = len(payload.get("answers") or {})
+    has_file = bool(payload.get("file"))
+
+    import imageio.v2 as imageio
+
+    image_paths = [
+        f'test/{payload.get("file")["name"]}'
+    ]
+    print(image_paths)
+    images = []
+    for path in image_paths:
+        try:
+            img = Image.open(path).convert("RGB")
+            images.append(transform(img))
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Image not found: {path}")
+
+    images = torch.stack(images).to(device)
+
+
+    with torch.no_grad():  
+        outputs = m(images)  
+        outputs = outputs.squeeze(1).cpu().numpy()
+        print(outputs)
+        pneumoniaScore=outputs
+
+    answers = payload.get("answers")
+    print(answers)
+
+    questions = """QUESTIONS = [
+                    {id:'duration', q:'How long have you had the cough?',
+                    sub:'Bacterial pneumonia is usually acute — days. Valley fever tends to drag on for weeks.',
+                    opts:[{v:'lt1',t:'Under 1 week',pts:0},{v:'1to3',t:'1 to 3 weeks',pts:1},{v:'3to6',t:'3 to 6 weeks',pts:2},{v:'gt6',t:'More than 6 weeks',pts:2}]},
+                    {id:'abx', q:'Have you taken antibiotics for this — and did they help?',
+                    sub:'The single most useful question. Bacterial pneumonia should improve within two to three days.',
+                    opts:[{v:'none',t:'Haven’t taken any',pts:0},{v:'helped',t:'Took them and they helped',pts:0},{v:'nohelp',t:'Took a full course, no improvement',pts:3}]},
+                    {id:'constitutional', q:'Any night sweats, unusual fatigue, or unexplained weight loss?',
+                    sub:'A slow, wearing-down pattern fits valley fever more than a quick bacterial illness.',
+                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes, one or more',pts:1}]},
+                    {id:'nodosum', q:'Any new painful red bumps on your shins?',
+                    sub:'Called desert rheumatism. Painful shin nodules are strongly associated with valley fever in an endemic area.',
+                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes',pts:3}]},
+                    {id:'exposure', q:'Do you live in — or have you traveled to — Arizona, Central California, or Nevada in the past 3 months?',
+                    sub:'Valley fever comes from desert dust. Without exposure to the endemic region it is very unlikely.',
+                    opts:[{v:'yes',t:'Yes',pts:2},{v:'no',t:'No',pts:0}]},
+                    {id:'risk', q:'Do any of these apply to you?',
+                    sub:'Pregnancy, diabetes, a weakened immune system, or certain ancestries carry higher risk of the infection spreading. This affects urgency, not whether you have it.',
+                    opts:[{v:'no',t:'None of these',pts:0},{v:'yes',t:'One or more applies',pts:0,urgency:true}]},
+                    {id:'emergency', q:'Right now, do you have a severe headache with a stiff neck, confusion, or trouble breathing?',
+                    sub:'These can signal a medical emergency and change what you should do next.',
+                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes',pts:0,emergency:true}]},
+                ];"""
+
+    formattedWantedResult = """
+    {
+        detectionOfValleyFever:"yes" or "no",
+        confidence:0.0 to 1.0,
+        reasoning:"text"
+    }"""
+
+    prompt = f"""
+
+    These are the qs: {questions}
+
+    Given these questions, I have a response of dict where the answers with it.
+    Also, I have a score given by our pneumonia detection model that states whether or not the 
+    image has pneumonia or not. If it is closer to 1.0 (>=0.5) then pneumonia
+    if <0.5 then not pneumonia. 
+
+
+    Take these answers and model's detection of pneumonia to establish the most accurate
+    result of whether the patient has valley fever (note that symptoms alone do not confirm
+    whether or not it has valley fever but symptoms still contribute to it)
+
+    In your reasoning field, make it concise and use specific answers
+
+    Here are the answers and the pneumonia detection score: {answers} and {pneumoniaScore}
+
+    Follow these instructions and return text of a json
+    in this format:
+
+    {formattedWantedResult}
+    """
+
+    print(prompt)
+    from google import genai
+    client = genai.Client(api_key="AQ.Ab8RN6KvkzX1Y_hzMSMubTUntA9YE-GWLRFx-PwVB4PPpHuNGQ")
+    interaction = client.interactions.create(model="gemini-3.6-flash",
+                                             input=prompt)
+
+    import json
+    response = interaction.output_text
+
+    detectionOfValleyFever = response.split('"detectionOfValleyFever": "')[1].split('"')[0]
+    confidence = float(response.split('"confidence": ')[1].split(',')[0])
+    reasoning = response.split('"reasoning": "')[1].rsplit('"', 1)[0]
+    
+    # print(modelResp["detectionOfValleyFever"])
+
+    
+
+    print(f"[submit] user={user!r} answers={answer_count} xray_attached={has_file}", flush=True)
+    return jsonify({"ok": True, "received": True})
+
+
+
+@app.route("/logout")
+def logout():
+    session.pop("user", None)
+    return redirect(url_for("main"))
+
+
+
 
 
 if __name__ == '__main__':
