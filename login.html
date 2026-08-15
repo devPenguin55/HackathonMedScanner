@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in — MedScan</title>
+<style>
+  :root{
+    --bone:#f6f2ea;--surface:#ffffff;--ink:#1d1b17;--ink-soft:#3a362f;--muted:#6d675c;
+    --hair:#e3dccf;--teal:#0f5c53;--teal-dk:#0a433c;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Charter,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bone);color:var(--ink);font-family:var(--sans);
+    font-size:16px;line-height:1.6;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  header{border-bottom:1px solid var(--hair);background:rgba(246,242,234,.85);backdrop-filter:blur(8px)}
+  .nav{max-width:1120px;margin:0 auto;padding:0 24px;height:66px;display:flex;align-items:center}
+  .brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none}
+  .brand .mark{width:32px;height:32px;flex:none}
+  .brand b{font-family:var(--serif);font-size:20px;letter-spacing:-.01em}
+  .brand small{display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:-2px}
+
+  main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 24px}
+  .card{width:100%;max-width:410px;background:var(--surface);border:1px solid var(--hair);border-radius:18px;
+    box-shadow:0 1px 2px rgba(29,27,23,.04),0 12px 40px rgba(29,27,23,.08);padding:38px 34px}
+  .eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
+  h1{font-family:var(--serif);font-weight:600;font-size:28px;letter-spacing:-.01em;margin:10px 0 6px}
+  .sub{color:var(--muted);font-size:14.5px;margin-bottom:26px}
+
+  label{display:block;font-size:13px;font-weight:600;color:var(--ink-soft);margin:0 0 7px}
+  .field{margin-bottom:18px}
+  input{width:100%;font-family:var(--sans);font-size:15.5px;padding:12px 14px;border:1px solid var(--hair);
+    border-radius:10px;background:#fdfcf9;color:var(--ink);transition:border-color .12s,box-shadow .12s}
+  input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(15,92,83,.12)}
+  .row{display:flex;align-items:center;justify-content:space-between;margin:-4px 0 22px;font-size:13.5px}
+  .row label{font-weight:500;color:var(--muted);display:flex;align-items:center;gap:7px;margin:0}
+  .row input{width:auto}
+
+  .btn{width:100%;font-family:var(--sans);font-size:15.5px;font-weight:600;padding:13px;border-radius:10px;
+    border:0;background:var(--teal);color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(15,92,83,.22);transition:background .15s}
+  .btn:hover{background:var(--teal-dk)}
+  .foot{text-align:center;margin-top:22px;font-size:14px;color:var(--muted)}
+  .privacy{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-size:12.5px;color:var(--muted);
+    display:flex;gap:9px;align-items:flex-start}
+  .privacy svg{flex:none;margin-top:1px}
+  .err{background:#f7e3e0;border:1px solid #e0b4ae;color:#a5281f;font-size:13.5px;padding:11px 13px;border-radius:9px;margin-bottom:18px}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="/">
+      <svg class="mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0f5c53"/><path d="M16 7c-.9 0-1.6.7-1.6 1.6v3.2c0 1.2-.5 2.3-1.4 3.1l-2 1.8c-.9.8-1.4 1.9-1.4 3.1V23c0 1.1.9 2 2 2 .9 0 1.7-.6 1.9-1.5l.7-2.8c.2-.7.8-1.2 1.5-1.2h.6c.7 0 1.3.5 1.5 1.2l.7 2.8c.2.9 1 1.5 1.9 1.5 1.1 0 2-.9 2-2v-3.2c0-1.2-.5-2.3-1.4-3.1l-2-1.8c-.9-.8-1.4-1.9-1.4-3.1V8.6C17.6 7.7 16.9 7 16 7Z" fill="#eaf3f1"/></svg>
+      <span><b>MedScan</b><small>Valley&nbsp;Fever&nbsp;Triage</small></span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <div class="card">
+    <span class="eyebrow">Clinician access</span>
+    <h1>Sign in</h1>
+    <p class="sub">For care teams reviewing patient triage summaries. Patients don&rsquo;t need an account — the checker is free and requires no login.</p>
+
+    <!-- Optional error banner: /loginData redirects back with ?error=1 on failure -->
+    <div class="err" id="errBanner" style="display:none">That username or password wasn&rsquo;t recognized. Please try again.</div>
+
+    <form method="POST" action="/loginData" autocomplete="on">
+      <div class="field">
+        <label for="username">Username or email</label>
+        <input type="text" id="username" name="username" required autocomplete="username" placeholder="you@clinic.org">
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="••••••••">
+      </div>
+      <div class="row">
+        <label><input type="checkbox" name="remember" value="1"> Keep me signed in</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button class="btn" type="submit">Sign in</button>
+    </form>
+
+    <p class="foot">New here? <a href="#">Request clinician access</a></p>
+
+    <div class="privacy">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M8 1.5 2.5 4v3.8c0 3.3 2.3 5.5 5.5 6.7 3.2-1.2 5.5-3.4 5.5-6.7V4L8 1.5Z" stroke="#0f5c53" stroke-width="1.3"/><path d="M5.8 8.1 7.3 9.6l3-3.2" stroke="#0f5c53" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>This login is for clinicians only. Patient reports run entirely in the browser and are never stored.</span>
+    </div>
+  </div>
+</main>
+
+<script>
+  // Show the error banner if the server redirected back with ?error=1
+  if (new URLSearchParams(location.search).get('error') === '1') {
+    document.getElementById('errBanner').style.display = 'block';
+  }
+</script>
+</body>
+</html>
