@@ -155,6 +155,24 @@ def api_providers():
     return jsonify({"source": "fallback", "providers": CURATED_PROVIDERS})
 
 
+@app.route("/api/submit", methods=["POST"])
+def api_submit():
+    """Receive everything the checker form collected.
+
+    The front end POSTs a JSON payload of the questionnaire answers plus
+    the uploaded X-ray's metadata (never the file bytes). Wire this up to
+    the real backend / datastore / model here. For now we just acknowledge
+    receipt so the client flow works end to end.
+    """
+    payload = request.get_json(silent=True) or {}
+    user = session.get("user")
+    answer_count = len(payload.get("answers") or {})
+    has_file = bool(payload.get("file"))
+    # TODO: forward `payload` to the backend (queue, DB, or model service).
+    print(f"[submit] user={user!r} answers={answer_count} xray_attached={has_file}", flush=True)
+    return jsonify({"ok": True, "received": True})
+
+
 @app.route("/logout")
 def logout():
     session.pop("user", None)

@@ -25,9 +25,9 @@
 <script>
 /* ============================================================
    MedScan — vanilla port of the MedScan Site design component.
-   Two-page SPA (home / stories) + a login-gated CT triage checker.
-   The checker runs entirely client-side; your scan never leaves the
-   browser. Sign-in state comes from the Flask session via /api/me.
+   Two-page SPA (home / stories) + a login-gated X-ray triage checker.
+   The X-ray file never leaves the browser; the form answers are POSTed
+   to /api/submit for the backend. Sign-in state comes from /api/me.
    Scoring weights are illustrative — verify against CDC / IDSA /
    Valley Fever Center for Excellence before clinical use.
    ============================================================ */
@@ -106,21 +106,45 @@ const SERIF = "Newsreader,Georgia,serif";
 const state = {
   page:'home', step:0, answers:{}, stop:null, copied:false,
   file:null, previewUrl:null, dragging:false, fileError:null,
-  authed:false, _scrollTo:null,
+  authed:false, _scrollTo:null, submitted:false,
   providersZip:'', providers:null, provLoading:false, provError:null, provSource:null,
 };
 
 /* ---------- scoring + clinician document ---------- */
-function score(){
-  const A = state.answers, reasons = [];
-  let total = 0, urgency = false;
-  QUESTIONS.forEach(Q=>{
-    const v = A[Q.id]; if(!v) return;
-    const o = Q.opts.find(x=>x.v===v); if(!o) return;
-    if(o.urgency) urgency = true;
-    if(o.pts>0){ total += o.pts; reasons.push({pts:'+'+o.pts, text: REASON_TEXT[Q.id+'_'+v] || 'Contributing factor.'}); }
-  });
-  return {total, reasons, urgency, exposed: A.exposure==='yes'};
+/* ------------------------------------------------------------------
+   SCORING DISABLED. The point-based calculation below is intentionally
+   left as a comment: the browser no longer scores anything. The form
+   now POSTs the raw answers to /api/submit, and the backend owns the
+   assessment. Restore this (and the band logic in resultStage) if you
+   ever want client-side scoring back.
+
+   function score(){
+     const A = state.answers, reasons = [];
+     let total = 0, urgency = false;
+     QUESTIONS.forEach(Q=>{
+       const v = A[Q.id]; if(!v) return;
+       const o = Q.opts.find(x=>x.v===v); if(!o) return;
+       if(o.urgency) urgency = true;
+       if(o.pts>0){ total += o.pts; reasons.push({pts:'+'+o.pts, text: REASON_TEXT[Q.id+'_'+v] || 'Contributing factor.'}); }
+     });
+     return {total, reasons, urgency, exposed: A.exposure==='yes'};
+   }
+   ------------------------------------------------------------------ */
+
+// Gather everything the form collected and hand it to the backend.
+function submitForm(){
+  if(state.submitted) return;
+  state.submitted = true;
+  const payload = {
+    answers: state.answers,
+    // The X-ray file bytes stay in the browser; only its metadata is sent.
+    file: state.file ? {name:state.file.name, size:state.file.size, type:state.file.type} : null,
+    emergency: state.stop === 'emergency',
+    ts: new Date().toISOString(),
+  };
+  try{
+    fetch('/api/submit', {method:'POST', headers:{'Content-Type':'application/json'}, cache:'no-store', body: JSON.stringify(payload)}).catch(()=>{});
+  }catch(e){}
 }
 function docText(){
   const A = state.answers;
@@ -128,7 +152,7 @@ function docText(){
   const abx = {none:'No antibiotics taken.',helped:'Antibiotics taken, symptoms improved.',nohelp:'Completed a course of antibiotics with no improvement.'}[A.abx] || '';
   const F = state.file;
   const findings = F
-    ? 'Patient has a chest CT on file (' + F.name + ', ' + fmtBytes(F.size) + '), not machine-analyzed. Imaging findings per the radiologist report.'
+    ? 'Patient has a chest X-ray on file (' + F.name + ', ' + fmtBytes(F.size) + '), not machine-analyzed. Imaging findings per the radiologist report.'
     : 'No imaging attached by patient.';
   return [
     'REQUEST FOR COCCIDIOIDOMYCOSIS (VALLEY FEVER) TESTING',
@@ -223,10 +247,10 @@ function heroSection(){
   return `<section style="max-width:1180px;margin:0 auto;padding:56px 32px 12px">
     <div style="max-width:64ch">
       <div style="font-family:${MONO};font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#10395e;display:flex;align-items:center;gap:9px">
-        <span style="width:6px;height:6px;background:#10395e;display:inline-block"></span>Upload a chest CT scan
+        <span style="width:6px;height:6px;background:#10395e;display:inline-block"></span>Upload a chest X-ray
       </div>
       <h1 style="font-family:${SERIF};font-weight:400;font-size:clamp(38px,4.6vw,58px);line-height:1.05;letter-spacing:-.02em;margin-top:18px">A cough that won&rsquo;t quit isn&rsquo;t always pneumonia.</h1>
-      <p style="font-size:19px;line-height:1.55;color:#454951;margin-top:20px">In Arizona, weeks of coughing and a chest scan read as pneumonia can be valley fever &mdash; a fungal infection that antibiotics cannot touch. Sign in, upload your CT, answer seven questions, and MedScan tells you whether to request the one inexpensive blood test that settles it.</p>
+      <p style="font-size:19px;line-height:1.55;color:#454951;margin-top:20px">In Arizona, weeks of coughing and a chest scan read as pneumonia can be valley fever &mdash; a fungal infection that antibiotics cannot touch. Sign in, upload your X-ray, answer seven questions, and MedScan tells you whether to request the one inexpensive blood test that settles it.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:34px;border-top:1px solid #16181b">
       <div style="padding:16px 24px 0 0;border-right:1px solid #dedcd6">
@@ -235,11 +259,11 @@ function heroSection(){
       </div>
       <div style="padding:16px 24px;border-right:1px solid #dedcd6">
         <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:#797d85">Privacy</div>
-        <p style="margin-top:4px;font-size:15px;color:#454951">Your scan opens in your browser. Nothing is uploaded, stored, or logged.</p>
+        <p style="margin-top:4px;font-size:15px;color:#454951">Your X-ray image opens in your browser and is never uploaded. Your answers are submitted for assessment.</p>
       </div>
       <div style="padding:16px 0 0 24px">
         <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:#797d85">Method</div>
-        <p style="margin-top:4px;font-size:15px;color:#454951">Stated rules, shown in plain English. The CT model is in training, not yet reading scans.</p>
+        <p style="margin-top:4px;font-size:15px;color:#454951">Your answers go to our team for assessment. The X-ray model is in training, not yet reading images.</p>
       </div>
     </div>
   </section>`;
@@ -262,7 +286,7 @@ function dropStyle(){
 }
 function fileEmpty(){
   return `<div style="text-align:center">
-    <div style="font-family:${MONO};font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#454951">Drop your CT file here</div>
+    <div style="font-family:${MONO};font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:#454951">Drop your chest X-ray here</div>
     <div style="margin-top:9px;font-size:14px;color:#797d85">or <span style="color:#10395e;text-decoration:underline;text-underline-offset:3px">choose a file from your device</span></div>
     <div style="margin-top:14px;font-family:${MONO};font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:#a8a59d">.dcm · .dicom · .png · .jpg &nbsp;|&nbsp; stays on this device</div>
   </div>`;
@@ -273,7 +297,7 @@ function fileFilled(){
     ? `width:100%;height:100%;background-image:url("${state.previewUrl}");background-size:contain;background-position:center;background-repeat:no-repeat`
     : 'width:100%;height:100%';
   const thumbBody = state.previewUrl
-    ? `<div role="img" aria-label="Uploaded CT scan" style="${thumbInner}"></div>`
+    ? `<div role="img" aria-label="Uploaded chest X-ray" style="${thumbInner}"></div>`
     : `<span style="font-family:${MONO};font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#6a7078;text-align:center;line-height:1.8">DICOM<br>no browser preview</span>`;
   const chipBase = `display:inline-flex;align-items:center;gap:7px;font-family:${MONO};font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:5px 10px;border-radius:2px;`;
   const chip = chipBase + 'background:#f5f0e2;color:#8b6a1c;border:1px solid #e2d8bd';
@@ -292,8 +316,8 @@ function fileFilled(){
 function lockedStage(){
   return `<div>
     <div style="font-family:${MONO};font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:#98362a">Locked · sign in to begin</div>
-    <h2 style="font-family:${SERIF};font-weight:400;font-size:28px;letter-spacing:-.01em;margin-top:10px">Sign in to upload your scan</h2>
-    <p style="margin-top:7px;font-size:15px;color:#797d85;max-width:62ch">To keep every check private to you, MedScan asks you to sign in before you upload a scan or answer the questions. It&rsquo;s free &mdash; and your scan still opens in your browser and is never sent to a server.</p>
+    <h2 style="font-family:${SERIF};font-weight:400;font-size:28px;letter-spacing:-.01em;margin-top:10px">Sign in to upload your X-ray</h2>
+    <p style="margin-top:7px;font-size:15px;color:#797d85;max-width:62ch">To keep every check private to you, MedScan asks you to sign in before you upload an X-ray or answer the questions. It&rsquo;s free &mdash; and your X-ray image still opens in your browser and is never sent to a server.</p>
     <div style="margin-top:24px;padding-top:22px;border-top:1px solid #dedcd6;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center">
       <span style="font-family:${MONO};font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:#a8a59d">The checker unlocks once you&rsquo;re signed in</span>
       <a href="/login" style="border:0;background:#16181b;color:#fff;font-size:14.5px;font-weight:700;padding:12px 22px;border-radius:3px;text-decoration:none">Sign in or create an account</a>
@@ -302,11 +326,11 @@ function lockedStage(){
 }
 function reportStage(){
   const modelNotice = state.fileError ? esc(state.fileError)
-    : 'Our chest-CT model is still in training, so nothing here reads your image yet. Attaching the scan simply records that you have one; the assessment below comes entirely from your answers.';
+    : 'Our chest X-ray model is still in training, so nothing here reads your image yet. Attaching the X-ray simply records that you have one; the assessment comes from your submitted answers.';
   return `<div>
     <div style="font-family:${MONO};font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:#10395e">Step 01 of 08 · optional</div>
-    <h2 style="font-family:${SERIF};font-weight:400;font-size:28px;letter-spacing:-.01em;margin-top:10px">Upload your chest CT scan</h2>
-    <p style="margin-top:7px;font-size:15px;color:#797d85;max-width:62ch">Drop in a DICOM file or an exported image from your CT. The file is opened on this device and never sent to a server. Our imaging model is still in training, so today the scan is attached for your clinician and the assessment below comes from your answers.</p>
+    <h2 style="font-family:${SERIF};font-weight:400;font-size:28px;letter-spacing:-.01em;margin-top:10px">Upload your chest X-ray</h2>
+    <p style="margin-top:7px;font-size:15px;color:#797d85;max-width:62ch">Drop in a DICOM file or an exported image of your chest X-ray. The image is opened on this device and never sent to a server. Our imaging model is still in training, so today the X-ray is attached for your clinician and the assessment comes from your answers.</p>
     <label id="dropzone" for="ctfile" style="${dropStyle()}">${state.file ? fileFilled() : fileEmpty()}</label>
     <input id="ctfile" type="file" accept=".dcm,.dicom,image/*" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none">
     <div style="margin-top:16px;border-left:2px solid #8b6a1c;background:#f5f0e2;padding:14px 16px;font-size:14px;color:#454951;max-width:74ch">${modelNotice}</div>
@@ -391,7 +415,7 @@ function providersResult(){
 function providersBlock(){
   return `<div style="margin-top:30px;border-top:1px solid #16181b;padding-top:22px">
     <div style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#797d85">Find a clinician near you</div>
-    <p style="margin-top:8px;font-size:14.5px;color:#454951;max-width:66ch">Enter your ZIP to pull infectious-disease and pulmonary clinicians in your area from the federal NPPES registry. Your scan and answers stay in your browser &mdash; only the ZIP is sent, to look up nearby clinics.</p>
+    <p style="margin-top:8px;font-size:14.5px;color:#454951;max-width:66ch">Enter your ZIP to pull infectious-disease and pulmonary (lung) clinicians in your area from the federal NPPES registry. Your X-ray image stays in your browser; the ZIP is used only to look up nearby clinics.</p>
     <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px">
       <input id="provzip" inputmode="numeric" maxlength="5" placeholder="e.g. 85004" value="${esc(state.providersZip||'')}" style="font-family:${MONO};font-size:14px;padding:11px 13px;border:1px solid #dedcd6;border-radius:2px;background:#fbfaf8;width:150px">
       <button data-act="findProviders" style="border:0;background:#16181b;color:#fff;font-size:14px;font-weight:700;padding:11px 20px;border-radius:3px;cursor:pointer">${state.provLoading?'Searching…':'Find clinicians'}</button>
@@ -400,57 +424,50 @@ function providersBlock(){
   </div>`;
 }
 function resultStage(){
-  const r = score();
-  let band, headline, blurb, showDoc = false, accent = '#10395e', bg = '#eceff2', bd = '#cfdae3';
-  if(!r.exposed){
-    band = 'Unlikely';
-    headline = 'Valley fever looks unlikely for you.';
-    blurb = 'Without exposure to the desert region where the fungus lives, valley fever is improbable. If your cough persists or worsens, still see a doctor — this tool screens for one specific cause only.';
-  } else if(r.total>=8){
-    band = 'Ask this week'; showDoc = true; accent = '#98362a'; bg = '#f6efed'; bd = '#e3ccc7';
-    headline = 'Worth asking your doctor about — soon.';
-    blurb = 'Several signals here line up with valley fever. That does not mean you have it, but it is a strong reason to request a Coccidioides serology this week. Bring the page below to your appointment.';
-  } else if(r.total>=4){
-    band = 'Worth asking about'; showDoc = true; accent = '#8b6a1c'; bg = '#f5f0e2'; bd = '#e2d8bd';
-    headline = 'Worth raising at your next visit.';
-    blurb = 'There is enough here to bring up valley fever with your clinician and ask whether a serology test makes sense. Copy the page below to make that conversation easy.';
-  } else {
-    band = 'Low signal';
-    headline = 'Only a weak signal right now.';
-    blurb = 'Not much here points specifically to valley fever, but you are in the endemic area. If symptoms drag on or worsen, mention valley fever and ask whether a test is warranted.';
-  }
-  const reasonRows = r.reasons.map(x=>`
-    <div style="display:grid;grid-template-columns:52px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid #dedcd6">
-      <span style="font-family:${MONO};font-size:13px;color:#10395e">${esc(x.pts)}</span>
-      <span style="font-size:14.5px;color:#454951">${esc(x.text)}</span>
-    </div>`).join('');
-  const reasonsBlock = r.reasons.length ? `
-    <div style="margin-top:30px">
-      <div style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#797d85">The reasoning, line by line</div>
-      <div style="margin-top:12px">${reasonRows}</div>
-    </div>` : '';
-  const urgencyBlock = (r.urgency && showDoc) ? `
-    <div style="margin-top:20px;border-left:2px solid #8b6a1c;background:#f5f0e2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">Because you noted a higher-risk factor, say so explicitly and ask whether a complement fixation (CF) titer is warranted to watch for the infection spreading.</div>` : '';
-  const docBlock = showDoc ? `
+  /* ------------------------------------------------------------------
+     BAND / REASONING CALCULATIONS REMOVED — kept as comments so the
+     backend can own the assessment. The result screen no longer derives
+     a band or a "signal score" in the browser; the answers posted to
+     /api/submit drive the real assessment.
+
+     const r = score();
+     let band, headline, blurb, showDoc = false, accent = '#10395e', bg = '#eceff2', bd = '#cfdae3';
+     if(!r.exposed){
+       band = 'Unlikely';
+       headline = 'Valley fever looks unlikely for you.';
+       blurb = 'Without exposure to the desert region where the fungus lives, valley fever is improbable...';
+     } else if(r.total>=8){
+       band = 'Ask this week'; showDoc = true; accent = '#98362a'; bg = '#f6efed'; bd = '#e3ccc7';
+       headline = 'Worth asking your doctor about — soon.';
+       blurb = 'Several signals here line up with valley fever...';
+     } else if(r.total>=4){
+       band = 'Worth asking about'; showDoc = true; accent = '#8b6a1c'; bg = '#f5f0e2'; bd = '#e2d8bd';
+       headline = 'Worth raising at your next visit.';
+       blurb = 'There is enough here to bring up valley fever with your clinician...';
+     } else {
+       band = 'Low signal';
+       headline = 'Only a weak signal right now.';
+       blurb = 'Not much here points specifically to valley fever, but you are in the endemic area...';
+     }
+     // The "reasoning, line by line" list and the higher-risk urgency note
+     // were both derived from score() and are removed with it.
+     ------------------------------------------------------------------ */
+
+  const docBlock = `
     <div style="margin-top:30px;border:1px solid #16181b;background:#fff">
       <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #dedcd6">
         <span style="font-family:${MONO};font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:#16181b">Page for your clinician</span>
         <button data-act="copy" style="border:1px solid #16181b;background:#fff;color:#16181b;font-size:13px;font-weight:700;padding:8px 14px;border-radius:3px;cursor:pointer">${state.copied?'Copied':'Copy text'}</button>
       </div>
       <pre style="margin:0;padding:22px 20px;font-family:${MONO};font-size:12.5px;line-height:1.75;color:#16181b;white-space:pre-wrap">${esc(docText())}</pre>
-    </div>` : '';
+    </div>`;
   return `<div>
-    <div style="background:${bg};border:1px solid ${bd};border-left:3px solid ${accent};border-radius:2px;padding:24px 26px">
-      <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:baseline">
-        <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">${band}</span>
-        <span style="font-family:${MONO};font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#797d85">signal score ${r.total}</span>
-      </div>
-      <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">${headline}</div>
-      <p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">${blurb}</p>
+    <div style="background:#eceff2;border:1px solid #cfdae3;border-left:3px solid #10395e;border-radius:2px;padding:24px 26px">
+      <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">Submitted</span>
+      <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">Thanks &mdash; your responses are recorded.</div>
+      <p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">Your answers have been sent for assessment. Bring the summary below to your clinician and ask whether a <em>Coccidioides</em> serology &mdash; a simple, inexpensive blood test &mdash; is warranted.</p>
     </div>
-    ${reasonsBlock}
-    ${urgencyBlock}
-    <div style="margin-top:20px;border-left:2px solid #10395e;background:#eceff2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">This is a screening aid, not a diagnosis. Valley fever can resemble tuberculosis or lung cancer on imaging &mdash; a low score here does not rule those out, and serology can be falsely negative in the first one to three weeks. Follow your clinician&rsquo;s judgment.</div>
+    <div style="margin-top:20px;border-left:2px solid #10395e;background:#eceff2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">This is a screening aid, not a diagnosis. Valley fever can resemble tuberculosis or lung cancer on a chest X-ray &mdash; this tool does not rule those out, and serology can be falsely negative in the first one to three weeks. Follow your clinician&rsquo;s judgment.</div>
     ${docBlock}
     ${providersBlock()}
     <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;margin-top:26px;padding-top:22px;border-top:1px solid #dedcd6">
@@ -488,11 +505,11 @@ function aboutSection(){
       <div>
         <div style="display:grid;grid-template-columns:150px 1fr;gap:0 20px">
           <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#10395e;padding-top:18px;border-top:1px solid #16181b">What it does</div>
-          <div style="padding:18px 0;border-top:1px solid #16181b;font-size:15px;color:#454951">Takes your chest CT, weighs seven history questions, and hands you a copyable test request written in clinical language. The CT model that will read the image is in training; the questions carry the assessment today.</div>
+          <div style="padding:18px 0;border-top:1px solid #16181b;font-size:15px;color:#454951">Takes your chest X-ray, weighs seven history questions, and hands you a copyable test request written in clinical language. The X-ray model that will read the image is in training; the questions carry the assessment today.</div>
           <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#98362a;padding-top:18px;border-top:1px solid #dedcd6">What it does not</div>
-          <div style="padding:18px 0;border-top:1px solid #dedcd6;font-size:15px;color:#454951">Diagnose, treat, or replace a clinician. It cannot rule out tuberculosis, cancer, or anything else that looks similar on a scan.</div>
+          <div style="padding:18px 0;border-top:1px solid #dedcd6;font-size:15px;color:#454951">Diagnose, treat, or replace a clinician. It cannot rule out tuberculosis, cancer, or anything else that looks similar on an X-ray.</div>
           <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#8b6a1c;padding-top:18px;border-top:1px solid #dedcd6">Coming next</div>
-          <div style="padding:18px 0;border-top:1px solid #dedcd6;font-size:15px;color:#454951">A chest-CT model is in training now and will be integrated once validated. It will read the image itself rather than the text report. No model output is used for diagnosis today.</div>
+          <div style="padding:18px 0;border-top:1px solid #dedcd6;font-size:15px;color:#454951">A chest X-ray model is in training now and will be integrated once validated. It will read the image itself rather than the text report. No model output is used for diagnosis today.</div>
         </div>
       </div>
     </div>
@@ -650,12 +667,14 @@ function onAct(e){
       const chosen = state.answers[Q.id];
       if(!chosen) return;
       const o = Q.opts.find(x=>x.v===chosen);
-      if(o && o.emergency){ state.stop='emergency'; render(); return; }
-      state.step = state.step+1; render(); break;
+      if(o && o.emergency){ state.stop='emergency'; submitForm(); render(); return; }
+      state.step = state.step+1;
+      if(state.step > QUESTIONS.length) submitForm();  // reached the result — post to backend
+      render(); break;
     }
     case 'restart': {
       if(state.previewUrl) URL.revokeObjectURL(state.previewUrl);
-      Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null,
+      Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null, submitted:false,
         providersZip:'', providers:null, provLoading:false, provError:null, provSource:null});
       render(); break;
     }
