@@ -185,131 +185,141 @@ transform = transforms.Compose([
 ])
 
 
+# The questionnaire, described to the model so it can weigh the answers.
+QUESTIONS_TEXT = """QUESTIONS = [
+    {id:'duration', q:'How long have you had the cough?'},
+    {id:'abx', q:'Have you taken antibiotics for this, and did they help?'},
+    {id:'constitutional', q:'Any night sweats, unusual fatigue, or unexplained weight loss?'},
+    {id:'nodosum', q:'Any new painful red bumps on your shins (erythema nodosum)?'},
+    {id:'exposure', q:'Do you live in, or have you traveled to, Arizona, Central California, or Nevada in the past 3 months?'},
+    {id:'risk', q:'Any higher-risk factor (pregnancy, diabetes, immunocompromise, certain ancestries)?'},
+    {id:'emergency', q:'Right now, severe headache with stiff neck, confusion, or trouble breathing?'},
+]"""
+
+
+def _pneumonia_score(file_meta):
+    """Run the pneumonia model on the uploaded X-ray if we can find it locally.
+
+    The client sends only the file name (not the bytes), so this works for the
+    bundled sample images under test/. Returns a float in [0, 1] or None.
+    """
+    if not file_meta or not file_meta.get("name"):
+        return None
+    path = os.path.join("test", os.path.basename(file_meta["name"]))
+    if not os.path.exists(path):
+        return None
+    img = Image.open(path).convert("RGB")
+    batch = torch.stack([transform(img)]).to(device)
+    with torch.no_grad():
+        out = m(batch).squeeze(1).cpu().numpy()
+    return round(float(out[0]), 4)
+
+
+def _parse_assessment(text):
+    """Extract {detection, confidence, reasoning} from the model's JSON reply."""
+    t = (text or "").strip()
+    # Strip a ```json ... ``` fence if the model wrapped its output in one.
+    if t.startswith("```"):
+        t = t[3:]
+        if t[:4].lower() == "json":
+            t = t[4:]
+        if "```" in t:
+            t = t[:t.rfind("```")]
+        t = t.strip()
+    try:
+        data = json.loads(t)
+        if isinstance(data, dict):
+            conf = data.get("confidence")
+            try:
+                conf = float(conf) if conf is not None else None
+            except (TypeError, ValueError):
+                conf = None
+            return {
+                "detection": data.get("detectionOfValleyFever"),
+                "confidence": conf,
+                "reasoning": data.get("reasoning"),
+            }
+    except Exception:
+        pass
+    # Tolerant fallback if the reply is not clean JSON.
+    out = {"detection": None, "confidence": None, "reasoning": None}
+    try:
+        out["detection"] = text.split('"detectionOfValleyFever"')[1].split(':', 1)[1].split(',')[0].strip().strip('"{} ')
+    except Exception:
+        pass
+    try:
+        out["confidence"] = float(text.split('"confidence"')[1].split(':', 1)[1].split(',')[0].strip().strip('"{} '))
+    except Exception:
+        pass
+    try:
+        out["reasoning"] = text.split('"reasoning"')[1].split(':', 1)[1].rsplit('"', 1)[0].strip().strip('"{} ')
+    except Exception:
+        pass
+    return out
+
+
 @app.route("/api/submit", methods=["POST"])
 def api_submit():
-    """Receive everything the checker form collected.
+    """Receive the checker answers plus the X-ray metadata, run the pneumonia
+    model and Gemini reasoning, and return the assessment to the client.
 
-    The front end POSTs a JSON payload of the questionnaire answers plus
-    the uploaded X-ray's metadata (never the file bytes). Wire this up to
-    the real backend / datastore / model here. For now we just acknowledge
-    receipt so the client flow works end to end.
+    The whole assessment pipeline is guarded: if the model image is missing,
+    or Gemini is unavailable, we still return HTTP 200 with assessment=null so
+    the results screen (including the clinician page and doctor list) renders.
     """
     payload = request.get_json(silent=True) or {}
     user = session.get("user")
-    answer_count = len(payload.get("answers") or {})
-    has_file = bool(payload.get("file"))
+    answers = payload.get("answers") or {}
+    file_meta = payload.get("file") or None
 
-    import imageio.v2 as imageio
+    assessment = None
+    error = None
+    try:
+        pneumonia_score = _pneumonia_score(file_meta)
 
-    image_paths = [
-        f'test/{payload.get("file")["name"]}'
-    ]
-    print(image_paths)
-    images = []
-    for path in image_paths:
-        try:
-            img = Image.open(path).convert("RGB")
-            images.append(transform(img))
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Image not found: {path}")
+        wanted = '{ "detectionOfValleyFever": "yes" or "no", "confidence": 0.0 to 1.0, "reasoning": "text" }'
+        prompt = f"""These are the questions asked: {QUESTIONS_TEXT}
 
-    images = torch.stack(images).to(device)
+I have a dict of the patient's answers to those questions. I also have a score
+from our pneumonia detection model: closer to 1.0 (>= 0.5) means pneumonia,
+below 0.5 means not pneumonia.
 
+Weigh the answers together with the model's pneumonia score to reach the most
+accurate estimate of whether the patient has valley fever. Symptoms alone do
+not confirm valley fever, but they contribute to it.
 
-    with torch.no_grad():  
-        outputs = m(images)  
-        outputs = outputs.squeeze(1).cpu().numpy()
-        print(outputs)
-        pneumoniaScore=outputs
+Keep the reasoning field concise and reference the specific answers.
 
-    answers = payload.get("answers")
-    print(answers)
+Answers: {answers}
+Pneumonia detection score: {pneumonia_score}
 
-    questions = """QUESTIONS = [
-                    {id:'duration', q:'How long have you had the cough?',
-                    sub:'Bacterial pneumonia is usually acute — days. Valley fever tends to drag on for weeks.',
-                    opts:[{v:'lt1',t:'Under 1 week',pts:0},{v:'1to3',t:'1 to 3 weeks',pts:1},{v:'3to6',t:'3 to 6 weeks',pts:2},{v:'gt6',t:'More than 6 weeks',pts:2}]},
-                    {id:'abx', q:'Have you taken antibiotics for this — and did they help?',
-                    sub:'The single most useful question. Bacterial pneumonia should improve within two to three days.',
-                    opts:[{v:'none',t:'Haven’t taken any',pts:0},{v:'helped',t:'Took them and they helped',pts:0},{v:'nohelp',t:'Took a full course, no improvement',pts:3}]},
-                    {id:'constitutional', q:'Any night sweats, unusual fatigue, or unexplained weight loss?',
-                    sub:'A slow, wearing-down pattern fits valley fever more than a quick bacterial illness.',
-                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes, one or more',pts:1}]},
-                    {id:'nodosum', q:'Any new painful red bumps on your shins?',
-                    sub:'Called desert rheumatism. Painful shin nodules are strongly associated with valley fever in an endemic area.',
-                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes',pts:3}]},
-                    {id:'exposure', q:'Do you live in — or have you traveled to — Arizona, Central California, or Nevada in the past 3 months?',
-                    sub:'Valley fever comes from desert dust. Without exposure to the endemic region it is very unlikely.',
-                    opts:[{v:'yes',t:'Yes',pts:2},{v:'no',t:'No',pts:0}]},
-                    {id:'risk', q:'Do any of these apply to you?',
-                    sub:'Pregnancy, diabetes, a weakened immune system, or certain ancestries carry higher risk of the infection spreading. This affects urgency, not whether you have it.',
-                    opts:[{v:'no',t:'None of these',pts:0},{v:'yes',t:'One or more applies',pts:0,urgency:true}]},
-                    {id:'emergency', q:'Right now, do you have a severe headache with a stiff neck, confusion, or trouble breathing?',
-                    sub:'These can signal a medical emergency and change what you should do next.',
-                    opts:[{v:'no',t:'No',pts:0},{v:'yes',t:'Yes',pts:0,emergency:true}]},
-                ];"""
+Return only JSON in exactly this format:
+{wanted}"""
 
-    formattedWantedResult = """
-    {
-        detectionOfValleyFever:"yes" or "no",
-        confidence:0.0 to 1.0,
-        reasoning:"text"
-    }"""
+        from google import genai
+        client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
+        model_name = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
+        resp = client.models.generate_content(model=model_name, contents=prompt)
+        parsed = _parse_assessment(resp.text)
+        assessment = {
+            "detection": parsed.get("detection"),
+            "confidence": parsed.get("confidence"),
+            "reasoning": parsed.get("reasoning"),
+            "pneumoniaScore": pneumonia_score,
+        }
+    except Exception as e:
+        error = str(e)
+        print(f"[submit] assessment error: {e}", flush=True)
 
-    prompt = f"""
-
-    These are the qs: {questions}
-
-    Given these questions, I have a response of dict where the answers with it.
-    Also, I have a score given by our pneumonia detection model that states whether or not the 
-    image has pneumonia or not. If it is closer to 1.0 (>=0.5) then pneumonia
-    if <0.5 then not pneumonia. 
-
-
-    Take these answers and model's detection of pneumonia to establish the most accurate
-    result of whether the patient has valley fever (note that symptoms alone do not confirm
-    whether or not it has valley fever but symptoms still contribute to it)
-
-    In your reasoning field, make it concise and use specific answers
-
-    Here are the answers and the pneumonia detection score: {answers} and {pneumoniaScore}
-
-    Follow these instructions and return text of a json
-    in this format:
-
-    {formattedWantedResult}
-    """
-
-    print(prompt)
-    import base64
-    from google import genai
-    client = genai.Client(api_key="")
-    interaction = client.interactions.create(model="gemini-3.6-flash",
-                                             input=prompt)
-
-    # import json
-    response = interaction.output_text
-
-    detectionOfValleyFever = response.split('"detectionOfValleyFever": "')[1].split('"')[0]
-    confidence = float(response.split('"confidence": ')[1].split(',')[0])
-    reasoning = response.split('"reasoning": "')[1].rsplit('"', 1)[0]
-    
-    # print(modelResp["detectionOfValleyFever"])
-
-    
-
-    print(f"[submit] user={user!r} answers={answer_count} xray_attached={has_file}", flush=True)
-    return jsonify({"ok": True, "received": True})
-
+    print(f"[submit] user={user!r} answers={len(answers)} xray={bool(file_meta)} "
+          f"assessment={'ok' if assessment else 'none'}", flush=True)
+    return jsonify({"ok": True, "assessment": assessment, "error": error})
 
 
 @app.route("/logout")
 def logout():
     session.pop("user", None)
     return redirect(url_for("main"))
-
-
-
 
 
 if __name__ == '__main__':

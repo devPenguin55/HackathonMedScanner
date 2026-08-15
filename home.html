@@ -107,6 +107,7 @@ const state = {
   page:'home', step:0, answers:{}, stop:null, copied:false,
   file:null, previewUrl:null, dragging:false, fileError:null,
   authed:false, _scrollTo:null, submitted:false,
+  assessment:null, assessLoading:false,
   providersZip:'', providers:null, provLoading:false, provError:null, provSource:null,
 };
 
@@ -135,6 +136,8 @@ const state = {
 function submitForm(){
   if(state.submitted) return;
   state.submitted = true;
+  state.assessment = null;
+  state.assessLoading = true;
   const payload = {
     answers: state.answers,
     // The X-ray file bytes stay in the browser; only its metadata is sent.
@@ -142,9 +145,10 @@ function submitForm(){
     emergency: state.stop === 'emergency',
     ts: new Date().toISOString(),
   };
-  try{
-    fetch('/api/submit', {method:'POST', headers:{'Content-Type':'application/json'}, cache:'no-store', body: JSON.stringify(payload)}).catch(()=>{});
-  }catch(e){}
+  fetch('/api/submit', {method:'POST', headers:{'Content-Type':'application/json'}, cache:'no-store', body: JSON.stringify(payload)})
+    .then(r => r.json())
+    .then(j => { state.assessLoading = false; state.assessment = (j && j.assessment) ? j.assessment : null; render(); })
+    .catch(() => { state.assessLoading = false; state.assessment = null; render(); });
 }
 function docText(){
   const A = state.answers;
@@ -423,6 +427,45 @@ function providersBlock(){
     ${providersResult()}
   </div>`;
 }
+// The assessment returned by /api/submit (Gemini reasoning over the answers
+// plus the pneumonia model score). Handles loading and failure gracefully.
+function assessmentBlock(){
+  if(state.assessLoading){
+    return `<div style="background:#eceff2;border:1px solid #cfdae3;border-left:3px solid #10395e;border-radius:2px;padding:24px 26px">
+      <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">Assessment</span>
+      <div style="font-family:${SERIF};font-size:24px;margin-top:10px;color:#454951">Reviewing your responses&hellip;</div>
+      <p style="margin-top:8px;font-size:14.5px;color:#797d85">Weighing your answers together with the imaging model. This takes a moment.</p>
+    </div>`;
+  }
+  const a = state.assessment;
+  if(!a){
+    return `<div style="background:#eceff2;border:1px solid #cfdae3;border-left:3px solid #10395e;border-radius:2px;padding:24px 26px">
+      <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">Submitted</span>
+      <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">Thank you. Your responses are recorded.</div>
+      <p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">We could not generate an automated assessment just now, but your answers were captured. Bring the summary below to your clinician and ask whether a <em>Coccidioides</em> serology, a simple and inexpensive blood test, is warranted.</p>
+    </div>`;
+  }
+  const det = String(a.detection || '').toLowerCase();
+  const positive = det === 'yes';
+  const accent = positive ? '#98362a' : '#10395e';
+  const bg = positive ? '#f6efed' : '#eceff2';
+  const bd = positive ? '#e3ccc7' : '#cfdae3';
+  const label = positive ? 'Signals consistent with valley fever' : 'Valley fever appears less likely';
+  const confTxt = (typeof a.confidence === 'number' && isFinite(a.confidence))
+    ? 'confidence ' + Math.round(a.confidence * 100) + '%' : '';
+  const scoreTxt = (typeof a.pneumoniaScore === 'number' && isFinite(a.pneumoniaScore))
+    ? 'pneumonia model ' + Math.round(a.pneumoniaScore * 100) + '%' : '';
+  const meta = [confTxt, scoreTxt].filter(Boolean).join(' &middot; ');
+  return `<div style="background:${bg};border:1px solid ${bd};border-left:3px solid ${accent};border-radius:2px;padding:24px 26px">
+    <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:baseline">
+      <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:${accent}">Assessment</span>
+      ${meta?`<span style="font-family:${MONO};font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#797d85">${meta}</span>`:''}
+    </div>
+    <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">${esc(label)}</div>
+    ${a.reasoning?`<p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">${esc(a.reasoning)}</p>`:''}
+    <p style="margin-top:11px;font-size:13.5px;color:#797d85;max-width:66ch">This is an automated estimate, not a diagnosis. Bring the summary below to your clinician and ask whether a Coccidioides serology is warranted.</p>
+  </div>`;
+}
 function resultStage(){
   /* ------------------------------------------------------------------
      BAND / REASONING CALCULATIONS REMOVED — kept as comments so the
@@ -462,12 +505,8 @@ function resultStage(){
       <pre style="margin:0;padding:22px 20px;font-family:${MONO};font-size:12.5px;line-height:1.75;color:#16181b;white-space:pre-wrap">${esc(docText())}</pre>
     </div>`;
   return `<div>
-    <div style="background:#eceff2;border:1px solid #cfdae3;border-left:3px solid #10395e;border-radius:2px;padding:24px 26px">
-      <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">Submitted</span>
-      <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">Thanks &mdash; your responses are recorded.</div>
-      <p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">Your answers have been sent for assessment. Bring the summary below to your clinician and ask whether a <em>Coccidioides</em> serology &mdash; a simple, inexpensive blood test &mdash; is warranted.</p>
-    </div>
-    <div style="margin-top:20px;border-left:2px solid #10395e;background:#eceff2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">This is a screening aid, not a diagnosis. Valley fever can resemble tuberculosis or lung cancer on a chest X-ray &mdash; this tool does not rule those out, and serology can be falsely negative in the first one to three weeks. Follow your clinician&rsquo;s judgment.</div>
+    ${assessmentBlock()}
+    <div style="margin-top:20px;border-left:2px solid #10395e;background:#eceff2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">This is a screening aid, not a diagnosis. Valley fever can resemble tuberculosis or lung cancer on a chest X-ray, and this tool does not rule those out. Serology can also be falsely negative in the first one to three weeks, so please follow your clinician&rsquo;s judgment.</div>
     ${docBlock}
     ${providersBlock()}
     <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;margin-top:26px;padding-top:22px;border-top:1px solid #dedcd6">
@@ -675,6 +714,7 @@ function onAct(e){
     case 'restart': {
       if(state.previewUrl) URL.revokeObjectURL(state.previewUrl);
       Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null, submitted:false,
+        assessment:null, assessLoading:false,
         providersZip:'', providers:null, provLoading:false, provError:null, provSource:null});
       render(); break;
     }
