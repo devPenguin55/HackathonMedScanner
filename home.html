@@ -107,7 +107,7 @@ const state = {
   page:'home', step:0, answers:{}, stop:null, copied:false,
   file:null, previewUrl:null, dragging:false, fileError:null,
   authed:false, _scrollTo:null, submitted:false,
-  assessment:null, assessLoading:false,
+  assessment:null, assessLoading:false, assessError:null,
   providersZip:'', providers:null, provLoading:false, provError:null, provSource:null,
 };
 
@@ -147,8 +147,8 @@ function submitForm(){
   };
   fetch('/api/submit', {method:'POST', headers:{'Content-Type':'application/json'}, cache:'no-store', body: JSON.stringify(payload)})
     .then(r => r.json())
-    .then(j => { state.assessLoading = false; state.assessment = (j && j.assessment) ? j.assessment : null; render(); })
-    .catch(() => { state.assessLoading = false; state.assessment = null; render(); });
+    .then(j => { state.assessLoading = false; state.assessment = (j && j.assessment) ? j.assessment : null; state.assessError = (j && j.error) ? j.error : null; render(); })
+    .catch(() => { state.assessLoading = false; state.assessment = null; state.assessError = 'Could not reach the assessment service.'; render(); });
 }
 function docText(){
   const A = state.answers;
@@ -443,6 +443,7 @@ function assessmentBlock(){
       <span style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#10395e">Submitted</span>
       <div style="font-family:${SERIF};font-size:29px;line-height:1.18;letter-spacing:-.01em;margin-top:10px;max-width:30ch">Thank you. Your responses are recorded.</div>
       <p style="margin-top:11px;font-size:15.5px;color:#454951;max-width:66ch">We could not generate an automated assessment just now, but your answers were captured. Bring the summary below to your clinician and ask whether a <em>Coccidioides</em> serology, a simple and inexpensive blood test, is warranted.</p>
+      ${state.assessError?`<p style="margin-top:12px;font-family:${MONO};font-size:11px;letter-spacing:.03em;color:#a8a59d">Assessment service: ${esc(state.assessError)}</p>`:''}
     </div>`;
   }
   const det = String(a.detection || '').toLowerCase();
@@ -714,7 +715,7 @@ function onAct(e){
     case 'restart': {
       if(state.previewUrl) URL.revokeObjectURL(state.previewUrl);
       Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null, submitted:false,
-        assessment:null, assessLoading:false,
+        assessment:null, assessLoading:false, assessError:null,
         providersZip:'', providers:null, provLoading:false, provError:null, provSource:null});
       render(); break;
     }
