@@ -91,6 +91,12 @@ const SPREAD = [
   {num:'04', title:'Why the delay matters', body:'Chest radiography is fast, widely available, and useful for staging and follow-up — but its findings are nonspecific and variable, so imaging alone rarely raises the question in time.'},
 ];
 
+const STORIES = [
+  {name:'Sabine', url:'https://www.cdc.gov/valley-fever/stories/sabines-story-valley-fever.html'},
+  {name:'Laura', url:'https://www.cdc.gov/valley-fever/stories/lauras-story-valley-fever.html'},
+  {name:'Dawn', url:'https://www.cdc.gov/valley-fever/stories/dawns-story-valley-fever.html'},
+];
+
 const OPT_BASE = 'display:flex;align-items:center;gap:13px;text-align:left;width:100%;padding:15px 17px;border-radius:2px;font-size:15.5px;cursor:pointer;';
 const NAV_ON = "background:none;border:0;padding:0 0 2px;cursor:pointer;font-family:inherit;font-size:14.5px;font-weight:600;color:#16181b;border-bottom:2px solid #16181b";
 const NAV_OFF = "background:none;border:0;padding:0 0 2px;cursor:pointer;font-family:inherit;font-size:14.5px;font-weight:500;color:#454951;border-bottom:2px solid transparent";
@@ -515,6 +521,15 @@ function storiesPage(){
       </div>
     </div>`;
   }).join('');
+  const stories = STORIES.map(s=>`
+    <div style="border:1px solid #dedcd6;border-radius:3px;padding:24px;background:#fff;display:flex;flex-direction:column;justify-content:space-between;min-height:170px">
+      <div>
+        <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#10395e">CDC patient story</div>
+        <h3 style="font-family:${SERIF};font-weight:400;font-size:23px;letter-spacing:-.01em;margin-top:12px">${s.name}&rsquo;s story</h3>
+        <p style="margin-top:8px;font-size:14.5px;color:#797d85">A first-person account of the road to a valley fever diagnosis.</p>
+      </div>
+      <a href="${s.url}" target="_blank" rel="noopener" style="margin-top:18px;font-family:${MONO};font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#10395e">Read on cdc.gov &rarr;</a>
+    </div>`).join('');
   return `<div>
     <section style="max-width:1180px;margin:0 auto;padding:56px 32px 44px">
       <div style="max-width:62ch">
@@ -556,7 +571,20 @@ function storiesPage(){
       </div>
     </section>
 
-    <section style="max-width:1180px;margin:0 auto;padding:56px 32px 72px;border-top:1px solid #dedcd6">
+    <section style="background:#fff;border-top:1px solid #dedcd6;border-bottom:1px solid #dedcd6">
+      <div style="max-width:1180px;margin:0 auto;padding:56px 32px">
+        <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:baseline">
+          <div>
+            <div style="font-family:${MONO};font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#797d85">Real accounts &middot; CDC</div>
+            <h2 style="font-family:${SERIF};font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.12;letter-spacing:-.02em;margin-top:12px">Stories from people who lived it.</h2>
+          </div>
+          <p style="font-size:14px;color:#797d85;max-width:42ch">First-person accounts published by the CDC. Each shows how long the road to a diagnosis can be.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:28px">${stories}</div>
+      </div>
+    </section>
+
+    <section style="max-width:1180px;margin:0 auto;padding:56px 32px 72px">
       <div style="font-family:${MONO};font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#797d85">Recognise the pattern</div>
       <h2 style="font-family:${SERIF};font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.12;letter-spacing:-.02em;margin-top:12px;max-width:34ch">Four things nearly every account has in common.</h2>
       <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:30px">
