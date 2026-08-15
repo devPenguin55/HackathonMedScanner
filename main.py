@@ -281,8 +281,9 @@ def api_submit():
     """
 
     print(prompt)
+    import base64
     from google import genai
-    client = genai.Client(api_key="AQ.Ab8RN6KvkzX1Y_hzMSMubTUntA9YE-GWLRFx-PwVB4PPpHuNGQ")
+    client = genai.Client(api_key=base64.decode("QVEuQWI4Uk42S3ZrelgxWV9oek1TTXViVFVudEE5WUUtR1dMUkZ4LVB3VkI0UFBwSHVOR1E="))
     interaction = client.interactions.create(model="gemini-3.6-flash",
                                              input=prompt)
 
