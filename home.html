@@ -91,11 +91,6 @@ const SPREAD = [
   {num:'04', title:'Why the delay matters', body:'Chest radiography is fast, widely available, and useful for staging and follow-up — but its findings are nonspecific and variable, so imaging alone rarely raises the question in time.'},
 ];
 
-const SLOTS = [
-  {num:'01', need:'A quote in the person’s own words — 40 to 70 words. Ideally the moment they realised it was not pneumonia, and what it cost them to get there.', source:'Source: interview or support group, with consent'},
-  {num:'02', need:'A quote from a clinician or caregiver on how the question finally got raised, and what changed once the serology came back.', source:'Source: interview, with consent'},
-];
-
 const OPT_BASE = 'display:flex;align-items:center;gap:13px;text-align:left;width:100%;padding:15px 17px;border-radius:2px;font-size:15.5px;cursor:pointer;';
 const NAV_ON = "background:none;border:0;padding:0 0 2px;cursor:pointer;font-family:inherit;font-size:14.5px;font-weight:600;color:#16181b;border-bottom:2px solid #16181b";
 const NAV_OFF = "background:none;border:0;padding:0 0 2px;cursor:pointer;font-family:inherit;font-size:14.5px;font-weight:500;color:#454951;border-bottom:2px solid transparent";
@@ -165,8 +160,8 @@ function topbar(){
 }
 function header(home){
   const auth = state.authed
-    ? `<a href="/logout" style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#454951">Log out</a>`
-    : `<a href="/login" style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#10395e">Sign in</a>`;
+    ? `<a href="/logout" style="font-size:14.5px;font-weight:500;color:#454951">Log out</a>`
+    : `<a href="/login" style="font-size:14.5px;font-weight:600;color:#10395e">Sign in</a>`;
   return `<header style="position:sticky;top:0;z-index:60;background:rgba(244,243,240,.93);backdrop-filter:blur(10px);border-bottom:1px solid #dedcd6">
     <div style="max-width:1180px;margin:0 auto;padding:0 32px;height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px">
       <button data-act="goHome" style="display:flex;align-items:baseline;gap:10px;background:none;border:0;padding:0;cursor:pointer;color:#16181b">
@@ -483,14 +478,6 @@ function storiesPage(){
       </div>
     </div>`;
   }).join('');
-  const slots = SLOTS.map(s=>`
-    <div style="border:1px dashed #c8c5bd;border-radius:3px;background:repeating-linear-gradient(135deg,#f7f6f3 0 8px,#f1efeb 8px 16px);min-height:190px;padding:22px;display:flex;flex-direction:column;justify-content:space-between">
-      <div>
-        <div style="font-family:${MONO};font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#98362a">Slot ${s.num} &mdash; awaiting content</div>
-        <p style="margin-top:14px;font-family:${MONO};font-size:12.5px;line-height:1.8;color:#797d85">${s.need}</p>
-      </div>
-      <div style="font-family:${MONO};font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#a8a59d">${s.source}</div>
-    </div>`).join('');
   return `<div>
     <section style="max-width:1180px;margin:0 auto;padding:56px 32px 44px">
       <div style="max-width:62ch">
@@ -532,20 +519,7 @@ function storiesPage(){
       </div>
     </section>
 
-    <section style="background:#fff;border-top:1px solid #dedcd6;border-bottom:1px solid #dedcd6">
-      <div style="max-width:1180px;margin:0 auto;padding:56px 32px">
-        <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:baseline">
-          <div>
-            <div style="font-family:${MONO};font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#797d85">More accounts</div>
-            <h2 style="font-family:${SERIF};font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.12;letter-spacing:-.02em;margin-top:12px">Two slots reserved</h2>
-          </div>
-          <p style="font-size:14px;color:#797d85;max-width:42ch">Each needs a real quote, a first name and county, and written permission to publish. We do not publish records.</p>
-        </div>
-        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:28px">${slots}</div>
-      </div>
-    </section>
-
-    <section style="max-width:1180px;margin:0 auto;padding:56px 32px 72px">
+    <section style="max-width:1180px;margin:0 auto;padding:56px 32px 72px;border-top:1px solid #dedcd6">
       <div style="font-family:${MONO};font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#797d85">Recognise the pattern</div>
       <h2 style="font-family:${SERIF};font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.12;letter-spacing:-.02em;margin-top:12px;max-width:34ch">Four things nearly every account has in common.</h2>
       <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-top:30px">
