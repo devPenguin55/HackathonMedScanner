@@ -179,6 +179,52 @@ def logout():
     return redirect(url_for("main"))
 
 
+
+import torch
+import torch.nn as nn
+from torchvision import models
+
+# sqlite3.
+m = getattr(models, "resnet18")(weights="DEFAULT")     # load pretrained weights
+# The pretrained head predicts 1000 ImageNet classes. Replace it with a
+# single output + Sigmoid so the model returns P(pneumonia) in [0, 1].
+m.fc = nn.Sequential(
+    nn.Linear(m.fc.in_features, 1),
+    nn.Sigmoid()
+)
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+m.to(device)
+
+m.load_state_dict(torch.load("model_weights.pth", map_location="cpu"))
+m.eval()
+from PIL import Image
+from torchvision import transforms
+transform = transforms.Compose([
+    transforms.Resize((224, 224)),                       # fixed input size
+    transforms.ToTensor(),                               # image -> tensor (grid of numbers) in [0, 1]
+    transforms.Normalize(mean=[0.485, 0.456, 0.406],     # ImageNet mean...
+                         std=[0.229, 0.224, 0.225])    # ...and std
+])
+image_paths = [
+    "test/0004cfab-14fd-4e49-80ba-63a80b6bddd6.jpg",
+    "test/01be392f-a46d-4aef-a57e-9cd1a80dd47e.jpg",
+]
+images = []
+for path in image_paths:
+    try:
+        img = Image.open(path).convert("RGB")
+        images.append(transform(img))
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Image not found: {path}")
+
+images = torch.stack(images).to(device)
+with torch.no_grad():  
+    outputs = m(images)  
+    outputs = outputs.squeeze(1).cpu().numpy()
+    print(outputs)
+
+
 if __name__ == '__main__':
     print("RUN")
     app.run(host="0.0.0.0", port=1628, debug=False)

@@ -1,0 +1,1724 @@
+patientId,x,y,width,height,class,PatientAge,PatientSex,ViewPosition,BodyPartExamined,Modality,Target
+0004cfab-14fd-4e49-80ba-63a80b6bddd6,,,,,No Lung Opacity / Not Normal,51,F,PA,CHEST,CR,0
+00f87de5-5fe0-4921-93ea-914d7e683266,,,,,Normal,36,M,PA,CHEST,CR,0
+01a4059c-22f7-4f51-8a27-50aff0b3aeb3,,,,,Normal,40,M,PA,CHEST,CR,0
+01be392f-a46d-4aef-a57e-9cd1a80dd47e,535.0,626.0,177.0,240.0,Lung Opacity,14,M,AP,CHEST,CR,1
+01be392f-a46d-4aef-a57e-9cd1a80dd47e,175.0,825.0,168.0,109.0,Lung Opacity,14,M,AP,CHEST,CR,1
+01c0b605-0a82-401b-9649-81252304ac45,,,,,Normal,68,M,AP,CHEST,CR,0
+02c2331d-b3fa-4d55-bf86-f0efbd589c86,,,,,No Lung Opacity / Not Normal,3,F,AP,CHEST,CR,0
+0404639a-94b5-40c8-af85-8b0c6a972b01,,,,,No Lung Opacity / Not Normal,34,M,PA,CHEST,CR,0
+049d7317-5a8b-4fc4-b81f-159fe6b45a92,645.0,378.0,199.0,96.0,Lung Opacity,15,M,AP,CHEST,CR,1
+056f6beb-c3c8-4ee3-8db5-d1b50aabf7c9,,,,,No Lung Opacity / Not Normal,45,F,AP,CHEST,CR,0
+0587782c-ac6b-4ae1-8ffb-ce894d09f75e,734.0,488.0,221.0,87.0,Lung Opacity,39,M,AP,CHEST,CR,1
+05b91b32-5635-4071-b45d-6a73f8eea918,576.0,206.0,219.0,611.0,Lung Opacity,65,F,PA,CHEST,CR,1
+05b91b32-5635-4071-b45d-6a73f8eea918,160.0,264.0,317.0,501.0,Lung Opacity,65,F,PA,CHEST,CR,1
+061d0ff4-a611-42ce-b780-1d1eb55e50ab,220.0,209.0,298.0,703.0,Lung Opacity,30,M,AP,CHEST,CR,1
+061d0ff4-a611-42ce-b780-1d1eb55e50ab,600.0,262.0,256.0,721.0,Lung Opacity,30,M,AP,CHEST,CR,1
+0634d937-1be6-475e-a5fd-dc9a2b6a8da6,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+06420c87-02ee-4315-aa3a-63e911174435,134.0,147.0,312.0,674.0,Lung Opacity,47,M,AP,CHEST,CR,1
+06420c87-02ee-4315-aa3a-63e911174435,557.0,197.0,311.0,419.0,Lung Opacity,47,M,AP,CHEST,CR,1
+06634f15-9c78-47a1-97eb-f10f4c210765,84.0,348.0,329.0,481.0,Lung Opacity,59,M,AP,CHEST,CR,1
+06634f15-9c78-47a1-97eb-f10f4c210765,495.0,305.0,333.0,484.0,Lung Opacity,59,M,AP,CHEST,CR,1
+068f52ab-c25b-4212-97e7-b6f934fc3b75,,,,,No Lung Opacity / Not Normal,45,M,PA,CHEST,CR,0
+06b2f933-3ea2-4477-ac27-18f732d1f4e1,,,,,Normal,58,M,PA,CHEST,CR,0
+07abb49d-c23c-41a5-b38a-b093011b59dd,,,,,Normal,17,M,PA,CHEST,CR,0
+0817d40c-ca56-43f4-acd0-349e5e2fdc9f,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+08307845-ccbd-4616-b8e9-58532a766dbe,217.0,566.0,214.0,232.0,Lung Opacity,56,M,PA,CHEST,CR,1
+0851431b-cad7-436f-acb8-06aed97e5339,55.0,95.0,304.0,677.0,Lung Opacity,45,M,AP,CHEST,CR,1
+0851431b-cad7-436f-acb8-06aed97e5339,529.0,460.0,195.0,261.0,Lung Opacity,45,M,AP,CHEST,CR,1
+088265f7-0350-4c51-a7fc-99f1ddc89ae1,,,,,No Lung Opacity / Not Normal,10,M,AP,CHEST,CR,0
+088b89f6-6847-4a20-b1ad-5887b56bbae7,470.0,607.0,301.0,278.0,Lung Opacity,68,M,AP,CHEST,CR,1
+08a5a06e-f9a5-4e0d-abd2-e4d8ee005fb7,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+08bc9387-94f1-4ce8-8958-15864bca9052,,,,,Normal,47,M,PA,CHEST,CR,0
+08d88a60-146c-49a7-9450-45293024cf46,,,,,No Lung Opacity / Not Normal,62,M,AP,CHEST,CR,0
+08d8e57a-4835-445b-8c79-8dd31ab17819,115.0,577.0,354.0,210.0,Lung Opacity,53,M,AP,CHEST,CR,1
+08d8e57a-4835-445b-8c79-8dd31ab17819,583.0,334.0,339.0,269.0,Lung Opacity,53,M,AP,CHEST,CR,1
+0927bc1e-e1af-4c7e-93c4-7127d366f57d,,,,,Normal,31,M,PA,CHEST,CR,0
+09471800-38bb-448e-9a36-5544dd585676,,,,,No Lung Opacity / Not Normal,39,F,PA,CHEST,CR,0
+098e14d4-3205-4c2d-a059-738f830c0aa5,126.0,592.0,142.0,188.0,Lung Opacity,61,F,PA,CHEST,CR,1
+098e14d4-3205-4c2d-a059-738f830c0aa5,487.0,321.0,327.0,456.0,Lung Opacity,61,F,PA,CHEST,CR,1
+098e14d4-3205-4c2d-a059-738f830c0aa5,168.0,303.0,215.0,341.0,Lung Opacity,61,F,PA,CHEST,CR,1
+09918992-0dfa-4ab4-9e3c-51444c0267aa,,,,,Normal,39,F,AP,CHEST,CR,0
+0a03fbf6-3c9a-4e2e-89ce-c7629ae43a27,106.0,685.0,377.0,256.0,Lung Opacity,53,M,AP,CHEST,CR,1
+0a03fbf6-3c9a-4e2e-89ce-c7629ae43a27,582.0,522.0,403.0,444.0,Lung Opacity,53,M,AP,CHEST,CR,1
+0a22297d-22e1-4f3f-aa10-edcd220c1cb0,,,,,Normal,44,F,PA,CHEST,CR,0
+0a628951-4482-4d01-a09a-9e590b886cf2,,,,,Normal,57,M,AP,CHEST,CR,0
+0a63a331-3e17-4e23-8a9f-f7a4ec850a1b,,,,,Normal,27,F,AP,CHEST,CR,0
+0a7b13a9-bcfe-4a99-b699-4c8cf6882f04,,,,,Normal,43,F,PA,CHEST,CR,0
+0ad9934b-bf35-497d-8082-1ecbc955d6de,341.0,214.0,205.0,227.0,Lung Opacity,16,M,PA,CHEST,CR,1
+0b01310b-50f4-4d78-992d-bcad614e6d46,,,,,No Lung Opacity / Not Normal,66,M,PA,CHEST,CR,0
+0b3b1768-5926-4084-bed0-ad9ae886d13a,176.0,355.0,242.0,202.0,Lung Opacity,11,F,AP,CHEST,CR,1
+0b3b1768-5926-4084-bed0-ad9ae886d13a,494.0,292.0,249.0,301.0,Lung Opacity,11,F,AP,CHEST,CR,1
+0b6a3a33-e09f-4edd-baba-5bb9b34fe71d,,,,,No Lung Opacity / Not Normal,50,M,AP,CHEST,CR,0
+0b8e881f-67bc-4021-a02c-0087233e43aa,629.0,506.0,257.0,278.0,Lung Opacity,17,M,AP,CHEST,CR,1
+0b8e881f-67bc-4021-a02c-0087233e43aa,165.0,427.0,256.0,318.0,Lung Opacity,17,M,AP,CHEST,CR,1
+0b9f36a1-cc44-44f4-b500-cf1127fc71e6,,,,,No Lung Opacity / Not Normal,53,M,PA,CHEST,CR,0
+0bc55dd2-15ee-4f8e-94a1-df2e8dfffd89,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+0bdf0a38-17a9-42e0-935f-f9240e1fab77,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+0c119e49-629b-4507-9df6-4dd03327b89e,,,,,No Lung Opacity / Not Normal,64,M,PA,CHEST,CR,0
+0c8458d8-25e6-44e5-946e-cf729240df59,590.0,90.0,271.0,760.0,Lung Opacity,32,M,AP,CHEST,CR,1
+0c8458d8-25e6-44e5-946e-cf729240df59,188.0,68.0,308.0,682.0,Lung Opacity,32,M,AP,CHEST,CR,1
+0ca9d557-c26c-4dfc-84cc-aac7254ceeb1,,,,,No Lung Opacity / Not Normal,40,F,AP,CHEST,CR,0
+0cbf3284-5b78-4e23-bffd-e546f7e76da9,631.0,432.0,355.0,271.0,Lung Opacity,43,M,PA,CHEST,CR,1
+0cc48c9c-0576-4d70-abc0-dd8cdc1eb788,544.0,174.0,367.0,530.0,Lung Opacity,43,M,AP,CHEST,CR,1
+0cc48c9c-0576-4d70-abc0-dd8cdc1eb788,203.0,250.0,300.0,490.0,Lung Opacity,43,M,AP,CHEST,CR,1
+0f938aa7-9459-4c95-9b99-d0bf94cc789e,637.0,467.0,203.0,176.0,Lung Opacity,25,F,AP,CHEST,CR,1
+0f938aa7-9459-4c95-9b99-d0bf94cc789e,306.0,454.0,197.0,150.0,Lung Opacity,25,F,AP,CHEST,CR,1
+10aa6a8e-4ece-4bde-b3d1-4406ee847cc2,,,,,No Lung Opacity / Not Normal,40,M,AP,CHEST,CR,0
+1169aece-61f6-4843-8abe-f2b11265d2fd,250.0,232.0,259.0,476.0,Lung Opacity,51,F,AP,CHEST,CR,1
+1189d740-9839-4a74-8516-a64e767b977e,,,,,Normal,33,M,AP,CHEST,CR,0
+13b24a60-a6fe-48fc-92d2-3a3b008ce7c7,,,,,No Lung Opacity / Not Normal,23,F,AP,CHEST,CR,0
+146c007e-546c-474f-8b28-9c321565e5e4,,,,,Normal,37,F,PA,CHEST,CR,0
+155e1bbc-b81f-4164-8de1-b3c235bfa87a,,,,,Normal,53,M,PA,CHEST,CR,0
+15911a40-9cb6-404c-b601-4e3b2846d7a9,,,,,Normal,27,M,PA,CHEST,CR,0
+15965584-26e8-450b-823d-030d71049494,649.0,422.0,129.0,76.0,Lung Opacity,57,M,PA,CHEST,CR,1
+15aff6d6-7bde-4876-bc89-7745b48c1b80,,,,,No Lung Opacity / Not Normal,44,F,PA,CHEST,CR,0
+15ee34b0-feca-424f-8ac6-9c61ad8ecbe1,,,,,No Lung Opacity / Not Normal,57,M,PA,CHEST,CR,0
+15f01c52-9386-44d4-b35f-b535e81cfec5,,,,,No Lung Opacity / Not Normal,68,M,PA,CHEST,CR,0
+15fa29d8-09cf-436e-8bf8-cd85b260f2cc,,,,,Normal,70,M,PA,CHEST,CR,0
+1614564a-fe0d-43dc-87ae-299d859959f6,295.0,427.0,153.0,126.0,Lung Opacity,13,M,PA,CHEST,CR,1
+1614564a-fe0d-43dc-87ae-299d859959f6,215.0,596.0,176.0,141.0,Lung Opacity,13,M,PA,CHEST,CR,1
+16198f03-b89b-470f-bed8-4b89d6dd69f5,,,,,Normal,59,F,AP,CHEST,CR,0
+162b17de-b15d-4122-9352-ec3445f61f35,502.0,357.0,319.0,337.0,Lung Opacity,26,F,AP,CHEST,CR,1
+166479fb-b1f7-494c-b894-2ddf6d21131a,580.0,413.0,261.0,417.0,Lung Opacity,42,F,AP,CHEST,CR,1
+166479fb-b1f7-494c-b894-2ddf6d21131a,240.0,403.0,211.0,417.0,Lung Opacity,42,F,AP,CHEST,CR,1
+16775991-c274-45ad-8413-6c3382db4418,,,,,No Lung Opacity / Not Normal,53,F,PA,CHEST,CR,0
+168ae18f-d50a-4df3-9f21-5eedb100fcc0,,,,,Normal,53,M,PA,CHEST,CR,0
+16dbf9f0-5361-48b3-9371-0ba2707ccf27,,,,,Normal,34,F,PA,CHEST,CR,0
+16dc124a-6316-41a3-bf19-2f2346e56f7c,,,,,No Lung Opacity / Not Normal,19,F,AP,CHEST,CR,0
+16ff6076-49e4-4e35-9ecc-2fd80c9d0508,,,,,No Lung Opacity / Not Normal,49,M,PA,CHEST,CR,0
+1703014f-cb4e-43c2-893d-288d087aafbd,544.0,300.0,233.0,184.0,Lung Opacity,32,F,AP,CHEST,CR,1
+1703014f-cb4e-43c2-893d-288d087aafbd,158.0,240.0,193.0,132.0,Lung Opacity,32,F,AP,CHEST,CR,1
+17121b03-a742-4fe8-846f-c1dfeaebcad0,,,,,No Lung Opacity / Not Normal,42,F,AP,CHEST,CR,0
+17398977-1b0f-4de4-9038-9c8cb7406c82,605.0,441.0,349.0,502.0,Lung Opacity,48,M,AP,CHEST,CR,1
+173da42f-917c-4e33-9c95-71132361599c,,,,,No Lung Opacity / Not Normal,30,F,PA,CHEST,CR,0
+1759bf0e-9195-41ac-9e82-85bf69c5c1b2,,,,,No Lung Opacity / Not Normal,41,F,PA,CHEST,CR,0
+17764c35-e511-4ff1-a7d1-cc5d670b0f08,579.0,481.0,257.0,270.0,Lung Opacity,40,M,AP,CHEST,CR,1
+17764c35-e511-4ff1-a7d1-cc5d670b0f08,168.0,414.0,264.0,344.0,Lung Opacity,40,M,AP,CHEST,CR,1
+17bb1968-907d-4085-8cc3-e66f6357a518,,,,,No Lung Opacity / Not Normal,46,M,PA,CHEST,CR,0
+17faf806-5b26-418b-8d5d-a1ff45539ea7,250.0,332.0,194.0,385.0,Lung Opacity,73,F,AP,CHEST,CR,1
+17faf806-5b26-418b-8d5d-a1ff45539ea7,568.0,190.0,283.0,662.0,Lung Opacity,73,F,AP,CHEST,CR,1
+180bbb1f-4105-4fa1-94cf-5bb8294eaae8,552.0,425.0,274.0,336.0,Lung Opacity,68,M,AP,CHEST,CR,1
+18126f50-a0dd-4ce4-88c9-fbd285330be9,,,,,No Lung Opacity / Not Normal,51,F,AP,CHEST,CR,0
+181f1705-1f44-4768-8f36-547c4e7c4d90,,,,,Normal,34,M,PA,CHEST,CR,0
+182dfedc-976f-4464-9023-d787392b7ee1,,,,,No Lung Opacity / Not Normal,52,M,AP,CHEST,CR,0
+182fed4c-d92a-4440-b135-6caa8cab16a8,,,,,Normal,56,M,PA,CHEST,CR,0
+18832ae7-6e31-4667-8eb5-3eddf5ab6d8e,103.0,112.0,242.0,392.0,Lung Opacity,56,M,AP,CHEST,CR,1
+189b1bb5-65d4-4dac-9cd8-e7232d84fcdd,,,,,No Lung Opacity / Not Normal,65,F,AP,CHEST,CR,0
+189fec61-2bb1-46e3-a285-1dc3a09e8860,,,,,Normal,64,M,PA,CHEST,CR,0
+18d48b37-94c0-4ad3-ad89-fbe7166b2f5f,,,,,Normal,65,F,PA,CHEST,CR,0
+18eaf030-7dd3-44aa-9869-c9a552c86cd9,,,,,No Lung Opacity / Not Normal,36,F,PA,CHEST,CR,0
+18eb8255-4e16-4f71-8ea2-1a8749cbb488,,,,,Normal,22,M,PA,CHEST,CR,0
+18f349ea-e436-443c-a040-c07c705f9989,591.0,94.0,354.0,685.0,Lung Opacity,41,M,AP,CHEST,CR,1
+18f349ea-e436-443c-a040-c07c705f9989,217.0,92.0,273.0,666.0,Lung Opacity,41,M,AP,CHEST,CR,1
+18fa0b55-548e-4298-8f66-13f255bdb6b1,,,,,No Lung Opacity / Not Normal,56,F,AP,CHEST,CR,0
+192f3509-9413-44f1-a585-57829f15ad38,529.0,240.0,398.0,603.0,Lung Opacity,40,F,AP,CHEST,CR,1
+192f3509-9413-44f1-a585-57829f15ad38,138.0,318.0,381.0,559.0,Lung Opacity,40,F,AP,CHEST,CR,1
+1947e51f-8e73-46b3-91ad-4d35489a2793,,,,,No Lung Opacity / Not Normal,37,F,AP,CHEST,CR,0
+194c4d98-493d-47f6-92d6-7177de349d43,,,,,No Lung Opacity / Not Normal,66,M,AP,CHEST,CR,0
+1953e32b-c76f-4ff4-a893-484772972100,,,,,Normal,41,F,PA,CHEST,CR,0
+196830ed-7b6a-44dc-8ffd-d991e48614b3,,,,,No Lung Opacity / Not Normal,75,M,AP,CHEST,CR,0
+19761fcf-760f-4a6f-b8ca-1ccf72fd8253,,,,,Normal,35,F,PA,CHEST,CR,0
+197afa6e-d36d-41eb-9028-d4a055f4c838,,,,,Normal,61,M,PA,CHEST,CR,0
+1990c90d-34cf-443c-99ad-5ce522ae8f0c,,,,,Normal,46,F,PA,CHEST,CR,0
+1a623a18-bf08-4204-8ed6-cd9e02edfbe1,,,,,No Lung Opacity / Not Normal,60,M,AP,CHEST,CR,0
+1b2aefc5-a9dd-4f84-a314-3acec56df761,701.0,490.0,199.0,294.0,Lung Opacity,48,M,AP,CHEST,CR,1
+1b2aefc5-a9dd-4f84-a314-3acec56df761,284.0,550.0,173.0,201.0,Lung Opacity,48,M,AP,CHEST,CR,1
+1ba35bfc-7641-42cd-9988-260fd0f82be1,,,,,Normal,46,F,PA,CHEST,CR,0
+1be56c93-6607-4b08-b73a-dfe4ca81f7b1,319.0,698.0,94.0,85.0,Lung Opacity,35,F,PA,CHEST,CR,1
+1dfd8737-ff04-49c6-bd1a-808d682ddc19,576.0,298.0,221.0,418.0,Lung Opacity,14,F,AP,CHEST,CR,1
+1dfd8737-ff04-49c6-bd1a-808d682ddc19,326.0,516.0,131.0,154.0,Lung Opacity,14,F,AP,CHEST,CR,1
+1fd92186-f1fa-477d-b23e-abfd7ad537ce,222.0,595.0,148.0,200.0,Lung Opacity,57,M,AP,CHEST,CR,1
+20f39b8e-be82-4f24-8791-651533a73184,61.0,223.0,265.0,672.0,Lung Opacity,46,M,AP,CHEST,CR,1
+20f39b8e-be82-4f24-8791-651533a73184,530.0,268.0,334.0,659.0,Lung Opacity,46,M,AP,CHEST,CR,1
+2230de59-e044-4b6d-95c0-1154c0cbb802,642.0,521.0,120.0,255.0,Lung Opacity,49,M,PA,CHEST,CR,1
+230adb79-3015-4657-86d3-fa3f146a10f5,,,,,No Lung Opacity / Not Normal,57,F,PA,CHEST,CR,0
+238157f2-9ef0-4be0-8385-4c36b494045e,,,,,No Lung Opacity / Not Normal,68,F,PA,CHEST,CR,0
+255a95a1-b8c6-4a9f-b5c1-b5848d126a6d,,,,,No Lung Opacity / Not Normal,52,M,PA,CHEST,CR,0
+27e52306-ac01-4326-8ab1-e4e655bbd073,,,,,Normal,57,M,PA,CHEST,CR,0
+28b86891-adae-4c32-9f79-952ab727d1e7,,,,,No Lung Opacity / Not Normal,65,M,PA,CHEST,CR,0
+29991625-4807-479a-b5eb-fa1b3a4b5c0f,,,,,Normal,63,M,PA,CHEST,CR,0
+2cc8447b-642b-4fb7-9e8f-44abe8c90d65,,,,,No Lung Opacity / Not Normal,64,M,PA,CHEST,CR,0
+2e2f0137-aec8-4ec8-b69e-15a7813a7320,,,,,No Lung Opacity / Not Normal,15,F,AP,CHEST,CR,0
+30b6e850-9920-4921-980a-fa2328a62d58,,,,,Normal,58,M,AP,CHEST,CR,0
+30f237ad-d9af-4f59-921c-5a6b579dd6ed,,,,,Normal,32,F,PA,CHEST,CR,0
+3162d754-7972-47b0-ae60-1ae6e2bb4150,238.0,454.0,246.0,205.0,Lung Opacity,55,M,PA,CHEST,CR,1
+3168b733-12d4-475e-8789-8c8b230743c4,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+318d7fc0-551e-4bf8-94c0-575c80a47957,,,,,No Lung Opacity / Not Normal,49,F,AP,CHEST,CR,0
+31cb3893-373f-4126-8654-48ee8898b85d,,,,,Normal,47,M,PA,CHEST,CR,0
+31d76acb-c15d-4968-beba-92d071417d06,,,,,No Lung Opacity / Not Normal,52,M,PA,CHEST,CR,0
+31f103c6-fcd1-4ba5-aae8-87b20e7b9546,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+321a1f18-76ab-474a-9aba-e2752b99fba0,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+3220814c-9264-4036-8598-1974deeb2a6b,,,,,No Lung Opacity / Not Normal,40,F,PA,CHEST,CR,0
+322fd00f-8b1b-4ee8-90c0-0058a590a842,,,,,No Lung Opacity / Not Normal,66,F,AP,CHEST,CR,0
+326f2ae5-5cd6-44eb-bc82-05d3f1aa6111,,,,,Normal,72,M,PA,CHEST,CR,0
+329bc865-0bae-4268-8eed-32bba16e34dd,,,,,No Lung Opacity / Not Normal,54,M,AP,CHEST,CR,0
+32b9ab38-2dc3-471b-87d8-4a67f49bfb7c,635.0,422.0,188.0,315.0,Lung Opacity,57,M,AP,CHEST,CR,1
+32b9ab38-2dc3-471b-87d8-4a67f49bfb7c,290.0,532.0,174.0,208.0,Lung Opacity,57,M,AP,CHEST,CR,1
+32ceee8d-3208-4abc-b329-55f7d2264398,621.0,279.0,194.0,248.0,Lung Opacity,61,M,PA,CHEST,CR,1
+32ceee8d-3208-4abc-b329-55f7d2264398,260.0,251.0,180.0,271.0,Lung Opacity,61,M,PA,CHEST,CR,1
+331a89cf-4344-43ba-bb0b-77bdddae25af,,,,,No Lung Opacity / Not Normal,39,M,PA,CHEST,CR,0
+334ebbf2-a210-4051-9629-9ede16de9d3a,,,,,Normal,49,M,PA,CHEST,CR,0
+335e0c90-7426-44a3-a9c3-11b21485d840,157.0,490.0,302.0,355.0,Lung Opacity,38,M,AP,CHEST,CR,1
+335e0c90-7426-44a3-a9c3-11b21485d840,595.0,306.0,276.0,412.0,Lung Opacity,38,M,AP,CHEST,CR,1
+33889753-8a7d-4d7b-a8bd-2b1088cf3a0f,,,,,Normal,47,F,PA,CHEST,CR,0
+339728a0-cc96-409e-af99-8af5c6ce5f23,595.0,178.0,252.0,299.0,Lung Opacity,57,F,PA,CHEST,CR,1
+339728a0-cc96-409e-af99-8af5c6ce5f23,288.0,191.0,203.0,478.0,Lung Opacity,57,F,PA,CHEST,CR,1
+339e53c5-9e9e-44f6-8c86-a1ce9803eec3,,,,,No Lung Opacity / Not Normal,65,M,PA,CHEST,CR,0
+33a272fa-62f1-4a2f-993b-79a5431e3ba2,,,,,Normal,57,M,PA,CHEST,CR,0
+33baa9c3-1fef-49b0-9f03-3d260dca565c,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+33c88ecb-1aee-45d1-ab06-1ecd6eea7ae2,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+33df5e75-0b13-4c2b-b217-a0b32e3fc396,541.0,235.0,318.0,630.0,Lung Opacity,43,M,AP,CHEST,CR,1
+33df5e75-0b13-4c2b-b217-a0b32e3fc396,117.0,195.0,269.0,585.0,Lung Opacity,43,M,AP,CHEST,CR,1
+344486d7-255d-433e-8289-b522ed00f838,,,,,No Lung Opacity / Not Normal,64,M,AP,CHEST,CR,0
+34795b7d-4e44-4ebf-80b6-7c9317569664,,,,,Normal,28,F,PA,CHEST,CR,0
+34820ad5-f8ca-497e-8ed9-79c10bf864fc,158.0,299.0,264.0,192.0,Lung Opacity,45,F,AP,CHEST,CR,1
+34820ad5-f8ca-497e-8ed9-79c10bf864fc,706.0,351.0,162.0,164.0,Lung Opacity,45,F,AP,CHEST,CR,1
+349f10b4-dc3e-4f3f-b2e4-a5b81448ce87,365.0,192.0,115.0,173.0,Lung Opacity,56,M,AP,CHEST,CR,1
+349f10b4-dc3e-4f3f-b2e4-a5b81448ce87,614.0,264.0,128.0,171.0,Lung Opacity,56,M,AP,CHEST,CR,1
+349f10b4-dc3e-4f3f-b2e4-a5b81448ce87,594.0,465.0,259.0,272.0,Lung Opacity,56,M,AP,CHEST,CR,1
+349f10b4-dc3e-4f3f-b2e4-a5b81448ce87,204.0,385.0,219.0,222.0,Lung Opacity,56,M,AP,CHEST,CR,1
+34d2350a-fabd-4797-b636-358a452d89c5,,,,,No Lung Opacity / Not Normal,47,F,AP,CHEST,CR,0
+35655657-e359-45c4-bd56-1ce90ddaebed,,,,,Normal,37,M,PA,CHEST,CR,0
+357417d0-9e34-425e-919f-b4f7f9643bc4,,,,,Normal,29,M,AP,CHEST,CR,0
+3627ac65-1380-4575-ae70-84e57071d898,,,,,Normal,36,F,PA,CHEST,CR,0
+363a0e1a-adec-4a04-9fc7-0ed505dbc4f8,188.0,122.0,266.0,534.0,Lung Opacity,56,M,AP,CHEST,CR,1
+363a0e1a-adec-4a04-9fc7-0ed505dbc4f8,568.0,101.0,277.0,478.0,Lung Opacity,56,M,AP,CHEST,CR,1
+363a77dc-eb92-45ec-9872-aaf32a4bc920,614.0,418.0,173.0,301.0,Lung Opacity,34,F,AP,CHEST,CR,1
+363a77dc-eb92-45ec-9872-aaf32a4bc920,219.0,272.0,261.0,309.0,Lung Opacity,34,F,AP,CHEST,CR,1
+36592e9e-7b4e-4b39-8106-cdbf56160e07,,,,,No Lung Opacity / Not Normal,62,F,PA,CHEST,CR,0
+367125cd-22f8-41ba-97ea-6adfce7d7a4e,,,,,Normal,23,M,PA,CHEST,CR,0
+367711a9-7fa0-4215-9fcd-b06ca7f40c30,608.0,618.0,325.0,96.0,Lung Opacity,50,M,AP,CHEST,CR,1
+3681ccb2-b646-46ec-a277-e0fc8499a2c2,,,,,Normal,40,M,PA,CHEST,CR,0
+3687784e-47a5-40d3-aa45-5cae7dd23e8b,588.0,201.0,311.0,683.0,Lung Opacity,52,M,AP,CHEST,CR,1
+3687784e-47a5-40d3-aa45-5cae7dd23e8b,186.0,189.0,259.0,621.0,Lung Opacity,52,M,AP,CHEST,CR,1
+36984bda-bc42-40ee-a3fd-bfe8f78f2ddd,209.0,217.0,271.0,597.0,Lung Opacity,78,M,AP,CHEST,CR,1
+36984bda-bc42-40ee-a3fd-bfe8f78f2ddd,596.0,461.0,289.0,263.0,Lung Opacity,78,M,AP,CHEST,CR,1
+3698b8bd-311e-4784-b9c3-dbe1d5296dc5,540.0,245.0,226.0,370.0,Lung Opacity,35,M,AP,CHEST,CR,1
+3698b8bd-311e-4784-b9c3-dbe1d5296dc5,137.0,413.0,240.0,276.0,Lung Opacity,35,M,AP,CHEST,CR,1
+36a4923e-c647-4bd7-9e96-2a0e89f6d80e,,,,,Normal,34,F,PA,CHEST,CR,0
+371ef146-4a13-4b5f-9d48-7889a12d8ebf,122.0,264.0,210.0,411.0,Lung Opacity,37,F,AP,CHEST,CR,1
+371ef146-4a13-4b5f-9d48-7889a12d8ebf,527.0,559.0,149.0,224.0,Lung Opacity,37,F,AP,CHEST,CR,1
+3724385f-45aa-47f5-814c-dd4f591a146e,,,,,Normal,60,F,PA,CHEST,CR,0
+378ef52a-cbc7-4e92-bd6b-ecb4045508f3,255.0,489.0,181.0,213.0,Lung Opacity,54,M,AP,CHEST,CR,1
+378ef52a-cbc7-4e92-bd6b-ecb4045508f3,597.0,420.0,127.0,202.0,Lung Opacity,54,M,AP,CHEST,CR,1
+37a63005-ac07-4f34-a770-3ffa029478c6,650.0,259.0,256.0,630.0,Lung Opacity,57,M,AP,CHEST,CR,1
+37a63005-ac07-4f34-a770-3ffa029478c6,245.0,261.0,262.0,628.0,Lung Opacity,57,M,AP,CHEST,CR,1
+37abb6cd-4189-4750-bfdf-faf6bad1b233,666.0,280.0,321.0,553.0,Lung Opacity,33,F,AP,CHEST,CR,1
+37abb6cd-4189-4750-bfdf-faf6bad1b233,312.0,354.0,236.0,413.0,Lung Opacity,33,F,AP,CHEST,CR,1
+37c377d9-a4f9-4b58-82b5-42c1624e2d57,461.0,436.0,225.0,259.0,Lung Opacity,21,F,AP,CHEST,CR,1
+37c377d9-a4f9-4b58-82b5-42c1624e2d57,92.0,412.0,235.0,288.0,Lung Opacity,21,F,AP,CHEST,CR,1
+37cbb26b-f579-442d-a880-4b5f3d2215f9,,,,,No Lung Opacity / Not Normal,30,F,PA,CHEST,CR,0
+38247d25-1b31-438b-a0b1-53294160846f,510.0,397.0,224.0,179.0,Lung Opacity,57,F,AP,CHEST,CR,1
+38247d25-1b31-438b-a0b1-53294160846f,269.0,301.0,148.0,210.0,Lung Opacity,57,F,AP,CHEST,CR,1
+3843220d-8525-4fc7-b39f-2a8b0fb77987,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+3857408a-0d0c-4389-bf01-6284b714193b,,,,,Normal,80,M,PA,CHEST,CR,0
+3862449a-cc8b-40da-91a0-a1437618e65c,615.0,116.0,332.0,662.0,Lung Opacity,41,M,AP,CHEST,CR,1
+3862449a-cc8b-40da-91a0-a1437618e65c,241.0,126.0,285.0,661.0,Lung Opacity,41,M,AP,CHEST,CR,1
+388cc388-c2aa-4bfe-8a63-4565c626d951,585.0,394.0,262.0,203.0,Lung Opacity,61,M,AP,CHEST,CR,1
+388cc388-c2aa-4bfe-8a63-4565c626d951,215.0,453.0,211.0,142.0,Lung Opacity,61,M,AP,CHEST,CR,1
+3897fd2d-8a09-4b85-9e18-a86ef62b4ca9,,,,,No Lung Opacity / Not Normal,58,F,PA,CHEST,CR,0
+38b29c8e-ccf4-40c0-ac21-03b3df44d285,,,,,Normal,64,F,PA,CHEST,CR,0
+38bcec1b-934b-4122-85b7-03eb838288ca,,,,,No Lung Opacity / Not Normal,71,M,PA,CHEST,CR,0
+38bfa17d-a04b-4c4e-ad07-fd8c8a730596,,,,,Normal,36,F,PA,CHEST,CR,0
+38c62eb3-02a3-40c8-a0b0-50539ef22661,269.0,263.0,169.0,282.0,Lung Opacity,48,F,AP,CHEST,CR,1
+38d37747-f284-4263-8bc2-2ff3f085a1b8,,,,,Normal,57,F,PA,CHEST,CR,0
+38ead95b-c698-4cef-bec8-3f95005484c3,216.0,552.0,197.0,295.0,Lung Opacity,29,M,AP,CHEST,CR,1
+391f6322-0fa0-4efa-a3ba-8c767f7f8aeb,,,,,No Lung Opacity / Not Normal,63,F,AP,CHEST,CR,0
+398cd60c-17b9-44bc-8547-5cb6b6dad714,223.0,542.0,183.0,133.0,Lung Opacity,55,F,PA,CHEST,CR,1
+39e63d68-2b27-49a2-a20f-80072facefcd,,,,,No Lung Opacity / Not Normal,51,M,AP,CHEST,CR,0
+39ec7b31-4066-4173-bc5e-2f733c95d94a,,,,,No Lung Opacity / Not Normal,51,M,PA,CHEST,CR,0
+3a3842d1-d803-4374-a17d-b5a37e8024cf,647.0,279.0,148.0,134.0,Lung Opacity,17,F,PA,CHEST,CR,1
+3a6bee2a-e8ca-41eb-b33f-5048b9f0e068,123.0,324.0,310.0,583.0,Lung Opacity,67,M,AP,CHEST,CR,1
+3a6bee2a-e8ca-41eb-b33f-5048b9f0e068,542.0,316.0,325.0,622.0,Lung Opacity,67,M,AP,CHEST,CR,1
+3a8937d5-ef45-4b0a-99f0-3cc01ba6901e,288.0,451.0,151.0,110.0,Lung Opacity,12,M,PA,CHEST,CR,1
+3aeaaca0-345a-4d22-93da-2bec43180e49,,,,,Normal,35,F,PA,CHEST,CR,0
+3b266180-6af2-4859-9576-17fd9ab9fff1,548.0,197.0,305.0,618.0,Lung Opacity,33,M,AP,CHEST,CR,1
+3b266180-6af2-4859-9576-17fd9ab9fff1,102.0,192.0,317.0,587.0,Lung Opacity,33,M,AP,CHEST,CR,1
+3b368413-f2a0-41d7-a204-b55121e9ff75,,,,,Normal,58,M,PA,CHEST,CR,0
+3b49769a-ae88-4b47-ac0a-92abf3e05f94,,,,,No Lung Opacity / Not Normal,31,M,PA,CHEST,CR,0
+3b81bcea-ee88-4c13-b4f6-2a53161d2b22,,,,,Normal,50,F,PA,CHEST,CR,0
+3b84f97b-fa88-424a-891c-e57c3b92c062,99.0,550.0,321.0,219.0,Lung Opacity,34,M,PA,CHEST,CR,1
+3ba03324-b1b1-4390-bfea-5989348ce1e8,,,,,Normal,19,M,PA,CHEST,CR,0
+3be5c139-0aa5-4c72-b930-eb513765218e,,,,,Normal,5,F,PA,CHEST,CR,0
+3bf902f7-375c-4403-8275-0e40aac684c2,,,,,Normal,21,F,PA,CHEST,CR,0
+3c1bd2e3-25e5-493d-b003-0b570d8a0014,,,,,Normal,58,M,PA,CHEST,CR,0
+3c1fdc6b-2e9a-46f7-8dbd-28d4155f9b93,655.0,281.0,134.0,211.0,Lung Opacity,55,F,AP,CHEST,CR,1
+3c1fdc6b-2e9a-46f7-8dbd-28d4155f9b93,333.0,507.0,179.0,116.0,Lung Opacity,55,F,AP,CHEST,CR,1
+3c1fdc6b-2e9a-46f7-8dbd-28d4155f9b93,639.0,492.0,219.0,125.0,Lung Opacity,55,F,AP,CHEST,CR,1
+3c313509-8707-4fab-be4b-770fd8cbdb07,,,,,No Lung Opacity / Not Normal,73,M,PA,CHEST,CR,0
+3c7d89e1-4fb0-4832-821e-5978aa5284df,262.0,222.0,280.0,473.0,Lung Opacity,29,F,AP,CHEST,CR,1
+3c7d89e1-4fb0-4832-821e-5978aa5284df,661.0,269.0,276.0,435.0,Lung Opacity,29,F,AP,CHEST,CR,1
+3c83072d-97ca-47d6-9d55-ec9f1f23c166,,,,,Normal,50,F,PA,CHEST,CR,0
+3cb2bebe-0b95-42af-9bfe-72aeff44f745,197.0,114.0,256.0,589.0,Lung Opacity,24,M,AP,CHEST,CR,1
+3cb2bebe-0b95-42af-9bfe-72aeff44f745,615.0,95.0,254.0,743.0,Lung Opacity,24,M,AP,CHEST,CR,1
+3cd77f6e-8eb3-4900-bc19-3921d8d22960,,,,,Normal,46,M,PA,CHEST,CR,0
+3cf4dbff-f5ff-407e-b902-be8040ed992a,94.0,419.0,207.0,289.0,Lung Opacity,74,F,AP,CHEST,CR,1
+3cf4dbff-f5ff-407e-b902-be8040ed992a,521.0,284.0,199.0,646.0,Lung Opacity,74,F,AP,CHEST,CR,1
+3d0b66d4-1954-4454-95e6-e3888e596bac,191.0,613.0,197.0,248.0,Lung Opacity,67,F,AP,CHEST,CR,1
+3d0b66d4-1954-4454-95e6-e3888e596bac,166.0,289.0,202.0,309.0,Lung Opacity,67,F,AP,CHEST,CR,1
+3d1af87f-b6ad-408d-bddc-8bd1f27dd890,227.0,156.0,259.0,567.0,Lung Opacity,58,M,AP,CHEST,CR,1
+3d1af87f-b6ad-408d-bddc-8bd1f27dd890,654.0,210.0,267.0,444.0,Lung Opacity,58,M,AP,CHEST,CR,1
+3d1e8f8f-b4cb-4346-b52a-d98f6a8ebb24,,,,,Normal,46,F,PA,CHEST,CR,0
+3d62329f-40d2-41e5-bcdd-c7eabc33f516,581.0,315.0,179.0,290.0,Lung Opacity,75,F,AP,CHEST,CR,1
+3d62329f-40d2-41e5-bcdd-c7eabc33f516,178.0,449.0,199.0,344.0,Lung Opacity,75,F,AP,CHEST,CR,1
+3d7fb4b4-5e62-4591-aa4d-cbbc1ca3ffb7,31.0,474.0,335.0,304.0,Lung Opacity,47,F,PA,CHEST,CR,1
+3d7fb4b4-5e62-4591-aa4d-cbbc1ca3ffb7,598.0,519.0,278.0,324.0,Lung Opacity,47,F,PA,CHEST,CR,1
+3df3ed06-02ba-49b0-9c46-d146e71cad5d,486.0,233.0,294.0,473.0,Lung Opacity,16,M,AP,CHEST,CR,1
+3df3ed06-02ba-49b0-9c46-d146e71cad5d,87.0,236.0,281.0,487.0,Lung Opacity,16,M,AP,CHEST,CR,1
+3df4d7f3-b9d6-460b-acfb-ddd76bd27ae9,,,,,Normal,59,M,PA,CHEST,CR,0
+3e8eea71-b36a-49a9-8fbc-47749ee2c641,251.0,249.0,200.0,310.0,Lung Opacity,25,M,PA,CHEST,CR,1
+3e9ff8ec-edfa-4435-a3ef-898b09b234bc,226.0,504.0,201.0,258.0,Lung Opacity,25,M,PA,CHEST,CR,1
+3eb1d6ec-9172-4b4f-be53-ca981f71e610,591.0,395.0,200.0,295.0,Lung Opacity,42,F,AP,CHEST,CR,1
+3efbee9b-0174-45fa-b81c-f0f23397b74b,,,,,Normal,45,F,PA,CHEST,CR,0
+3efe3e31-90f3-42a2-ae15-70f8906f14ec,653.0,312.0,257.0,401.0,Lung Opacity,63,F,PA,CHEST,CR,1
+3efe3e31-90f3-42a2-ae15-70f8906f14ec,185.0,256.0,289.0,404.0,Lung Opacity,63,F,PA,CHEST,CR,1
+3f30b3ca-a94b-4305-bd38-1895aaa07427,135.0,536.0,238.0,346.0,Lung Opacity,31,M,AP,CHEST,CR,1
+3f30b3ca-a94b-4305-bd38-1895aaa07427,541.0,545.0,256.0,378.0,Lung Opacity,31,M,AP,CHEST,CR,1
+3f4eae54-fb2b-4616-a32f-c42f7df570b7,606.0,683.0,246.0,259.0,Lung Opacity,63,M,AP,CHEST,CR,1
+3f4eae54-fb2b-4616-a32f-c42f7df570b7,135.0,832.0,155.0,134.0,Lung Opacity,63,M,AP,CHEST,CR,1
+3f750eed-bfad-4c3f-b268-8c9f4270cf05,561.0,497.0,289.0,138.0,Lung Opacity,39,M,AP,CHEST,CR,1
+3fb5525f-edfa-4217-81f9-df59b3e94135,,,,,Normal,25,M,AP,CHEST,CR,0
+3fc13fa7-0981-4dae-8d4d-ff8769f98d28,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+40090dc4-0071-4de4-b3b2-3dd4fe2c3a43,,,,,No Lung Opacity / Not Normal,26,M,AP,CHEST,CR,0
+4032536b-7d57-474b-a77a-afbd13136a7a,,,,,No Lung Opacity / Not Normal,33,M,AP,CHEST,CR,0
+40329003-cc64-489c-aeec-8f029864d8fd,,,,,No Lung Opacity / Not Normal,23,M,AP,CHEST,CR,0
+403af764-1328-484d-b58d-2b306c602c60,,,,,No Lung Opacity / Not Normal,57,M,PA,CHEST,CR,0
+403c8a04-cba6-43d3-a5bb-37a86c1a24fe,,,,,No Lung Opacity / Not Normal,71,M,PA,CHEST,CR,0
+40519f48-dcee-454d-a460-5feb88b12ef5,,,,,Normal,13,M,PA,CHEST,CR,0
+405ed36e-d013-4580-8a98-99f4b7fab29f,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+408b3cb3-42e7-44d7-a40c-34d412c3004d,,,,,No Lung Opacity / Not Normal,60,F,PA,CHEST,CR,0
+408c0f78-dbaf-49c9-b727-130a23bb68f8,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+409cfb1b-aaab-4715-8f96-c6abe19ad561,,,,,No Lung Opacity / Not Normal,31,M,PA,CHEST,CR,0
+412dc6c0-afdb-462b-8960-469360bc4564,,,,,No Lung Opacity / Not Normal,37,M,AP,CHEST,CR,0
+41541e45-99ab-4c0a-a391-53981f49a95e,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+417947e1-87b7-439b-ab21-57a54ce3e0de,577.0,507.0,298.0,264.0,Lung Opacity,30,F,AP,CHEST,CR,1
+418c026a-52a8-4b5f-a11b-5dec2fae20f5,132.0,236.0,204.0,334.0,Lung Opacity,68,M,AP,CHEST,CR,1
+41bf2042-53a2-44a8-9a29-55e643af5ac0,575.0,186.0,223.0,458.0,Lung Opacity,32,F,AP,CHEST,CR,1
+41bf2042-53a2-44a8-9a29-55e643af5ac0,217.0,474.0,126.0,160.0,Lung Opacity,32,F,AP,CHEST,CR,1
+41c03709-012a-4f30-8254-42582bf53e31,,,,,No Lung Opacity / Not Normal,72,M,AP,CHEST,CR,0
+424d2854-b04f-4479-8857-a49b157979f3,,,,,No Lung Opacity / Not Normal,49,M,PA,CHEST,CR,0
+427f7983-089b-4041-9772-e92b75d7e202,,,,,Normal,56,F,PA,CHEST,CR,0
+429ce315-0640-4a04-b241-6cdef80b5445,,,,,No Lung Opacity / Not Normal,50,F,AP,CHEST,CR,0
+42bfb1f3-9f7e-4e47-8983-49b16d73697f,,,,,No Lung Opacity / Not Normal,50,M,PA,CHEST,CR,0
+42d528c3-7c42-4d3d-a477-0af31cca9aaf,,,,,No Lung Opacity / Not Normal,39,F,PA,CHEST,CR,0
+431af61b-bbf6-4c35-842c-4a0679a7738b,,,,,No Lung Opacity / Not Normal,70,M,PA,CHEST,CR,0
+43450dc4-b305-41fd-98b0-0fca3c3a407c,,,,,No Lung Opacity / Not Normal,72,F,AP,CHEST,CR,0
+43b42736-57c4-447d-9c50-19b92dcde9e3,,,,,No Lung Opacity / Not Normal,57,F,AP,CHEST,CR,0
+43d0854c-a7f1-4901-addc-fa88cecf99d5,,,,,No Lung Opacity / Not Normal,42,F,PA,CHEST,CR,0
+449547df-d691-4032-870d-e37732eb809d,,,,,No Lung Opacity / Not Normal,60,F,AP,CHEST,CR,0
+44a23bfa-5c34-4919-9b41-a31f1ff4fcf8,296.0,308.0,209.0,365.0,Lung Opacity,32,F,AP,CHEST,CR,1
+44a23bfa-5c34-4919-9b41-a31f1ff4fcf8,582.0,249.0,222.0,383.0,Lung Opacity,32,F,AP,CHEST,CR,1
+44da3869-4815-4f7c-9350-a396d9961443,282.0,383.0,156.0,197.0,Lung Opacity,13,F,AP,CHEST,CR,1
+44de9539-8222-4e4e-b7e7-0f8571844731,,,,,No Lung Opacity / Not Normal,59,M,AP,CHEST,CR,0
+44def0ee-7e27-412e-bc8b-64ceaea4679e,,,,,No Lung Opacity / Not Normal,42,M,PA,CHEST,CR,0
+4528fe4c-daaa-410b-9089-999bf26ca615,,,,,No Lung Opacity / Not Normal,34,F,PA,CHEST,CR,0
+4571ba1f-131f-47d6-a5c4-a5f1e2fb7b77,,,,,No Lung Opacity / Not Normal,67,M,AP,CHEST,CR,0
+4571ec5d-33a3-4a1e-8473-3b6f423198c9,,,,,No Lung Opacity / Not Normal,69,F,PA,CHEST,CR,0
+458c6251-34a1-43f1-9035-1dfa11664cd8,,,,,Normal,52,F,PA,CHEST,CR,0
+45f51ef1-9ee9-42c7-abc0-45669cdc86ca,,,,,No Lung Opacity / Not Normal,34,M,AP,CHEST,CR,0
+461aa799-2a1f-4710-a115-7410b088db06,,,,,No Lung Opacity / Not Normal,74,M,AP,CHEST,CR,0
+4623b8aa-c30b-47e8-baae-cd5f1565fcb2,,,,,Normal,53,M,PA,CHEST,CR,0
+464a8cdb-4e55-48de-b61f-72edb6992e0f,323.0,203.0,217.0,437.0,Lung Opacity,59,F,AP,CHEST,CR,1
+464a8cdb-4e55-48de-b61f-72edb6992e0f,620.0,206.0,264.0,427.0,Lung Opacity,59,F,AP,CHEST,CR,1
+46a46b58-a96b-438b-9742-ade04045c9fb,,,,,Normal,36,F,PA,CHEST,CR,0
+46baab38-2341-4b1b-bd3c-fb16e4b1237f,,,,,Normal,21,M,PA,CHEST,CR,0
+46bb54fa-d083-44c4-b7af-a6015b7d90b2,,,,,No Lung Opacity / Not Normal,44,M,PA,CHEST,CR,0
+471b74c7-0413-40e4-b683-d552d8c10e1b,,,,,No Lung Opacity / Not Normal,64,F,PA,CHEST,CR,0
+4720bf42-9a75-4325-a841-e2710a9c60f4,,,,,Normal,47,F,PA,CHEST,CR,0
+47239dcf-cc37-4b8f-afcc-e5ebea55a23a,,,,,No Lung Opacity / Not Normal,62,F,AP,CHEST,CR,0
+472688c0-2bd6-4fa3-b2ee-56b441e5cb35,,,,,Normal,45,F,PA,CHEST,CR,0
+473d1ae4-c517-42fb-93a4-cf0361b062b2,,,,,No Lung Opacity / Not Normal,25,M,AP,CHEST,CR,0
+4794cea6-ea2b-4ab4-8939-d90e101e7a71,,,,,No Lung Opacity / Not Normal,42,F,PA,CHEST,CR,0
+4815cce8-5790-4c0d-9b3e-54a51a14de68,,,,,Normal,55,M,PA,CHEST,CR,0
+482337a5-eda2-468d-ba86-332065f97bbc,,,,,Normal,52,F,PA,CHEST,CR,0
+482560b1-f73c-402d-97b5-7cc146682bf3,,,,,No Lung Opacity / Not Normal,44,M,AP,CHEST,CR,0
+4880bbc2-8849-46b2-9a94-339ade77668a,,,,,No Lung Opacity / Not Normal,53,F,AP,CHEST,CR,0
+48919ff9-713a-412b-b125-bdce2ae23783,,,,,Normal,34,M,PA,CHEST,CR,0
+489a175a-4c5c-4b7f-8fdc-cd8514404dbe,636.0,522.0,158.0,116.0,Lung Opacity,55,F,PA,CHEST,CR,1
+48a44f52-7fb3-4384-a76b-f6170b03a357,,,,,Normal,50,F,AP,CHEST,CR,0
+48ae9130-760b-4de8-9407-75eaa69987ca,,,,,No Lung Opacity / Not Normal,87,F,AP,CHEST,CR,0
+490bfbde-9177-4544-bc0b-f5b33d3f6bb5,,,,,Normal,43,F,PA,CHEST,CR,0
+492e6578-7e21-4fbf-9ffb-1ba3b28be93a,,,,,No Lung Opacity / Not Normal,74,F,PA,CHEST,CR,0
+49435b2f-35e9-4ad0-9c46-308ff19c3280,,,,,No Lung Opacity / Not Normal,64,F,PA,CHEST,CR,0
+494a975e-b29a-4dc1-92e3-de61ea9d6372,,,,,No Lung Opacity / Not Normal,62,F,AP,CHEST,CR,0
+494e613b-e81b-4ae0-856b-178c0310552b,,,,,No Lung Opacity / Not Normal,10,M,AP,CHEST,CR,0
+4955984e-afcd-42fc-a3dd-1daa3df12f3e,289.0,551.0,235.0,354.0,Lung Opacity,62,F,AP,CHEST,CR,1
+4a015759-30af-48fe-9d3d-50bca0dc0480,,,,,Normal,50,M,PA,CHEST,CR,0
+4a0ce646-2995-4efc-9fef-e85698fdbcb6,,,,,No Lung Opacity / Not Normal,63,M,PA,CHEST,CR,0
+4a14b91b-eb5f-437a-9364-639af4ce3753,,,,,No Lung Opacity / Not Normal,49,M,PA,CHEST,CR,0
+4ab138eb-722e-49b2-b4ce-91bb364eed7a,,,,,No Lung Opacity / Not Normal,55,F,PA,CHEST,CR,0
+4ab7037d-0c66-41ac-a1fc-964b638f6054,,,,,Normal,52,M,PA,CHEST,CR,0
+4b85f617-4e30-404c-b9c1-5e9b8776dfba,343.0,264.0,222.0,528.0,Lung Opacity,21,M,AP,CHEST,CR,1
+4b85f617-4e30-404c-b9c1-5e9b8776dfba,678.0,290.0,249.0,506.0,Lung Opacity,21,M,AP,CHEST,CR,1
+4bc72429-60ca-455c-a6fa-413a35ab20e9,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+4bf42abe-22fa-4c93-919b-cff5ed49bc87,,,,,Normal,40,M,PA,CHEST,CR,0
+4bffacc2-e2b5-41b8-a5c3-804b8466bb47,274.0,296.0,211.0,292.0,Lung Opacity,42,M,AP,CHEST,CR,1
+4c645f41-0960-4544-9ec5-706d70db8c54,217.0,257.0,222.0,374.0,Lung Opacity,18,M,AP,CHEST,CR,1
+4c645f41-0960-4544-9ec5-706d70db8c54,543.0,283.0,268.0,420.0,Lung Opacity,18,M,AP,CHEST,CR,1
+4cfb1452-b5dd-4b81-a890-8af9d3788de7,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+4d3468e5-59cc-4501-9160-66ae5a0d13b5,,,,,No Lung Opacity / Not Normal,67,M,PA,CHEST,CR,0
+4d4942d3-22cc-4dff-a753-cdea5e1a3498,,,,,Normal,37,F,PA,CHEST,CR,0
+4d805b5f-5521-4e8f-8c73-85435878d0ff,,,,,No Lung Opacity / Not Normal,67,F,AP,CHEST,CR,0
+4d95fe98-3899-4bf4-8d54-c0c2ca641201,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+4dbe5075-9223-4289-92d4-0a4567e522c0,,,,,No Lung Opacity / Not Normal,46,M,AP,CHEST,CR,0
+4de1459a-541e-4449-bbbd-38f829c4d4f5,,,,,Normal,44,F,PA,CHEST,CR,0
+4de71e08-58a2-4780-bf0f-24cd2ffaa6b2,428.0,236.0,336.0,537.0,Lung Opacity,22,M,AP,CHEST,CR,1
+4de71e08-58a2-4780-bf0f-24cd2ffaa6b2,46.0,192.0,295.0,531.0,Lung Opacity,22,M,AP,CHEST,CR,1
+4e08a9b6-0670-4944-ad61-8c824920b6e7,245.0,290.0,217.0,408.0,Lung Opacity,49,F,AP,CHEST,CR,1
+4e08a9b6-0670-4944-ad61-8c824920b6e7,562.0,267.0,354.0,593.0,Lung Opacity,49,F,AP,CHEST,CR,1
+4e18d663-eea2-4b61-9adf-ee952b5c6859,,,,,No Lung Opacity / Not Normal,51,F,PA,CHEST,CR,0
+4e27dfb7-0951-4b29-9851-b28d24f9b9f3,279.0,296.0,193.0,252.0,Lung Opacity,17,F,AP,CHEST,CR,1
+4e287d07-4d9b-4a79-86d1-86d9cc3946f2,,,,,Normal,26,F,PA,CHEST,CR,0
+4ea20c39-523c-47df-a386-e32ca90ebdb0,,,,,Normal,28,M,PA,CHEST,CR,0
+4ebf07c6-2380-4dcb-beeb-f6aa2bc007bc,,,,,Normal,40,F,PA,CHEST,CR,0
+4edf6d79-0dc8-4b45-b40f-2bdd0665e115,198.0,301.0,231.0,375.0,Lung Opacity,61,F,AP,CHEST,CR,1
+4edf6d79-0dc8-4b45-b40f-2bdd0665e115,511.0,339.0,230.0,340.0,Lung Opacity,61,F,AP,CHEST,CR,1
+4f0ee67b-d4c2-41e2-96eb-89fd7287844d,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+4f1b2e67-df6e-4c37-b9f7-fb295b343784,,,,,Normal,52,M,PA,CHEST,CR,0
+4f20081c-d7f6-4516-9a3a-8a52e64ea16e,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+4f404c2b-d0b9-4c60-9ed3-b78e87fae530,,,,,No Lung Opacity / Not Normal,34,F,AP,CHEST,CR,0
+4f80b758-d33c-4e13-be26-55273d12c398,,,,,No Lung Opacity / Not Normal,67,F,AP,CHEST,CR,0
+4f8178a0-d707-435d-a582-9ba89911f6b8,,,,,No Lung Opacity / Not Normal,31,M,PA,CHEST,CR,0
+4fd64d6d-20ef-4dab-ba56-3cef7362bfb9,,,,,No Lung Opacity / Not Normal,73,F,AP,CHEST,CR,0
+4fde5c43-28d3-4f6f-afa2-ba572b7e11e7,,,,,No Lung Opacity / Not Normal,70,F,AP,CHEST,CR,0
+5003f421-e6d3-4c2c-b713-eba27a9078c2,218.0,340.0,254.0,424.0,Lung Opacity,30,F,AP,CHEST,CR,1
+5003f421-e6d3-4c2c-b713-eba27a9078c2,523.0,288.0,279.0,472.0,Lung Opacity,30,F,AP,CHEST,CR,1
+507c6bb3-70b3-4324-bc50-1422fc599963,,,,,No Lung Opacity / Not Normal,29,F,AP,CHEST,CR,0
+507f46e9-5760-4ae2-bebd-b0afd82fdf0a,,,,,Normal,57,F,PA,CHEST,CR,0
+5093633b-af1a-40b0-ab97-6aa4c586661f,,,,,No Lung Opacity / Not Normal,39,M,AP,CHEST,CR,0
+50f55956-f1d3-45ed-88e4-2ecd12c816af,,,,,No Lung Opacity / Not Normal,55,F,PA,CHEST,CR,0
+51461563-5a0f-44b9-8ef6-3c6967c522e1,,,,,No Lung Opacity / Not Normal,28,F,AP,CHEST,CR,0
+51766ab4-c931-427d-b8f5-33974a79abe2,,,,,No Lung Opacity / Not Normal,62,F,PA,CHEST,CR,0
+51f68c41-ad1f-4440-aaf2-b8d7440fbec0,,,,,No Lung Opacity / Not Normal,48,F,AP,CHEST,CR,0
+52437d77-5a6c-4765-ae7b-a2383cac50aa,689.0,782.0,222.0,144.0,Lung Opacity,53,M,PA,CHEST,CR,1
+52437d77-5a6c-4765-ae7b-a2383cac50aa,206.0,625.0,193.0,149.0,Lung Opacity,53,M,PA,CHEST,CR,1
+5251194e-171e-4193-9b5d-ee5dc23d54da,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+52566b7d-cece-4595-8163-dcd6fcd26f8b,,,,,Normal,49,F,PA,CHEST,CR,0
+5275e216-8aeb-407e-8580-c6aba6632c6d,,,,,No Lung Opacity / Not Normal,61,M,AP,CHEST,CR,0
+52c13b33-0eb6-4d1e-932a-0b0fb56e391a,,,,,Normal,63,F,PA,CHEST,CR,0
+5337cc53-2e5d-4583-8173-c130cbe8fc74,617.0,544.0,288.0,271.0,Lung Opacity,33,F,PA,CHEST,CR,1
+53645011-e495-4bc3-a3fa-087aa3cde971,,,,,No Lung Opacity / Not Normal,60,F,PA,CHEST,CR,0
+5386aa61-84c4-4f35-ba45-62544e1887cd,,,,,Normal,63,F,AP,CHEST,CR,0
+53931ba8-38aa-4407-8de7-ba36e0d065e5,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+53a939bb-ceff-43fe-a013-5b3179dfc804,175.0,342.0,280.0,437.0,Lung Opacity,52,M,AP,CHEST,CR,1
+53a939bb-ceff-43fe-a013-5b3179dfc804,556.0,288.0,305.0,569.0,Lung Opacity,52,M,AP,CHEST,CR,1
+53b79b14-305c-41ac-889c-eed894b86e2d,,,,,No Lung Opacity / Not Normal,48,F,AP,CHEST,CR,0
+53cd7c28-fe79-4537-99b5-e942987b67d1,,,,,Normal,20,F,PA,CHEST,CR,0
+53e03899-b8dc-4e96-a25d-c5061876db80,,,,,No Lung Opacity / Not Normal,67,M,PA,CHEST,CR,0
+53fb3cb4-eef2-4b3e-812f-2cdba5b21791,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+53fbe60e-22bc-4400-9640-60c48846abf5,,,,,No Lung Opacity / Not Normal,60,F,PA,CHEST,CR,0
+545258bb-53e4-4219-9b5f-62d18661eac2,,,,,Normal,47,M,PA,CHEST,CR,0
+545ef4ff-a6c7-40b6-bc2a-34e71c758909,,,,,Normal,25,M,PA,CHEST,CR,0
+546156f0-9e90-4410-a515-3fdc807950ea,,,,,No Lung Opacity / Not Normal,59,F,AP,CHEST,CR,0
+546629ff-ce7e-4bd9-b0be-def0ed5842c2,,,,,Normal,32,M,PA,CHEST,CR,0
+549618db-d06e-4b93-b415-b698984cb229,,,,,Normal,50,F,PA,CHEST,CR,0
+54998746-d18c-4f2f-81c3-e2fb11d1f8d5,,,,,No Lung Opacity / Not Normal,32,M,AP,CHEST,CR,0
+54b53c56-3a5d-40c0-9a2d-c0b287944a60,,,,,No Lung Opacity / Not Normal,32,F,AP,CHEST,CR,0
+54ca2bbe-f8cb-4c30-b128-9a0948f9da4d,,,,,Normal,45,F,PA,CHEST,CR,0
+555acecc-77b2-4094-b98e-f9531ef5c326,,,,,No Lung Opacity / Not Normal,43,F,PA,CHEST,CR,0
+55ddd20e-3bb3-41e7-a931-973c40e3117b,,,,,No Lung Opacity / Not Normal,75,M,PA,CHEST,CR,0
+56225c94-f695-4bef-889c-c1e4d750f024,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+565fe404-f4db-442f-9921-eb1e7a19d763,,,,,Normal,28,M,PA,CHEST,CR,0
+56a7f91d-3ccd-4be6-88a7-659ebb9f3829,,,,,Normal,70,M,PA,CHEST,CR,0
+56b0cf24-93a5-480f-b295-ec9c6e0ceb3b,,,,,Normal,16,M,PA,CHEST,CR,0
+56b5c0cf-8a3c-42f2-b3e2-adb2f550c451,81.0,587.0,210.0,222.0,Lung Opacity,60,M,AP,CHEST,CR,1
+56b5c0cf-8a3c-42f2-b3e2-adb2f550c451,552.0,389.0,201.0,213.0,Lung Opacity,60,M,AP,CHEST,CR,1
+56ca817b-e17d-4b2b-95c8-d544a7786124,637.0,241.0,210.0,213.0,Lung Opacity,57,M,AP,CHEST,CR,1
+5717252c-482a-4279-9456-535d39f333d0,,,,,Normal,30,M,PA,CHEST,CR,0
+5772efe6-5336-474e-a619-d2d5529fa316,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+5774a68f-e370-4522-a1c2-cc03e2bfb3b6,558.0,380.0,317.0,284.0,Lung Opacity,65,F,PA,CHEST,CR,1
+579c68e7-c03e-4cd7-bda5-93de372571f2,,,,,Normal,21,M,PA,CHEST,CR,0
+579cf15d-2b88-48f4-a4b1-f851194359d3,,,,,No Lung Opacity / Not Normal,17,F,AP,CHEST,CR,0
+58159114-ac1b-43f6-a6b1-94451fbb6c48,,,,,Normal,74,M,PA,CHEST,CR,0
+581a6cd9-f4ef-49df-8c10-9ee6468b0e40,,,,,No Lung Opacity / Not Normal,39,F,AP,CHEST,CR,0
+582036c6-73da-4ea8-975d-e5a7bf295187,,,,,No Lung Opacity / Not Normal,51,M,PA,CHEST,CR,0
+586841d0-2dd5-4e3f-b5de-62da10a5b9b7,,,,,No Lung Opacity / Not Normal,76,F,PA,CHEST,CR,0
+5871b176-cee8-4b9b-80e0-a6a4cf36d1b6,,,,,Normal,35,M,PA,CHEST,CR,0
+58b049d6-b48c-4edc-ac83-753591aa359d,,,,,No Lung Opacity / Not Normal,29,F,AP,CHEST,CR,0
+58c2439a-ed5a-493d-b8d3-bf57d08af322,,,,,No Lung Opacity / Not Normal,29,M,AP,CHEST,CR,0
+58cf20bd-7e42-4be4-8599-d37c819bfd82,,,,,No Lung Opacity / Not Normal,74,M,AP,CHEST,CR,0
+58e38024-ca19-4410-b4b2-0230b1cf7320,,,,,No Lung Opacity / Not Normal,52,F,AP,CHEST,CR,0
+592eba0f-e259-4a04-a574-05259f61fe5f,,,,,Normal,38,M,PA,CHEST,CR,0
+5943e6f7-7706-42ce-837e-2b48396a84d4,,,,,Normal,69,M,AP,CHEST,CR,0
+59479dae-e35a-45e9-b73e-50e2630cc8e4,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+5952e12d-5aac-4b4a-bd32-3a12d025cd85,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+595d455b-2563-4e7b-9915-e22aa9b5b287,,,,,No Lung Opacity / Not Normal,77,M,PA,CHEST,CR,0
+59a340f3-3567-45e5-94f4-9de2faf44a98,,,,,Normal,7,F,PA,CHEST,CR,0
+59f86f85-1504-41f2-b6e7-51394fd65ca1,142.0,498.0,224.0,224.0,Lung Opacity,33,M,AP,CHEST,CR,1
+5a09e3da-1f9d-4cda-84e9-d8bd5818daf9,,,,,Normal,20,M,PA,CHEST,CR,0
+5a38a30a-650e-4112-879a-fa387aae1b20,,,,,Normal,47,M,PA,CHEST,CR,0
+5a5e64b2-2a06-4a60-9d1a-fb6c4b6efa55,,,,,No Lung Opacity / Not Normal,47,M,AP,CHEST,CR,0
+5a6af9f4-2f0b-410b-88d8-cae465171d79,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+5a7e8b9d-2461-416e-8a83-9b9ee8463564,,,,,Normal,43,M,PA,CHEST,CR,0
+5a8e51d4-1b33-45b3-8f96-5a4027462cbc,124.0,258.0,183.0,457.0,Lung Opacity,73,M,AP,CHEST,CR,1
+5aa9d87b-8b54-42d2-b2a1-9b48f524707e,,,,,Normal,30,M,AP,CHEST,CR,0
+5aba31fa-81e4-48cd-ba50-f885c2af8ca9,,,,,No Lung Opacity / Not Normal,49,F,AP,CHEST,CR,0
+5b1b89b6-59e7-4275-b68a-5c0c4704d668,590.0,321.0,177.0,223.0,Lung Opacity,17,F,AP,CHEST,CR,1
+5b80895c-63a9-4cdc-a869-5ca00043e862,,,,,Normal,45,M,PA,CHEST,CR,0
+5b87ecdd-73ea-4dea-887c-85a52c6d2f9f,271.0,452.0,169.0,137.0,Lung Opacity,33,F,AP,CHEST,CR,1
+5b87ecdd-73ea-4dea-887c-85a52c6d2f9f,676.0,459.0,191.0,266.0,Lung Opacity,33,F,AP,CHEST,CR,1
+5bf4f366-c68b-45bb-9a7e-1d1a20b3b581,,,,,Normal,74,M,PA,CHEST,CR,0
+5c1e55b7-e799-436f-a366-d7474c644e8a,389.0,488.0,82.0,157.0,Lung Opacity,31,F,AP,CHEST,CR,1
+5c2964dd-2928-492b-865e-412e33fda7a8,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+5c3d2e98-56df-408d-a597-359fb4115cc0,,,,,No Lung Opacity / Not Normal,27,M,AP,CHEST,CR,0
+5c5deec5-d9da-4b29-99c4-a97559736e24,,,,,No Lung Opacity / Not Normal,48,M,AP,CHEST,CR,0
+5c832734-cfe3-4602-9b28-f71416e62fa6,143.0,432.0,229.0,110.0,Lung Opacity,60,M,AP,CHEST,CR,1
+5c832734-cfe3-4602-9b28-f71416e62fa6,260.0,632.0,161.0,194.0,Lung Opacity,60,M,AP,CHEST,CR,1
+5c9436c8-eda2-4db2-bed6-a36c24efac94,,,,,No Lung Opacity / Not Normal,73,F,AP,CHEST,CR,0
+5cb11c59-6ba7-4f94-b9f8-12927ffb8981,357.0,522.0,115.0,165.0,Lung Opacity,58,F,AP,CHEST,CR,1
+5ce33c89-036e-48dc-b047-59adaaea4f85,,,,,No Lung Opacity / Not Normal,23,M,PA,CHEST,CR,0
+5d07d002-81e4-40f6-8ec9-1db9eeea10cd,,,,,No Lung Opacity / Not Normal,74,M,PA,CHEST,CR,0
+5d1bd7da-95d2-46b5-8e3e-126de41e1ebb,,,,,No Lung Opacity / Not Normal,21,M,AP,CHEST,CR,0
+5d1d4b97-459b-457a-b7cd-729c494ddb60,193.0,640.0,205.0,47.0,Lung Opacity,35,M,AP,CHEST,CR,1
+5d256814-d5bd-4f0f-89f6-5f111574be94,,,,,No Lung Opacity / Not Normal,30,M,PA,CHEST,CR,0
+5d270645-9eaf-4198-9505-8335d0095ff8,,,,,Normal,43,M,PA,CHEST,CR,0
+5d56c54a-8016-4472-9a3c-5998a6ddfb66,,,,,No Lung Opacity / Not Normal,33,M,AP,CHEST,CR,0
+5d5f2759-c1af-454a-86a1-5f190fa0f001,432.0,518.0,140.0,154.0,Lung Opacity,10,M,AP,CHEST,CR,1
+5d7db043-8815-455f-b5ce-bfe012697057,,,,,Normal,39,M,PA,CHEST,CR,0
+5d83e501-8180-4680-af59-6ab061822173,,,,,Normal,57,M,PA,CHEST,CR,0
+5d91c7e7-e7e1-4ce0-a9c5-e8cf231950f8,,,,,No Lung Opacity / Not Normal,71,F,AP,CHEST,CR,0
+5dc2ed86-dfaf-4f99-9082-c2ba436df200,,,,,No Lung Opacity / Not Normal,41,M,PA,CHEST,CR,0
+5dcf58d0-581a-4f9f-90e3-c6004a646286,,,,,Normal,62,F,PA,CHEST,CR,0
+5e1e25cf-f14a-407d-af53-486d088d7e9f,,,,,Normal,53,M,PA,CHEST,CR,0
+5e461bd3-5247-4b18-a099-ab0a2ba6b437,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+5e5e1993-62b0-4413-9534-e79735ebc270,,,,,Normal,65,M,PA,CHEST,CR,0
+5e608de0-7c4b-4e08-8e20-e03c4e840f3b,,,,,Normal,68,F,AP,CHEST,CR,0
+5e6b7518-c9d5-4981-bfca-d5e4597e2a02,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+5e70d50b-1b44-4ae5-8c7f-f66ebda228f0,,,,,Normal,62,F,PA,CHEST,CR,0
+5ebe32fe-3ee4-4ebe-9bbd-3e91b9a84da3,,,,,No Lung Opacity / Not Normal,22,M,PA,CHEST,CR,0
+5ef06067-7884-4079-80ef-24cfe392e939,,,,,Normal,31,M,AP,CHEST,CR,0
+5f016f29-19c6-4895-905b-354bae107073,321.0,242.0,197.0,300.0,Lung Opacity,52,F,AP,CHEST,CR,1
+5f016f29-19c6-4895-905b-354bae107073,695.0,257.0,158.0,267.0,Lung Opacity,52,F,AP,CHEST,CR,1
+5f60e810-6c24-4c0f-b768-ed371e544a10,245.0,221.0,218.0,362.0,Lung Opacity,49,F,AP,CHEST,CR,1
+5f60e810-6c24-4c0f-b768-ed371e544a10,612.0,153.0,217.0,354.0,Lung Opacity,49,F,AP,CHEST,CR,1
+5f6ce9e1-afb7-4719-8d1b-e2276d772a76,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+5f89a135-4b20-4ac9-851a-6d4a27827d25,,,,,Normal,25,F,PA,CHEST,CR,0
+5f9bfb92-2930-414a-bbeb-8f63a9c73de3,,,,,Normal,32,M,PA,CHEST,CR,0
+5f9d676f-13bd-4c0c-8727-14804220f54f,,,,,Normal,37,F,PA,CHEST,CR,0
+5fddbf25-9d69-435f-b803-9222e972e32b,,,,,Normal,44,M,PA,CHEST,CR,0
+603e0ec2-c196-4486-852d-de43fb375d16,,,,,No Lung Opacity / Not Normal,51,F,PA,CHEST,CR,0
+604a6a95-e65c-43c4-b12d-7045ad92e54b,,,,,Normal,57,M,PA,CHEST,CR,0
+6050f5be-e861-451b-80c4-0b79c9eaf9cc,,,,,No Lung Opacity / Not Normal,35,F,AP,CHEST,CR,0
+606399ca-67b1-438f-91b3-de7d1914a7e8,,,,,No Lung Opacity / Not Normal,42,F,AP,CHEST,CR,0
+6067a125-b3e5-4723-bc09-0d502ade3894,,,,,Normal,45,F,PA,CHEST,CR,0
+60d439ce-dd5a-4d41-bc80-849786a0ada6,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+60eb7009-765c-401f-b794-a7f127a38072,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+6108f7c0-96c4-48e6-994e-32e3cbeaf8d7,248.0,645.0,131.0,45.0,Lung Opacity,92,M,AP,CHEST,CR,1
+612892af-2ac4-4da7-befb-c9bd18be97a2,,,,,No Lung Opacity / Not Normal,74,F,AP,CHEST,CR,0
+6186e217-86ef-4140-8b7f-ae056a4eaf3b,,,,,Normal,39,F,AP,CHEST,CR,0
+61afc92b-f81a-4466-a69e-a012943ccfd3,,,,,Normal,34,M,PA,CHEST,CR,0
+620f78d1-c325-4410-996b-a6ff7018cbe4,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+62396bee-3db6-4de8-a78f-6a0c4a459421,,,,,No Lung Opacity / Not Normal,66,F,AP,CHEST,CR,0
+6245bff0-f2da-41a0-a503-4a578f65bcfc,,,,,No Lung Opacity / Not Normal,53,M,PA,CHEST,CR,0
+628b5d45-db3b-4d2c-9deb-f10795950543,,,,,No Lung Opacity / Not Normal,47,F,PA,CHEST,CR,0
+628eea1d-9db2-4a99-acb3-0d846c3ac48f,171.0,589.0,238.0,188.0,Lung Opacity,57,M,PA,CHEST,CR,1
+62af04d1-5dd1-4306-a137-7b6b39c866af,,,,,No Lung Opacity / Not Normal,42,F,PA,CHEST,CR,0
+62dd5470-a8d1-467c-ab0c-364e0a4a6ee8,,,,,No Lung Opacity / Not Normal,67,M,PA,CHEST,CR,0
+6300afea-0530-4954-9fd9-e228e527449a,,,,,No Lung Opacity / Not Normal,33,M,AP,CHEST,CR,0
+63107976-9708-441f-8fc5-4ee872f0dad0,,,,,No Lung Opacity / Not Normal,50,F,AP,CHEST,CR,0
+631d3a80-b2a4-4230-8d82-d141d3a8f064,689.0,545.0,91.0,134.0,Lung Opacity,64,M,AP,CHEST,CR,1
+631f9025-e04f-47c4-8db1-de7ddf0c8b60,,,,,No Lung Opacity / Not Normal,45,M,PA,CHEST,CR,0
+632adac1-817d-4b81-9b95-9a9a89320986,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+63515470-5841-47cd-af05-d1169ac3a28a,,,,,Normal,18,F,AP,CHEST,CR,0
+6356caac-984a-41de-b607-97f9eb7afa30,,,,,Normal,58,M,PA,CHEST,CR,0
+63583781-88e5-4ac2-b4b1-d7d8541c1a45,,,,,Normal,48,M,PA,CHEST,CR,0
+63777dfc-f664-437c-ac16-eae613db1593,,,,,Normal,13,M,PA,CHEST,CR,0
+638cda92-a9c2-4523-a564-4b2c89836c5b,,,,,Normal,38,F,PA,CHEST,CR,0
+639a7b70-1b46-42c1-bc8d-05b1861292ef,310.0,422.0,191.0,431.0,Lung Opacity,58,F,AP,CHEST,CR,1
+639a7b70-1b46-42c1-bc8d-05b1861292ef,628.0,401.0,233.0,453.0,Lung Opacity,58,F,AP,CHEST,CR,1
+63c27990-e4e2-4c0b-a53e-040929938de9,165.0,493.0,135.0,185.0,Lung Opacity,16,M,AP,CHEST,CR,1
+63e1e099-ab0b-4ef4-91a8-36a47e422aab,,,,,No Lung Opacity / Not Normal,72,M,AP,CHEST,CR,0
+63e7e31e-5872-4215-a384-d25fff4c1b81,,,,,No Lung Opacity / Not Normal,33,F,AP,CHEST,CR,0
+63ec0f9c-054b-494e-ac23-29b36e6b438a,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+6407809e-0a0d-489c-a2d9-1abe547bf70f,,,,,Normal,12,M,PA,CHEST,CR,0
+640dd4d6-8797-4fbf-b2e7-2a754a0f14f1,,,,,No Lung Opacity / Not Normal,68,F,PA,CHEST,CR,0
+6448b83f-acd4-4ec5-94ca-fa76bd04a9cd,,,,,No Lung Opacity / Not Normal,71,F,AP,CHEST,CR,0
+6467764a-7c47-4e5b-b558-589878b8c369,,,,,Normal,65,M,AP,CHEST,CR,0
+646f1dfe-7103-463f-adec-2cc4f5190e90,,,,,Normal,30,F,AP,CHEST,CR,0
+647318b9-ffbd-4f35-8deb-f570410046db,,,,,Normal,45,M,PA,CHEST,CR,0
+6479c18f-0b92-4ad5-84a0-53ed3593a2aa,,,,,Normal,26,F,AP,CHEST,CR,0
+647b7bbc-5cfb-4776-b157-838a4264d318,244.0,528.0,218.0,236.0,Lung Opacity,26,M,AP,CHEST,CR,1
+64be5fab-9938-4e79-9633-1aa4ee33ebf5,,,,,Normal,49,M,PA,CHEST,CR,0
+64f3e365-cff6-4257-85b8-3305653023f7,,,,,No Lung Opacity / Not Normal,59,M,AP,CHEST,CR,0
+652cf0c2-fed4-407c-8bd7-94d7e8787b35,,,,,Normal,43,M,AP,CHEST,CR,0
+653986b0-d36d-474c-bc49-bfaf075a536d,,,,,No Lung Opacity / Not Normal,46,M,PA,CHEST,CR,0
+65634398-84ef-4ccc-b958-702862c4d4fd,,,,,No Lung Opacity / Not Normal,23,M,AP,CHEST,CR,0
+657b1ec2-8f10-4070-bfde-db020bbdb2fe,,,,,Normal,16,M,AP,CHEST,CR,0
+659cede9-eeb6-4b01-9adc-8586a29bcc72,,,,,No Lung Opacity / Not Normal,23,F,PA,CHEST,CR,0
+65d2460e-4507-4eed-bdb2-4fca29713477,,,,,No Lung Opacity / Not Normal,54,M,AP,CHEST,CR,0
+65ee68ec-bee2-446e-8aa7-171ee0bef2c0,,,,,Normal,72,M,PA,CHEST,CR,0
+65fad8ec-0707-4dd2-8753-5a8dadec1717,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+6607ca20-4737-43b9-b297-d119873f1754,,,,,Normal,66,F,PA,CHEST,CR,0
+663c8e1e-6afb-4ccc-b78c-a7865dc179a4,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+6648e4d4-8073-454a-83a6-f3e7fe775a0b,,,,,No Lung Opacity / Not Normal,62,M,PA,CHEST,CR,0
+66b4b3bd-d774-4869-9e97-5b84085f91cb,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+6720f41b-840e-4c71-bbd2-838858ab2281,302.0,399.0,191.0,154.0,Lung Opacity,71,F,AP,CHEST,CR,1
+67604c51-1e73-41b3-b268-d136308d7f60,,,,,Normal,43,F,PA,CHEST,CR,0
+67c8fe1f-1823-4ccb-adae-f87ea3193425,,,,,Normal,58,F,PA,CHEST,CR,0
+67cba87c-af3f-4399-876b-64d8e4c6e512,,,,,No Lung Opacity / Not Normal,30,F,AP,CHEST,CR,0
+682449f6-f723-4460-8bb4-03d027449e8f,,,,,Normal,20,F,AP,CHEST,CR,0
+68270fb8-974b-4e35-87d9-ae5d77cb166c,,,,,No Lung Opacity / Not Normal,71,M,AP,CHEST,CR,0
+682c1c1e-baf1-4517-a359-a1496c90c52e,,,,,No Lung Opacity / Not Normal,20,F,PA,CHEST,CR,0
+68ab6cf6-eadd-464d-8fce-79269306ecf2,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+68c36cca-65a3-451b-9e47-4fda245588bc,,,,,Normal,63,F,PA,CHEST,CR,0
+68d4ee73-479a-4e8c-beab-6822aa605a0f,634.0,354.0,163.0,234.0,Lung Opacity,74,F,AP,CHEST,CR,1
+68d4ee73-479a-4e8c-beab-6822aa605a0f,306.0,228.0,156.0,282.0,Lung Opacity,74,F,AP,CHEST,CR,1
+69017cf1-c8b2-4b96-bce8-7823f7fa9dd7,,,,,No Lung Opacity / Not Normal,70,F,AP,CHEST,CR,0
+697ba0dd-6546-43b5-bfe6-f331fb96e0fe,226.0,358.0,257.0,287.0,Lung Opacity,56,F,AP,CHEST,CR,1
+69d6aaa8-ff47-4cd7-b183-f5ea21eb2a36,,,,,No Lung Opacity / Not Normal,65,F,AP,CHEST,CR,0
+69ffd6ea-f6f2-408e-a314-eecbd3a3756b,219.0,390.0,198.0,126.0,Lung Opacity,56,F,AP,CHEST,CR,1
+6a007557-7c16-4726-b91f-2da91ee8f798,621.0,497.0,236.0,201.0,Lung Opacity,50,F,AP,CHEST,CR,1
+6a0627c7-189e-4cab-b116-eded7bcf1ad3,,,,,No Lung Opacity / Not Normal,52,F,AP,CHEST,CR,0
+6a6db20b-bb3a-4c61-8c67-bc5ce432c50b,,,,,No Lung Opacity / Not Normal,56,M,AP,CHEST,CR,0
+6a778bf7-2bbd-4804-9d81-38eca7019ffe,219.0,327.0,203.0,350.0,Lung Opacity,52,F,AP,CHEST,CR,1
+6a8394ce-788f-45eb-9b3e-d49935f2d673,,,,,Normal,53,M,PA,CHEST,CR,0
+6b36b729-a050-42b7-afdf-47aefddd81c1,,,,,Normal,42,F,PA,CHEST,CR,0
+6b57680d-0850-4d8e-8663-3d49e3e677af,,,,,No Lung Opacity / Not Normal,63,F,AP,CHEST,CR,0
+6b63aba9-7423-49e1-8f94-a4277592cdf4,,,,,No Lung Opacity / Not Normal,80,M,PA,CHEST,CR,0
+6b9f7b91-8530-45e3-be03-e2f2c0b0a708,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+6bb66994-3a49-44a3-8469-88194055b0b1,,,,,No Lung Opacity / Not Normal,54,F,AP,CHEST,CR,0
+6bb9dce5-ed0a-4c0e-bda5-b40c45c2f9a5,,,,,No Lung Opacity / Not Normal,29,M,PA,CHEST,CR,0
+6bc20130-f64f-4b9c-836a-e3f339d36254,,,,,No Lung Opacity / Not Normal,57,M,AP,CHEST,CR,0
+6c1340a8-cf5d-42b2-88e8-cdf280f16458,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+6c337dd4-fa9f-49c8-8df6-dbeca66376e2,,,,,Normal,35,M,PA,CHEST,CR,0
+6c4fa583-73be-470e-8248-b75c309c2624,,,,,No Lung Opacity / Not Normal,50,F,AP,CHEST,CR,0
+6c72a2a3-d56b-4dfc-9968-675d72d86836,,,,,No Lung Opacity / Not Normal,45,M,AP,CHEST,CR,0
+6c90b38e-795a-4a29-960a-20a5d86c7725,,,,,Normal,38,F,PA,CHEST,CR,0
+6cb10b66-69aa-4bd9-9001-20f8355f818d,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+6d434242-2856-476f-8b14-f8ddb2cfd858,,,,,Normal,28,M,PA,CHEST,CR,0
+6d6c53eb-4b90-4149-a8f4-523b65375525,,,,,No Lung Opacity / Not Normal,56,M,AP,CHEST,CR,0
+6db5a292-f0b6-4e23-baff-001031e582c5,,,,,No Lung Opacity / Not Normal,24,F,PA,CHEST,CR,0
+6dbed23a-5942-4f7f-b2d0-71621f8fcfd8,,,,,No Lung Opacity / Not Normal,39,F,PA,CHEST,CR,0
+6dc2f97e-28bb-4a0e-b821-75c846aac15a,,,,,No Lung Opacity / Not Normal,13,M,AP,CHEST,CR,0
+6df00db5-7799-4dcb-81c5-341c24603cc9,,,,,No Lung Opacity / Not Normal,35,M,AP,CHEST,CR,0
+6e0a0d3e-e768-4b29-a2a9-68dd192861b5,,,,,No Lung Opacity / Not Normal,82,F,PA,CHEST,CR,0
+6e32b376-5740-4565-abd0-b41035f7db64,313.0,426.0,137.0,87.0,Lung Opacity,49,F,PA,CHEST,CR,1
+6e5ce21b-5506-4248-a729-22be4545874e,,,,,No Lung Opacity / Not Normal,56,M,PA,CHEST,CR,0
+6e66dd4c-d183-42c7-ad77-32abf6ca9760,277.0,138.0,218.0,380.0,Lung Opacity,26,M,AP,CHEST,CR,1
+6e6ab7f9-23c5-4abd-b111-c73da5c4a357,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+6e9b0b41-9ad1-4ce0-97d9-263e50f57ade,,,,,Normal,23,M,PA,CHEST,CR,0
+6ec9d99e-a8d6-4ae6-8531-d46042d6500a,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+6ed46917-eb06-4dfe-b573-30057da6d49e,,,,,No Lung Opacity / Not Normal,66,F,PA,CHEST,CR,0
+6eff15a3-997a-4e53-ac2e-24e748fb7c36,,,,,No Lung Opacity / Not Normal,58,M,PA,CHEST,CR,0
+6f0797fa-820f-489f-b7d5-75231b307bf7,276.0,568.0,112.0,89.0,Lung Opacity,50,F,AP,CHEST,CR,1
+6f1c4ee6-9820-40f8-8fe4-c5795f6e241b,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+6f1d6d64-5ccd-4545-a996-dfbf4fd9d298,,,,,No Lung Opacity / Not Normal,63,F,PA,CHEST,CR,0
+6f9f6941-46d9-4c16-8c5a-e2a6de1de7e4,,,,,Normal,20,M,AP,CHEST,CR,0
+6fcc74a3-2249-4f73-b635-b8032192fc26,,,,,Normal,41,M,PA,CHEST,CR,0
+6fe00714-ca20-4d40-96e6-db53c5c600df,,,,,No Lung Opacity / Not Normal,46,M,AP,CHEST,CR,0
+70424f6d-6b1c-475c-b735-4e368f0c8abd,,,,,Normal,48,M,PA,CHEST,CR,0
+7066078d-0568-4411-b20a-09d0c9a87ffd,,,,,Normal,61,F,AP,CHEST,CR,0
+70a2c018-870c-4a1a-b3d3-d2647df5d30e,595.0,201.0,285.0,533.0,Lung Opacity,49,M,AP,CHEST,CR,1
+70a630f3-c0cd-4487-b07f-87e2bbe961e0,573.0,271.0,211.0,248.0,Lung Opacity,38,F,PA,CHEST,CR,1
+70c2e653-8a6a-47af-b66a-4d8a9aed53d1,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+71212080-ccc5-4e0f-bfc1-95710057baea,124.0,786.0,250.0,126.0,Lung Opacity,66,M,AP,CHEST,CR,1
+71288d89-37e7-4b51-b03b-fe64a3d9797d,,,,,No Lung Opacity / Not Normal,40,F,AP,CHEST,CR,0
+71335a57-2671-4ed6-9a0b-291915031efe,,,,,Normal,62,M,PA,CHEST,CR,0
+716a6a18-5dc1-438d-be42-d3eb3ca577d1,,,,,No Lung Opacity / Not Normal,23,F,AP,CHEST,CR,0
+716bf6b1-1764-4774-959f-1d5e3f6fe098,177.0,244.0,231.0,387.0,Lung Opacity,33,F,AP,CHEST,CR,1
+71700acb-e58e-4f94-a8f8-a78d72c5fde9,174.0,463.0,253.0,351.0,Lung Opacity,52,M,AP,CHEST,CR,1
+7184cc40-a58a-40df-9aa7-39d610190410,,,,,No Lung Opacity / Not Normal,69,M,PA,CHEST,CR,0
+719bb18b-a428-4fd8-9338-46f1187ffa5c,630.0,515.0,214.0,414.0,Lung Opacity,62,M,AP,CHEST,CR,1
+719bb18b-a428-4fd8-9338-46f1187ffa5c,206.0,749.0,183.0,266.0,Lung Opacity,62,M,AP,CHEST,CR,1
+7252d75d-6ac8-4220-a108-5406de4a6b22,,,,,Normal,55,F,AP,CHEST,CR,0
+72925c32-9102-466c-a9ab-169cd6e81369,,,,,Normal,46,M,PA,CHEST,CR,0
+729ad38e-12b9-4bc5-8773-cd1615b5bd04,579.0,336.0,127.0,450.0,Lung Opacity,32,M,PA,CHEST,CR,1
+729ad38e-12b9-4bc5-8773-cd1615b5bd04,269.0,298.0,166.0,487.0,Lung Opacity,32,M,PA,CHEST,CR,1
+72a33431-fe30-4297-98df-892c88f0f11a,145.0,479.0,219.0,162.0,Lung Opacity,39,M,AP,CHEST,CR,1
+72a33431-fe30-4297-98df-892c88f0f11a,609.0,368.0,154.0,279.0,Lung Opacity,39,M,AP,CHEST,CR,1
+72dd6992-f8a2-48a3-af61-2cf71e4a0c47,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+72fcb14d-5126-4976-b31f-ad2d21d2462e,646.0,717.0,132.0,97.0,Lung Opacity,60,F,PA,CHEST,CR,1
+72fd2587-d327-4e42-9e18-03479b1a18f9,615.0,246.0,240.0,400.0,Lung Opacity,40,M,AP,CHEST,CR,1
+72fd2587-d327-4e42-9e18-03479b1a18f9,209.0,222.0,250.0,425.0,Lung Opacity,40,M,AP,CHEST,CR,1
+73028cb3-d09d-4d81-9640-88ef1571a4f1,,,,,Normal,20,F,PA,CHEST,CR,0
+731074a1-40f5-43cf-ad03-8c69bfbc1636,,,,,Normal,50,M,PA,CHEST,CR,0
+73199163-eb41-455b-bc73-031bd985a4f4,,,,,No Lung Opacity / Not Normal,50,M,PA,CHEST,CR,0
+731a748e-a46f-4f53-84d5-0607e4e2cbc7,,,,,No Lung Opacity / Not Normal,11,F,AP,CHEST,CR,0
+7338e55e-45f1-456a-bf21-73381ab1ef36,,,,,No Lung Opacity / Not Normal,74,M,PA,CHEST,CR,0
+737030d6-07d1-43de-9e11-82b31accd240,641.0,514.0,190.0,192.0,Lung Opacity,63,F,AP,CHEST,CR,1
+737030d6-07d1-43de-9e11-82b31accd240,297.0,496.0,146.0,251.0,Lung Opacity,63,F,AP,CHEST,CR,1
+737c7eab-7194-4130-a010-954ea6e321e3,,,,,No Lung Opacity / Not Normal,26,F,AP,CHEST,CR,0
+739597a4-836a-4591-8ef2-f912a5822a44,,,,,Normal,48,F,PA,CHEST,CR,0
+73a59a79-acad-42c5-8b91-b22ff7939cbb,,,,,Normal,26,M,PA,CHEST,CR,0
+740c83f7-49c6-48d8-88d7-989e5a55f285,,,,,No Lung Opacity / Not Normal,36,M,PA,CHEST,CR,0
+74340139-eebf-445a-a0a1-2b9101233a3a,662.0,468.0,156.0,165.0,Lung Opacity,33,F,PA,CHEST,CR,1
+74664487-40de-4128-ab49-ed0110727ca8,,,,,No Lung Opacity / Not Normal,55,F,PA,CHEST,CR,0
+746f5331-7bb5-4e38-8970-f796f9c4b428,,,,,Normal,28,M,PA,CHEST,CR,0
+749e4563-3d60-4e27-b050-931be5a86ee6,,,,,Normal,55,M,PA,CHEST,CR,0
+74be60d1-0885-4010-895d-297ea831ddb4,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+74e14225-6744-4587-b10e-3d14272e059c,,,,,Normal,62,M,PA,CHEST,CR,0
+74ef566d-21ce-4b66-b134-a713ca915762,,,,,No Lung Opacity / Not Normal,11,F,AP,CHEST,CR,0
+7510b2b2-4981-48bf-86e5-680414fa17b9,,,,,No Lung Opacity / Not Normal,34,M,AP,CHEST,CR,0
+75613ab8-ec5e-43d2-bee5-8f944d08d793,,,,,Normal,38,M,PA,CHEST,CR,0
+756312b3-4698-4011-9212-a389810fea9b,,,,,No Lung Opacity / Not Normal,31,M,PA,CHEST,CR,0
+756e9d90-e995-43af-ba83-309c2d01b10d,,,,,Normal,45,F,AP,CHEST,CR,0
+75bcbe7d-2568-4010-a0ce-9de23d4d0b08,,,,,Normal,68,F,PA,CHEST,CR,0
+75d50f2f-a869-46ea-8d58-6446ead6d15d,,,,,Normal,55,F,PA,CHEST,CR,0
+75f0f18a-0756-4f7c-8e37-e91f9e5a24be,,,,,Normal,43,M,AP,CHEST,CR,0
+75fffdf2-1f64-4417-a9e6-171adba28177,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+76160fbe-cc9f-4f5b-842f-760750a13df4,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+76639f5a-541f-4053-b71e-658298f7a8ce,,,,,No Lung Opacity / Not Normal,74,F,PA,CHEST,CR,0
+766e20e8-7a3b-4294-a00f-ec635069465f,,,,,No Lung Opacity / Not Normal,44,M,AP,CHEST,CR,0
+768e5ccd-aab3-4971-8df8-814380ae77a8,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+76a93e16-6dc6-4356-bd7e-6e45bd4d3e4e,,,,,No Lung Opacity / Not Normal,36,F,PA,CHEST,CR,0
+76b93616-f7ab-419e-a4f4-dc3d49e43dd5,,,,,Normal,51,F,PA,CHEST,CR,0
+771fd208-e7ae-407b-bf91-0a6472189ebf,,,,,Normal,56,F,PA,CHEST,CR,0
+7725f6fc-d01d-4f4c-b0da-dee26ed91f52,,,,,No Lung Opacity / Not Normal,77,M,PA,CHEST,CR,0
+77a63356-c61d-4912-8cfc-9eddb705c46d,,,,,Normal,55,M,PA,CHEST,CR,0
+77dc3ec3-a29e-4733-99fc-80b51a76e833,193.0,479.0,119.0,101.0,Lung Opacity,45,F,AP,CHEST,CR,1
+77e922f5-6c41-4885-9e1a-f5e50c24d2ca,359.0,444.0,91.0,109.0,Lung Opacity,67,M,PA,CHEST,CR,1
+78043d25-8992-46b6-b846-ffbfafbe6b6a,,,,,Normal,48,M,AP,CHEST,CR,0
+78773a50-1513-4336-af38-fd93b12ddd57,,,,,No Lung Opacity / Not Normal,42,M,AP,CHEST,CR,0
+78815820-d7fd-4763-b69d-7bad8475e7ed,576.0,666.0,140.0,100.0,Lung Opacity,78,M,AP,CHEST,CR,1
+7897d5d2-f56c-4fc0-a036-f9b6f69933f8,,,,,Normal,44,M,PA,CHEST,CR,0
+78a396fd-20af-4384-acdd-c9a6ddb8c1ad,299.0,528.0,121.0,119.0,Lung Opacity,17,F,PA,CHEST,CR,1
+78bf9fb4-4314-4197-b5bf-ad5a531c6a73,,,,,No Lung Opacity / Not Normal,44,M,AP,CHEST,CR,0
+78fe9142-9b8a-4200-9b2d-129a4e30e7ec,,,,,Normal,39,M,PA,CHEST,CR,0
+7934f518-dbaa-4201-922b-1bc93a245e84,213.0,208.0,103.0,79.0,Lung Opacity,67,F,AP,CHEST,CR,1
+793903d1-6562-49e8-8db5-db0a53b0ebd0,,,,,Normal,78,F,PA,CHEST,CR,0
+793b04cc-60bb-4413-a2a7-36c7c56ac05c,231.0,439.0,198.0,286.0,Lung Opacity,67,M,PA,CHEST,CR,1
+797c0a13-9dae-4006-833a-5d5024328534,,,,,Normal,54,M,PA,CHEST,CR,0
+797eafe0-2b9a-463f-ab2f-446fc39384e1,257.0,421.0,182.0,298.0,Lung Opacity,46,F,AP,CHEST,CR,1
+798cc681-1bc3-4421-a2a3-eb6712925d7e,,,,,Normal,70,M,PA,CHEST,CR,0
+79aac290-1f8d-4348-a12c-401911a72ac2,,,,,No Lung Opacity / Not Normal,56,M,AP,CHEST,CR,0
+79c5d2b3-0df0-4d85-b0f1-7936545c8c54,177.0,651.0,216.0,116.0,Lung Opacity,21,M,AP,CHEST,CR,1
+79ca26e4-70f2-409b-986b-91cdb44daff5,,,,,Normal,55,M,PA,CHEST,CR,0
+79fa156c-c4f5-478d-a14d-80cc4db5cb8d,,,,,Normal,17,F,AP,CHEST,CR,0
+7a03df77-0a9d-4254-9bec-0d0e9df5f791,,,,,No Lung Opacity / Not Normal,22,F,AP,CHEST,CR,0
+7a2c7e33-d021-4fd2-9b30-a43a4ef68628,,,,,Normal,45,M,PA,CHEST,CR,0
+7a5cdc7a-bcde-42bb-b2d9-02b9b0c740c7,,,,,Normal,43,M,PA,CHEST,CR,0
+7acd0af3-76d5-4cc3-8fd6-102b8ea4ce04,,,,,Normal,29,F,PA,CHEST,CR,0
+7add6f24-2117-4620-a180-ea3b1e6dbd1a,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+7aeb60d6-d6de-4dbd-a43c-ad7c5f65b2f0,,,,,Normal,72,M,PA,CHEST,CR,0
+7aef347d-05aa-4c06-8e24-956aa91ace5e,,,,,No Lung Opacity / Not Normal,47,M,PA,CHEST,CR,0
+7b05171e-2a7c-4451-b296-54ecbeef7b46,,,,,No Lung Opacity / Not Normal,54,F,PA,CHEST,CR,0
+7b275a37-8a0d-4d21-97de-a84616393ca4,,,,,No Lung Opacity / Not Normal,31,F,AP,CHEST,CR,0
+7b5a2e86-13c9-4cb1-886c-8080716256fe,,,,,No Lung Opacity / Not Normal,59,M,PA,CHEST,CR,0
+7b67b1d4-9518-42a6-9d8a-05babb919b46,,,,,Normal,30,M,AP,CHEST,CR,0
+7b94c8f7-7f99-4499-bb56-9930bf999e7c,,,,,Normal,34,M,AP,CHEST,CR,0
+7bc1d034-2552-4768-9b84-854df85731cb,,,,,Normal,64,F,PA,CHEST,CR,0
+7c2ad76c-88a5-4a25-a0e4-49437ea5f628,,,,,Normal,73,M,PA,CHEST,CR,0
+7c517917-3359-419d-910d-b0ab4865d65f,,,,,Normal,65,F,PA,CHEST,CR,0
+7cb8a47f-8230-4f10-bfca-075cb339ab86,,,,,Normal,61,F,PA,CHEST,CR,0
+7cc1b757-2b45-4d61-83ca-dbf4b5838939,,,,,Normal,51,M,AP,CHEST,CR,0
+7cc20fb9-c5e8-438e-8729-40637e548968,,,,,No Lung Opacity / Not Normal,57,M,AP,CHEST,CR,0
+7cc95413-c3e4-45ef-b047-4021529fbdb4,293.0,584.0,139.0,203.0,Lung Opacity,71,M,AP,CHEST,CR,1
+7ccacf95-ccc2-446b-8f5c-08b32411bed6,,,,,Normal,52,F,PA,CHEST,CR,0
+7d0e3887-2263-4c54-8833-cb9886a62152,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+7d3f01b0-1283-49f8-94f9-17d751a8b3a9,,,,,Normal,30,M,PA,CHEST,CR,0
+7d402380-193a-4aef-92aa-8c80e11217fb,122.0,483.0,198.0,183.0,Lung Opacity,43,M,AP,CHEST,CR,1
+7d674c82-5501-4730-92c5-d241fd6911e7,358.0,320.0,159.0,186.0,Lung Opacity,52,F,AP,CHEST,CR,1
+7d674c82-5501-4730-92c5-d241fd6911e7,283.0,528.0,197.0,314.0,Lung Opacity,52,F,AP,CHEST,CR,1
+7d674c82-5501-4730-92c5-d241fd6911e7,718.0,573.0,133.0,227.0,Lung Opacity,52,F,AP,CHEST,CR,1
+7d674c82-5501-4730-92c5-d241fd6911e7,658.0,315.0,164.0,203.0,Lung Opacity,52,F,AP,CHEST,CR,1
+7d9e027d-8e9b-47b9-9771-1f75e0410c74,,,,,Normal,34,M,PA,CHEST,CR,0
+7dd883ab-ad53-4eb5-b409-0df070b68439,,,,,No Lung Opacity / Not Normal,74,M,PA,CHEST,CR,0
+7e1812bf-5de8-4480-a7bb-ebdf483cd0f5,,,,,No Lung Opacity / Not Normal,35,M,AP,CHEST,CR,0
+7e7618b5-a037-42bd-b9db-d2d3865dfd3e,,,,,No Lung Opacity / Not Normal,53,M,PA,CHEST,CR,0
+7e85e30f-0fb5-4c8f-8e03-10459ab7b4eb,,,,,No Lung Opacity / Not Normal,44,F,PA,CHEST,CR,0
+7e9f2963-7428-4275-82f5-57c48f39c7d9,,,,,Normal,38,M,PA,CHEST,CR,0
+7eb5ef8b-b2c9-4f19-a9d6-42354bdbcef3,,,,,No Lung Opacity / Not Normal,47,M,AP,CHEST,CR,0
+7ef28198-53a4-408e-8a54-1d421c97edba,230.0,450.0,115.0,95.0,Lung Opacity,50,F,AP,CHEST,CR,1
+7ef28198-53a4-408e-8a54-1d421c97edba,673.0,478.0,133.0,138.0,Lung Opacity,50,F,AP,CHEST,CR,1
+7f1e4c1a-9565-4cab-815c-48851a322595,,,,,Normal,35,M,AP,CHEST,CR,0
+7f2a78a7-71ce-4eec-a427-b31e447e068f,,,,,Normal,63,F,PA,CHEST,CR,0
+7f3f36ca-e8f7-4de2-beb7-7548da919a62,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+7f5c19bf-ea76-4979-8fa8-f750f6550993,,,,,Normal,48,F,PA,CHEST,CR,0
+7f70dbff-2cd7-4221-b69c-f7cfbd14367d,,,,,Normal,40,F,PA,CHEST,CR,0
+7fedb49f-a0d3-4b14-9c8b-0fb24d8ad067,,,,,Normal,57,F,PA,CHEST,CR,0
+802a0642-2f62-469d-9788-171db67894f5,,,,,Normal,47,F,PA,CHEST,CR,0
+812a4c40-a555-4691-b98b-cfaaa337b380,,,,,No Lung Opacity / Not Normal,64,M,AP,CHEST,CR,0
+815c87e6-3bac-40a2-8208-6a389b18cbae,,,,,No Lung Opacity / Not Normal,63,M,PA,CHEST,CR,0
+8192a218-3ed8-450a-bb3e-052e36567763,149.0,319.0,276.0,443.0,Lung Opacity,53,M,PA,CHEST,CR,1
+81a208fa-0cf3-4450-b19d-06c07fcbaa3f,,,,,No Lung Opacity / Not Normal,23,M,PA,CHEST,CR,0
+81a51c71-28ab-4a62-bb1b-458117d8234c,243.0,413.0,206.0,448.0,Lung Opacity,59,M,PA,CHEST,CR,1
+81a6a632-7899-40d6-83f0-a8b303d6c9a2,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+81ba8f2c-59b8-4554-9b24-9ee0a92b3b8d,,,,,Normal,42,F,PA,CHEST,CR,0
+81bb8c21-7660-4f78-bcb7-1ceb2347f2a8,155.0,457.0,263.0,248.0,Lung Opacity,51,F,AP,CHEST,CR,1
+81bb8c21-7660-4f78-bcb7-1ceb2347f2a8,532.0,349.0,261.0,362.0,Lung Opacity,51,F,AP,CHEST,CR,1
+81bd4aa6-fc26-42e1-a9f4-fb0cf1bfbc18,,,,,Normal,28,M,PA,CHEST,CR,0
+81f6fcf9-88eb-47f2-b217-714feaf5289f,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+820a493d-b8cb-4724-9609-4db39b42f368,193.0,615.0,217.0,189.0,Lung Opacity,78,F,AP,CHEST,CR,1
+820a493d-b8cb-4724-9609-4db39b42f368,598.0,585.0,255.0,307.0,Lung Opacity,78,F,AP,CHEST,CR,1
+8214bf08-4f13-4b43-b2ed-47ee8157eb3f,,,,,Normal,58,F,PA,CHEST,CR,0
+82193858-3906-4c2f-b5b4-8aa1280f6181,147.0,154.0,264.0,525.0,Lung Opacity,43,F,AP,CHEST,CR,1
+82193858-3906-4c2f-b5b4-8aa1280f6181,507.0,158.0,277.0,588.0,Lung Opacity,43,F,AP,CHEST,CR,1
+823a9297-1c70-4f5d-8f10-b33205761ca2,,,,,Normal,44,F,AP,CHEST,CR,0
+82b3fca7-e397-487d-80bd-3b2fbd046f16,,,,,Normal,32,M,PA,CHEST,CR,0
+82fcb3e2-0969-46a6-a252-c897f55d7f95,,,,,No Lung Opacity / Not Normal,57,F,PA,CHEST,CR,0
+83a392da-4218-4799-8de0-01a088a509f3,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+83aaf3f3-1b3d-495c-ad0d-a0ef9a07d4c5,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+83bb8d1a-8486-4ee9-885d-17ddffde40fa,559.0,303.0,215.0,263.0,Lung Opacity,76,M,AP,CHEST,CR,1
+83bb8d1a-8486-4ee9-885d-17ddffde40fa,145.0,146.0,234.0,548.0,Lung Opacity,76,M,AP,CHEST,CR,1
+84d7f055-3374-4d68-9390-cf3b1418355c,,,,,No Lung Opacity / Not Normal,37,F,PA,CHEST,CR,0
+84fa670e-579d-4776-8e47-a3b9e165d52d,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+850a00db-8884-45d3-b3cf-1ba8635b9294,98.0,540.0,273.0,284.0,Lung Opacity,34,F,AP,CHEST,CR,1
+850a00db-8884-45d3-b3cf-1ba8635b9294,519.0,543.0,146.0,264.0,Lung Opacity,34,F,AP,CHEST,CR,1
+850b9f56-6ae3-49bb-9cca-fb6cfe333b3f,,,,,No Lung Opacity / Not Normal,14,M,AP,CHEST,CR,0
+853ba031-9edb-429c-b71c-b06e77693265,,,,,No Lung Opacity / Not Normal,78,M,AP,CHEST,CR,0
+85ec2430-4040-4fb1-be12-e1f39e7472f0,,,,,No Lung Opacity / Not Normal,47,M,PA,CHEST,CR,0
+86086ad6-90bd-4d6f-becd-3b20e4730266,,,,,No Lung Opacity / Not Normal,45,M,AP,CHEST,CR,0
+861dfe11-7f62-4622-89d8-1c09232e9dcf,,,,,No Lung Opacity / Not Normal,13,M,AP,CHEST,CR,0
+866339c6-eddf-4b02-92de-9447590a4517,,,,,No Lung Opacity / Not Normal,47,M,AP,CHEST,CR,0
+86c14816-f11b-4663-badd-50b8a6abded9,,,,,Normal,21,M,PA,CHEST,CR,0
+86d88303-5909-4655-81db-e4d62fdc5e33,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+86ef7679-5d43-44c6-9917-d7cbcd83c2a9,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+87106150-d046-41a9-ac79-f4ab113e1d22,434.0,520.0,250.0,297.0,Lung Opacity,31,F,AP,CHEST,CR,1
+8721de5e-f6c8-4af0-a695-356e969f4687,,,,,Normal,51,F,PA,CHEST,CR,0
+876b162e-2997-43a6-9ac2-99ee6f3077a4,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+877c4b8a-4ed8-40a0-bb93-ab28473adffa,,,,,Normal,59,M,PA,CHEST,CR,0
+8791e28b-a247-4cd6-b257-32228d252a58,,,,,No Lung Opacity / Not Normal,82,F,AP,CHEST,CR,0
+87a2d8e1-4a73-442b-b9da-4a640b6f631d,,,,,Normal,47,M,PA,CHEST,CR,0
+87b52a0d-3e68-4699-bc6f-0c789b039cde,,,,,No Lung Opacity / Not Normal,55,F,PA,CHEST,CR,0
+87c2b21c-7a98-492d-94c8-4f72620c5847,,,,,Normal,62,M,PA,CHEST,CR,0
+87dd1f64-dd37-47e6-a2bd-8da9d37e55d6,,,,,No Lung Opacity / Not Normal,40,M,PA,CHEST,CR,0
+87ddbd40-b218-4bfd-9a82-2ea252e08c1e,763.0,409.0,154.0,178.0,Lung Opacity,35,M,AP,CHEST,CR,1
+882fddd7-ed8c-4790-a645-4e4b7deb0696,,,,,Normal,45,F,PA,CHEST,CR,0
+88d42227-98c0-4f9c-9700-c89ebe83490f,,,,,Normal,43,F,PA,CHEST,CR,0
+88dfac4d-30d4-42fe-9122-82246ecee401,402.0,332.0,135.0,121.0,Lung Opacity,12,F,AP,CHEST,CR,1
+88dfac4d-30d4-42fe-9122-82246ecee401,344.0,448.0,150.0,124.0,Lung Opacity,12,F,AP,CHEST,CR,1
+88dfac4d-30d4-42fe-9122-82246ecee401,715.0,307.0,153.0,168.0,Lung Opacity,12,F,AP,CHEST,CR,1
+88e97af6-fbb2-49f8-bd06-0744c08e8f70,,,,,No Lung Opacity / Not Normal,56,F,AP,CHEST,CR,0
+89168da5-8bd2-4c94-8011-5c9305bb85f0,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+8944679f-3dd1-4a34-95d5-322efd9c0764,747.0,577.0,186.0,170.0,Lung Opacity,31,M,PA,CHEST,CR,1
+8944679f-3dd1-4a34-95d5-322efd9c0764,158.0,354.0,124.0,396.0,Lung Opacity,31,M,PA,CHEST,CR,1
+8952992e-71c1-4ccd-96a8-2f439a57da5e,,,,,Normal,48,M,PA,CHEST,CR,0
+8966aa93-d9f3-4314-a54f-a7353ea12c6e,,,,,No Lung Opacity / Not Normal,41,M,AP,CHEST,CR,0
+89821e35-22be-4f81-9aca-15a5192a5c6d,667.0,420.0,222.0,276.0,Lung Opacity,58,M,PA,CHEST,CR,1
+89bfd631-73a1-411e-8c47-bbdd53a9cd75,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+8a3e4f2a-2287-4b17-94b1-f91592e0d2fe,,,,,No Lung Opacity / Not Normal,52,F,AP,CHEST,CR,0
+8a5bf4fb-a18a-4dd3-b611-10ef3cc79b19,603.0,484.0,281.0,287.0,Lung Opacity,22,M,PA,CHEST,CR,1
+8a5bf4fb-a18a-4dd3-b611-10ef3cc79b19,215.0,317.0,268.0,473.0,Lung Opacity,22,M,PA,CHEST,CR,1
+8a6a239d-428c-4e35-a479-44272702e98a,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+8a7d2eff-9c77-461e-b50b-b6dac8e54ba7,196.0,362.0,236.0,185.0,Lung Opacity,51,M,AP,CHEST,CR,1
+8a7d2eff-9c77-461e-b50b-b6dac8e54ba7,607.0,475.0,244.0,121.0,Lung Opacity,51,M,AP,CHEST,CR,1
+8a9ac386-0e67-45aa-8a7b-59c288bb416e,,,,,Normal,32,F,PA,CHEST,CR,0
+8aa0828d-eff2-4791-a38e-37c3f533f4c0,631.0,255.0,264.0,411.0,Lung Opacity,44,M,AP,CHEST,CR,1
+8aa0828d-eff2-4791-a38e-37c3f533f4c0,215.0,396.0,236.0,189.0,Lung Opacity,44,M,AP,CHEST,CR,1
+8b0cf414-03a7-499c-a080-cdc52003c84a,172.0,161.0,233.0,251.0,Lung Opacity,16,M,PA,CHEST,CR,1
+8b2e2e6b-422f-4196-9209-10c722b2e860,,,,,Normal,77,M,PA,CHEST,CR,0
+8b59638e-0f63-4999-831e-2f73b51a0407,623.0,571.0,304.0,348.0,Lung Opacity,30,F,AP,CHEST,CR,1
+8b6b2bca-8e95-4537-bfea-9335b1409a6f,,,,,No Lung Opacity / Not Normal,38,F,AP,CHEST,CR,0
+8b6f9000-3a4f-4d1d-a47c-df528f9b6be1,,,,,Normal,47,F,AP,CHEST,CR,0
+8b7729cf-8961-452c-8b03-926516ac5c90,223.0,356.0,288.0,385.0,Lung Opacity,57,F,AP,CHEST,CR,1
+8b7729cf-8961-452c-8b03-926516ac5c90,643.0,394.0,259.0,279.0,Lung Opacity,57,F,AP,CHEST,CR,1
+8b7d8e04-1edd-47f1-bbaa-4d24fc2bd64d,,,,,Normal,45,F,PA,CHEST,CR,0
+8b8369dc-4085-4e1d-b1ca-5e1de60c15f0,142.0,188.0,284.0,605.0,Lung Opacity,67,F,AP,CHEST,CR,1
+8b8369dc-4085-4e1d-b1ca-5e1de60c15f0,488.0,188.0,307.0,704.0,Lung Opacity,67,F,AP,CHEST,CR,1
+8b869cb7-6ca0-454c-a9c2-cda67d8762f0,,,,,Normal,34,M,PA,CHEST,CR,0
+8b9f7401-fce6-4a9a-a4d0-9d708cf6f854,,,,,No Lung Opacity / Not Normal,68,M,AP,CHEST,CR,0
+8ba3b713-50ab-46f8-8a70-ee11247390ee,,,,,No Lung Opacity / Not Normal,50,F,PA,CHEST,CR,0
+8bdcd25b-5fc0-4b4d-b279-96aaa3b409b1,,,,,No Lung Opacity / Not Normal,26,F,AP,CHEST,CR,0
+8c2b6caa-41cd-45c0-95f0-de71c3e9186b,,,,,Normal,28,M,AP,CHEST,CR,0
+8c2d4d9f-d7b4-4627-a548-e56085bbef08,,,,,Normal,59,F,PA,CHEST,CR,0
+8c40a566-8a0a-4d7d-ac62-574c133d72de,616.0,195.0,357.0,675.0,Lung Opacity,67,M,AP,CHEST,CR,1
+8c40a566-8a0a-4d7d-ac62-574c133d72de,202.0,185.0,313.0,659.0,Lung Opacity,67,M,AP,CHEST,CR,1
+8c68ceb7-2d5c-450e-bfda-052b862de063,519.0,188.0,263.0,541.0,Lung Opacity,59,F,AP,CHEST,CR,1
+8c68ceb7-2d5c-450e-bfda-052b862de063,131.0,162.0,305.0,558.0,Lung Opacity,59,F,AP,CHEST,CR,1
+8c8a3a36-3c8e-4a19-9821-cc7467d962ee,123.0,225.0,220.0,549.0,Lung Opacity,58,F,AP,CHEST,CR,1
+8c8a3a36-3c8e-4a19-9821-cc7467d962ee,480.0,225.0,262.0,551.0,Lung Opacity,58,F,AP,CHEST,CR,1
+8cd0ae94-29a7-4c44-a95d-ac1415018644,296.0,460.0,165.0,118.0,Lung Opacity,62,F,PA,CHEST,CR,1
+8cd4d1a3-e2ac-4475-9a06-33bdaa9876f7,246.0,410.0,218.0,327.0,Lung Opacity,44,M,AP,CHEST,CR,1
+8cd997ae-cf8b-4fc1-891f-115c502da6db,,,,,Normal,65,M,PA,CHEST,CR,0
+8d004cd3-8e35-4b9c-acec-fdfa3a474431,,,,,Normal,34,F,PA,CHEST,CR,0
+8d7055f0-5e26-4c2a-a610-ff4b09ff3e7d,,,,,No Lung Opacity / Not Normal,75,F,AP,CHEST,CR,0
+8d7a4925-c838-449c-bb08-8e7699322366,,,,,Normal,60,M,PA,CHEST,CR,0
+8dbd8475-177c-4652-a6b5-03fd3163ebe2,,,,,No Lung Opacity / Not Normal,48,F,AP,CHEST,CR,0
+8dd5b363-e439-46da-8f5b-a08d4bdb8404,,,,,Normal,45,M,PA,CHEST,CR,0
+8df52c85-df58-45e1-9142-7bcdd4d22f71,,,,,Normal,43,M,PA,CHEST,CR,0
+8dfc7217-277e-4bba-87bd-4dacffd667d0,,,,,Normal,39,M,AP,CHEST,CR,0
+8e5eaf47-0e0d-4ef1-a02d-6b7526ca5820,,,,,No Lung Opacity / Not Normal,50,F,PA,CHEST,CR,0
+8e8d3c64-c380-4cdf-94f6-e8853424a978,,,,,Normal,51,M,PA,CHEST,CR,0
+8e97558c-5b68-4738-97da-914acc1ef509,,,,,No Lung Opacity / Not Normal,42,F,PA,CHEST,CR,0
+8eac99ab-25bc-4ad7-97cb-4fec4ca1305a,,,,,Normal,10,F,PA,CHEST,CR,0
+8ead702d-e231-4ef8-b53c-41c81e44235e,279.0,201.0,261.0,443.0,Lung Opacity,27,F,AP,CHEST,CR,1
+8ead702d-e231-4ef8-b53c-41c81e44235e,658.0,318.0,232.0,479.0,Lung Opacity,27,F,AP,CHEST,CR,1
+8f1e9f08-630d-4ea4-b448-1d465801d7e4,542.0,383.0,317.0,404.0,Lung Opacity,37,M,AP,CHEST,CR,1
+8f1e9f08-630d-4ea4-b448-1d465801d7e4,94.0,451.0,235.0,339.0,Lung Opacity,37,M,AP,CHEST,CR,1
+8f324fb6-c280-4ce1-a079-bef3b5e04e59,,,,,No Lung Opacity / Not Normal,68,M,AP,CHEST,CR,0
+8f460d7d-164d-4f3e-b3eb-1c9f0c43b49e,645.0,360.0,188.0,129.0,Lung Opacity,63,F,PA,CHEST,CR,1
+8f460d7d-164d-4f3e-b3eb-1c9f0c43b49e,185.0,406.0,230.0,166.0,Lung Opacity,63,F,PA,CHEST,CR,1
+8f6a34af-b058-4adf-9232-293a721232b7,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+8f75318d-7719-49be-b3ca-523940d6ba7d,,,,,Normal,8,M,AP,CHEST,CR,0
+8f88e942-6de5-4c75-96eb-edff7ded7a8d,505.0,13.0,445.0,600.0,Lung Opacity,33,M,AP,CHEST,CR,1
+8f8ec915-b753-4e10-8c17-936e2e548b56,,,,,Normal,50,M,PA,CHEST,CR,0
+8fa5de8b-d395-4ff4-8549-4c76386849ec,,,,,No Lung Opacity / Not Normal,50,M,PA,CHEST,CR,0
+8fffd6af-9fa5-43fd-ae64-e74655077d8c,,,,,No Lung Opacity / Not Normal,64,M,PA,CHEST,CR,0
+9026b542-0d53-4df4-95a7-17182000c372,,,,,No Lung Opacity / Not Normal,41,M,AP,CHEST,CR,0
+90285ca1-6780-42ec-bb1b-ddb3a7ed23e0,,,,,Normal,43,F,AP,CHEST,CR,0
+904070bc-c210-47ef-b886-abb6b0dd7ee3,297.0,404.0,142.0,335.0,Lung Opacity,46,F,AP,CHEST,CR,1
+904070bc-c210-47ef-b886-abb6b0dd7ee3,587.0,479.0,187.0,313.0,Lung Opacity,46,F,AP,CHEST,CR,1
+90440659-a140-451d-9ddb-2908d4408c93,,,,,Normal,75,F,PA,CHEST,CR,0
+90e7387a-be9f-4560-8155-e8f17d7c96f3,219.0,494.0,241.0,247.0,Lung Opacity,40,F,AP,CHEST,CR,1
+90ec4fa0-4405-4fcd-926c-6323158fded2,,,,,Normal,26,F,PA,CHEST,CR,0
+91088f01-2556-41de-ad37-fb287b9e793e,558.0,364.0,282.0,389.0,Lung Opacity,24,M,AP,CHEST,CR,1
+91088f01-2556-41de-ad37-fb287b9e793e,177.0,350.0,253.0,416.0,Lung Opacity,24,M,AP,CHEST,CR,1
+9130c6ff-ef18-413c-af5b-7c7f8de455fc,623.0,334.0,250.0,386.0,Lung Opacity,51,M,PA,CHEST,CR,1
+9168c2e9-87c1-434a-bbf5-bd8ee1d0e124,,,,,Normal,43,M,AP,CHEST,CR,0
+916de1f3-688e-4d39-bd41-db3f653e90b8,259.0,131.0,224.0,676.0,Lung Opacity,57,M,AP,CHEST,CR,1
+916de1f3-688e-4d39-bd41-db3f653e90b8,626.0,545.0,265.0,279.0,Lung Opacity,57,M,AP,CHEST,CR,1
+918762a3-791d-48f5-9b3b-9c149ed72264,217.0,344.0,267.0,187.0,Lung Opacity,34,M,AP,CHEST,CR,1
+918762a3-791d-48f5-9b3b-9c149ed72264,585.0,121.0,290.0,453.0,Lung Opacity,34,M,AP,CHEST,CR,1
+919bc43e-6550-441c-b15c-45581308895b,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+91c00a0a-b2fc-446c-930a-0567100f54e7,572.0,398.0,304.0,284.0,Lung Opacity,54,F,AP,CHEST,CR,1
+91c00a0a-b2fc-446c-930a-0567100f54e7,228.0,296.0,276.0,428.0,Lung Opacity,54,F,AP,CHEST,CR,1
+91ffea2c-cabd-4e92-9250-9498ecbd424c,644.0,326.0,302.0,247.0,Lung Opacity,51,M,PA,CHEST,CR,1
+9213dc17-1267-42a4-a71d-546a4d994a4a,,,,,Normal,60,F,AP,CHEST,CR,0
+925a8700-508c-42a2-a617-1855f29f8877,,,,,Normal,64,M,PA,CHEST,CR,0
+928d2c31-8d48-4c5f-b7ee-d485b5f5596c,,,,,No Lung Opacity / Not Normal,52,M,AP,CHEST,CR,0
+9294dfc5-b69c-448f-994d-0d7d9d8d0cfb,,,,,Normal,25,F,PA,CHEST,CR,0
+92ade897-33b2-42d9-92eb-540492537bf0,,,,,Normal,67,M,AP,CHEST,CR,0
+92fcd289-7239-49a2-bf1c-e628e2e891eb,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+9326f250-c742-44df-8406-aa04112812f0,,,,,No Lung Opacity / Not Normal,35,F,PA,CHEST,CR,0
+933d6c77-4ac2-436a-ae58-6ae0f49fd8c3,,,,,No Lung Opacity / Not Normal,66,M,PA,CHEST,CR,0
+93950b92-5f57-4a80-8af8-7174b23cfec6,,,,,No Lung Opacity / Not Normal,50,M,PA,CHEST,CR,0
+94587397-55fa-4ba5-820d-acbcf806c00c,,,,,Normal,70,M,PA,CHEST,CR,0
+948e6874-7a4a-4817-b72c-843aebe92541,,,,,No Lung Opacity / Not Normal,59,F,AP,CHEST,CR,0
+9492cf1b-646b-4bba-9b66-a5c643fa372b,,,,,No Lung Opacity / Not Normal,24,M,AP,CHEST,CR,0
+9520cd4e-fbb8-4a22-a438-d7d26e296d62,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+9528063f-230e-4a25-b3b1-412caca2f750,680.0,559.0,233.0,297.0,Lung Opacity,54,M,AP,CHEST,CR,1
+9528063f-230e-4a25-b3b1-412caca2f750,318.0,327.0,173.0,280.0,Lung Opacity,54,M,AP,CHEST,CR,1
+958f6fd1-f377-4a55-bb38-7a9db2fd79dc,260.0,114.0,269.0,596.0,Lung Opacity,59,F,AP,CHEST,CR,1
+958f6fd1-f377-4a55-bb38-7a9db2fd79dc,621.0,141.0,269.0,601.0,Lung Opacity,59,F,AP,CHEST,CR,1
+95ac6614-fbe5-4fd3-b4db-972c24a8706c,,,,,Normal,46,F,PA,CHEST,CR,0
+95b1aff1-7aa0-47de-9109-3d9c0a10be05,,,,,Normal,53,M,AP,CHEST,CR,0
+95c8203d-4ad7-4945-ab40-190af0ac570d,,,,,Normal,28,M,PA,CHEST,CR,0
+965bb34c-0405-4671-a6cd-6227bf47c73b,,,,,No Lung Opacity / Not Normal,30,F,AP,CHEST,CR,0
+967f1858-3edd-4247-a19e-a36510656024,,,,,No Lung Opacity / Not Normal,39,M,PA,CHEST,CR,0
+969d7d75-941c-4933-9e59-42d0dc950611,,,,,No Lung Opacity / Not Normal,20,M,AP,CHEST,CR,0
+96b48c09-f6d4-463d-a8df-6179f4e53d44,,,,,Normal,33,F,PA,CHEST,CR,0
+96d0f38e-6a5d-48a9-ba0a-8207ecf21df3,,,,,Normal,25,M,AP,CHEST,CR,0
+96f2ab32-f218-4475-89bd-8570c0c4835d,,,,,No Lung Opacity / Not Normal,53,F,AP,CHEST,CR,0
+970bd81b-72e1-460a-acf5-f82ebb0127b0,,,,,No Lung Opacity / Not Normal,64,F,PA,CHEST,CR,0
+97188b5d-9c6d-4add-b9af-626bd1dad211,,,,,Normal,12,M,PA,CHEST,CR,0
+971befc9-5a0d-4bda-acb5-2cebeaa8163e,268.0,307.0,156.0,389.0,Lung Opacity,32,F,PA,CHEST,CR,1
+972bac35-1065-4679-aa68-ed085d360ca4,,,,,No Lung Opacity / Not Normal,54,M,AP,CHEST,CR,0
+97465a8f-81f1-41ce-a6e6-78c2d2f6d7fa,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+9747a71c-4946-4df5-814c-4129b0fafe80,,,,,No Lung Opacity / Not Normal,80,F,AP,CHEST,CR,0
+9761f63c-3355-4aaa-837c-ea08278632da,,,,,No Lung Opacity / Not Normal,81,M,PA,CHEST,CR,0
+976ef2ee-e58b-4f48-851a-1709c0f3ce4f,,,,,No Lung Opacity / Not Normal,54,F,PA,CHEST,CR,0
+977bd2ba-e5f8-4459-b48f-36dfe1afb215,76.0,480.0,260.0,364.0,Lung Opacity,54,F,AP,CHEST,CR,1
+9794f244-18dc-4aa4-8409-b8ccd3d41a67,,,,,No Lung Opacity / Not Normal,17,M,PA,CHEST,CR,0
+979c0e8e-e24a-4383-bd0f-d7e7eb95e6d5,,,,,No Lung Opacity / Not Normal,43,M,AP,CHEST,CR,0
+97b01ec0-6e26-4e8d-a486-7a078d44b42d,252.0,579.0,228.0,200.0,Lung Opacity,46,F,AP,CHEST,CR,1
+97edfece-bba3-4872-88cf-6d257d180879,,,,,No Lung Opacity / Not Normal,39,F,AP,CHEST,CR,0
+97ee7cce-a31f-40c9-bf5b-0a72902349ed,,,,,Normal,34,M,AP,CHEST,CR,0
+97f5f8ec-93e5-4101-af3d-62371a049e62,,,,,No Lung Opacity / Not Normal,40,F,AP,CHEST,CR,0
+98013427-7361-46fd-a672-41822c72a562,,,,,Normal,54,F,AP,CHEST,CR,0
+983a434f-fa14-4472-b62f-4f81eac312c8,,,,,No Lung Opacity / Not Normal,68,M,AP,CHEST,CR,0
+984a4270-8dc0-47eb-aea8-55e56aacb89c,,,,,Normal,12,M,PA,CHEST,CR,0
+986237d6-e05f-4ce0-82e9-b81feb7fc399,,,,,No Lung Opacity / Not Normal,33,F,PA,CHEST,CR,0
+986f8031-5b52-4a96-84f3-82bbc920915a,,,,,Normal,10,M,AP,CHEST,CR,0
+987849ab-4f8c-48e8-b28f-ccf5b9ae704b,,,,,No Lung Opacity / Not Normal,53,M,PA,CHEST,CR,0
+98834026-d9fe-4aed-89d6-f175dacdd81a,,,,,No Lung Opacity / Not Normal,45,M,AP,CHEST,CR,0
+98b60939-c861-42e6-a165-a9ceb88d842c,,,,,No Lung Opacity / Not Normal,60,F,PA,CHEST,CR,0
+98b85e3e-79db-4bf5-9d13-5abc8c767dc2,,,,,Normal,42,F,PA,CHEST,CR,0
+98bd1aa1-4e34-4457-9592-2a005175e55c,,,,,Normal,47,F,PA,CHEST,CR,0
+98c287b7-8d2e-4fd9-85b1-4895c2d20ba0,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+98ffe9d8-ec74-43da-b35b-e511193e097f,,,,,Normal,63,F,PA,CHEST,CR,0
+9933bf89-fac8-4d39-9ecb-0091e088e1e5,,,,,No Lung Opacity / Not Normal,52,M,AP,CHEST,CR,0
+99599993-5aca-43f8-b9f8-220ec7fbe4da,,,,,Normal,28,M,PA,CHEST,CR,0
+995f8504-0aa7-4e20-8afb-32043f2a006d,,,,,No Lung Opacity / Not Normal,66,M,PA,CHEST,CR,0
+9992709c-d506-4847-806d-0cb3964676ae,,,,,No Lung Opacity / Not Normal,44,M,PA,CHEST,CR,0
+99a6d1fd-514d-49f8-bf3e-ab948bf1c119,,,,,No Lung Opacity / Not Normal,43,M,AP,CHEST,CR,0
+99d123ce-5d97-4ca0-8e83-83265a030c4d,,,,,No Lung Opacity / Not Normal,28,M,AP,CHEST,CR,0
+99fa243e-5d53-4d28-bef6-b3cec2d2bc7f,,,,,No Lung Opacity / Not Normal,65,F,AP,CHEST,CR,0
+9a2accbb-06fe-4051-9542-2fa5f0c9e261,475.0,152.0,360.0,601.0,Lung Opacity,34,F,AP,CHEST,CR,1
+9a2accbb-06fe-4051-9542-2fa5f0c9e261,127.0,181.0,329.0,585.0,Lung Opacity,34,F,AP,CHEST,CR,1
+9a2b8b68-b1fe-40ba-9422-fe8278b5f315,,,,,No Lung Opacity / Not Normal,87,F,AP,CHEST,CR,0
+9a3f2627-ed43-4666-9f27-01589d9c6d44,541.0,531.0,316.0,319.0,Lung Opacity,49,M,AP,CHEST,CR,1
+9a3f2627-ed43-4666-9f27-01589d9c6d44,500.0,111.0,304.0,401.0,Lung Opacity,49,M,AP,CHEST,CR,1
+9a5dc526-bb32-4582-8bac-835625bdd2a4,,,,,No Lung Opacity / Not Normal,28,M,AP,CHEST,CR,0
+9acd54f2-8634-47dc-b468-f0ce54396e2a,,,,,Normal,35,M,PA,CHEST,CR,0
+9b0a4e8f-a459-42cc-9a4e-c2599c7454a7,,,,,No Lung Opacity / Not Normal,54,F,AP,CHEST,CR,0
+9b241e6e-2846-4308-9533-d16cceb0b34f,,,,,Normal,27,F,PA,CHEST,CR,0
+9b2fcd3b-de08-4d0d-8c40-34bb94804307,,,,,No Lung Opacity / Not Normal,32,M,AP,CHEST,CR,0
+9b468a46-bd36-4f66-9389-8c244a4995c6,,,,,No Lung Opacity / Not Normal,57,M,PA,CHEST,CR,0
+9b5f76d7-532b-44a5-8492-c0863a682f41,,,,,No Lung Opacity / Not Normal,67,M,AP,CHEST,CR,0
+9b6ddad8-a477-4284-bb96-b53033ba6b0e,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+9b72e9f6-1001-4372-9120-951dab8c68eb,280.0,413.0,182.0,274.0,Lung Opacity,51,F,AP,CHEST,CR,1
+9b72e9f6-1001-4372-9120-951dab8c68eb,641.0,118.0,223.0,642.0,Lung Opacity,51,F,AP,CHEST,CR,1
+9bc7fda9-5a85-4859-b8cb-dac5f8590cfd,,,,,No Lung Opacity / Not Normal,26,M,AP,CHEST,CR,0
+9c0030d8-fa33-4df1-be81-23ede246b0a7,,,,,No Lung Opacity / Not Normal,24,F,AP,CHEST,CR,0
+9d33381f-6428-462c-a2bf-2b87d276f0eb,97.0,421.0,274.0,299.0,Lung Opacity,29,M,AP,CHEST,CR,1
+9d487748-1f51-48aa-afdc-a6225be8bdba,,,,,Normal,54,M,PA,CHEST,CR,0
+9d49e8a3-a382-4765-a6e7-1c865d8b7712,147.0,303.0,257.0,350.0,Lung Opacity,59,M,PA,CHEST,CR,1
+9d6ffb9a-577b-4605-961d-54f164d3fb29,,,,,Normal,27,M,PA,CHEST,CR,0
+9dd62ca4-f07b-4843-97bb-a69b7bf8d327,175.0,662.0,270.0,240.0,Lung Opacity,79,M,AP,CHEST,CR,1
+9dd62ca4-f07b-4843-97bb-a69b7bf8d327,613.0,593.0,312.0,306.0,Lung Opacity,79,M,AP,CHEST,CR,1
+9ddb317f-89c1-4c45-8c04-96fba95a0f89,,,,,Normal,39,F,AP,CHEST,CR,0
+9e14bba9-48f8-4382-b606-d47030e9b893,584.0,371.0,251.0,158.0,Lung Opacity,45,M,PA,CHEST,CR,1
+9e1d2d4a-60f9-43cf-b598-08509e1df9a8,,,,,Normal,40,F,PA,CHEST,CR,0
+9e2ddac8-9a4c-448b-98c8-a840a548d0f7,,,,,Normal,20,M,PA,CHEST,CR,0
+9e7593a3-98a3-4f85-b42e-07899895acb7,,,,,Normal,47,M,PA,CHEST,CR,0
+9e7f7aaa-1fc7-4513-b194-2ac024bc4472,,,,,No Lung Opacity / Not Normal,48,F,PA,CHEST,CR,0
+9e914ce0-b0c9-4b09-8e1e-51419da4befc,,,,,No Lung Opacity / Not Normal,16,M,PA,CHEST,CR,0
+9edd183b-ecc3-433a-9669-f891d34f8490,83.0,304.0,242.0,490.0,Lung Opacity,53,M,AP,CHEST,CR,1
+9edd183b-ecc3-433a-9669-f891d34f8490,556.0,312.0,286.0,577.0,Lung Opacity,53,M,AP,CHEST,CR,1
+9ee3b37b-f1e7-4b02-8f8f-a8af4ce3990e,511.0,409.0,332.0,219.0,Lung Opacity,23,M,AP,CHEST,CR,1
+9f11086b-ba1a-4f60-92ec-09e492eae867,,,,,No Lung Opacity / Not Normal,44,M,AP,CHEST,CR,0
+9f707f8c-25f5-462f-9c7b-36754101f5db,,,,,No Lung Opacity / Not Normal,78,M,AP,CHEST,CR,0
+9f7bd17a-57aa-483d-90d5-be6a4b5e92b9,,,,,No Lung Opacity / Not Normal,71,M,PA,CHEST,CR,0
+9f8f0210-3d83-407a-9443-38287d043bb6,,,,,No Lung Opacity / Not Normal,23,F,AP,CHEST,CR,0
+9f96adbd-11c3-4c1f-8453-08497916c699,,,,,No Lung Opacity / Not Normal,75,F,AP,CHEST,CR,0
+a000a70e-68c6-44fe-a09c-6290775ff8b6,,,,,Normal,86,F,PA,CHEST,CR,0
+a0252e5b-4ff0-4147-904b-4f81496ceb99,,,,,No Lung Opacity / Not Normal,40,M,AP,CHEST,CR,0
+a0bc8346-8613-4f29-bafc-b4700ca853f1,,,,,No Lung Opacity / Not Normal,21,M,AP,CHEST,CR,0
+a1394dc2-6d12-4f50-a82c-13a3b8b04310,,,,,No Lung Opacity / Not Normal,21,F,PA,CHEST,CR,0
+a1560b8d-89d7-40b0-a47a-981fdc1ae676,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+a1870588-5aa1-4a1e-92cc-62383776659f,,,,,Normal,32,F,PA,CHEST,CR,0
+a1ba8ac4-4013-4fd4-983b-f7ee58da30a5,,,,,No Lung Opacity / Not Normal,41,F,AP,CHEST,CR,0
+a1eb8477-6320-4944-a0b1-eeaf21f2738f,,,,,Normal,47,F,PA,CHEST,CR,0
+a1fb1777-ab79-439e-9899-f00ffc301f53,,,,,No Lung Opacity / Not Normal,47,M,PA,CHEST,CR,0
+a2598429-e7cc-47b9-b537-447a9768bc78,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+a288ccb7-b58d-4411-a5da-6dce74957e74,576.0,375.0,146.0,216.0,Lung Opacity,51,M,AP,CHEST,CR,1
+a288ccb7-b58d-4411-a5da-6dce74957e74,33.0,304.0,207.0,342.0,Lung Opacity,51,M,AP,CHEST,CR,1
+a29d2f91-e135-4810-b896-ee443666df54,113.0,358.0,259.0,284.0,Lung Opacity,22,F,AP,CHEST,CR,1
+a2eea84a-9fd7-4c1a-8d0f-95e23c0d659b,,,,,No Lung Opacity / Not Normal,64,M,AP,CHEST,CR,0
+a2fe6d6d-3cf0-4fdd-b292-9d4b8553d4b7,,,,,Normal,19,M,PA,CHEST,CR,0
+a30453a6-9691-4358-a212-fd2d7a12cb0d,,,,,No Lung Opacity / Not Normal,28,M,AP,CHEST,CR,0
+a3173197-b2f2-440a-abef-5617013b16a5,,,,,No Lung Opacity / Not Normal,59,M,AP,CHEST,CR,0
+a31fd48e-8dd7-4a31-a197-ed1d67ec98cf,138.0,107.0,310.0,251.0,Lung Opacity,63,F,PA,CHEST,CR,1
+a32d7568-68e2-4abc-ba46-64ccd84c97f5,,,,,No Lung Opacity / Not Normal,49,M,PA,CHEST,CR,0
+a3476eba-8536-4271-a7a9-b13dc3cc8a4d,592.0,490.0,244.0,471.0,Lung Opacity,65,F,AP,CHEST,CR,1
+a34a19f6-2c94-4e4c-afe0-373e16cd7dfc,,,,,No Lung Opacity / Not Normal,63,M,AP,CHEST,CR,0
+a3c04f4d-3621-4679-872b-fad6dd79a4f8,606.0,547.0,185.0,255.0,Lung Opacity,73,F,AP,CHEST,CR,1
+a40f0f33-3b4d-4ff8-a519-25244d0293b6,,,,,No Lung Opacity / Not Normal,57,M,PA,CHEST,CR,0
+a4444af9-6137-4f0e-9b51-ca7236cf43b2,224.0,368.0,182.0,367.0,Lung Opacity,74,F,AP,CHEST,CR,1
+a4444af9-6137-4f0e-9b51-ca7236cf43b2,552.0,361.0,261.0,384.0,Lung Opacity,74,F,AP,CHEST,CR,1
+a45992b1-aa71-495b-ba52-cbbda9f2d876,,,,,No Lung Opacity / Not Normal,24,M,PA,CHEST,CR,0
+a4a3fd3c-331e-43d8-8e21-1d9162d34424,,,,,Normal,48,M,PA,CHEST,CR,0
+a4a72b9a-b647-4395-85f6-db7e44f23a0d,,,,,No Lung Opacity / Not Normal,27,F,AP,CHEST,CR,0
+a4cae270-0a1f-4232-a009-79499a3f2637,,,,,No Lung Opacity / Not Normal,68,F,PA,CHEST,CR,0
+a4cc8800-73db-4fdf-94c0-8b15b7777bf4,219.0,293.0,240.0,380.0,Lung Opacity,57,F,AP,CHEST,CR,1
+a4dd6e05-6c14-486a-b565-6473eb06c6f3,,,,,Normal,50,F,PA,CHEST,CR,0
+a50eef2f-3839-43d3-998b-b6e3bc0bc914,,,,,No Lung Opacity / Not Normal,52,M,AP,CHEST,CR,0
+a51d69b5-64a1-4fbb-a7f1-7f8a4e1fc953,,,,,No Lung Opacity / Not Normal,63,F,AP,CHEST,CR,0
+a5216c86-9455-4be0-999b-88701b96be65,,,,,Normal,25,F,PA,CHEST,CR,0
+a563cfdb-338f-491e-b370-10a7b2e36982,212.0,410.0,303.0,268.0,Lung Opacity,33,M,AP,CHEST,CR,1
+a56ee1d9-dacf-4675-925c-f1a63f15d437,,,,,No Lung Opacity / Not Normal,64,M,PA,CHEST,CR,0
+a57f578f-1e6f-4248-bd38-2dacfa772fdb,233.0,238.0,281.0,315.0,Lung Opacity,29,F,AP,CHEST,CR,1
+a57f578f-1e6f-4248-bd38-2dacfa772fdb,646.0,286.0,175.0,194.0,Lung Opacity,29,F,AP,CHEST,CR,1
+a5a07f9f-959f-4210-ac86-6cdab44b099b,584.0,504.0,282.0,269.0,Lung Opacity,46,M,AP,CHEST,CR,1
+a5a1d7a8-e44a-4514-b849-835c602eabc7,,,,,Normal,58,M,PA,CHEST,CR,0
+a5f02069-52d6-4ee1-84ea-b22bbf63c4b0,,,,,Normal,50,F,PA,CHEST,CR,0
+a5fb7e34-07b2-4534-8f9f-3fb289ed8d26,595.0,234.0,296.0,710.0,Lung Opacity,56,F,AP,CHEST,CR,1
+a60fb9ac-c843-4f96-9eb0-6fd0565ffcd5,,,,,Normal,50,M,PA,CHEST,CR,0
+a6236ddd-6367-4569-b5f1-07d2df9390ad,564.0,235.0,242.0,321.0,Lung Opacity,55,F,AP,CHEST,CR,1
+a6236ddd-6367-4569-b5f1-07d2df9390ad,235.0,272.0,200.0,370.0,Lung Opacity,55,F,AP,CHEST,CR,1
+a679589b-9b88-4010-825a-cb3653587e78,548.0,365.0,270.0,199.0,Lung Opacity,57,F,PA,CHEST,CR,1
+a69341df-a6e7-467c-8b9b-6fef2e441e82,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+a6d24424-6541-416c-a4cd-d9f73fcfb6f5,,,,,Normal,58,F,PA,CHEST,CR,0
+a6db493c-f239-4dfc-8a1f-442b918a79ef,,,,,No Lung Opacity / Not Normal,72,M,PA,CHEST,CR,0
+a6e93c46-18b0-4615-94c8-9ef969e14147,,,,,No Lung Opacity / Not Normal,60,M,AP,CHEST,CR,0
+a705f22a-c348-4413-bcc6-a0730c628b9d,,,,,Normal,69,M,PA,CHEST,CR,0
+a7fccb5d-16a3-441b-9308-8690de63db2c,,,,,No Lung Opacity / Not Normal,29,M,AP,CHEST,CR,0
+a82df6fe-4858-4aeb-a155-baf7489e9cd6,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+a83ae3a3-a527-4074-be25-534ed223654e,,,,,Normal,47,M,AP,CHEST,CR,0
+a8521ca7-b65f-42e9-83e2-f3dddf811eb3,622.0,325.0,242.0,382.0,Lung Opacity,65,F,PA,CHEST,CR,1
+a8521ca7-b65f-42e9-83e2-f3dddf811eb3,181.0,392.0,272.0,292.0,Lung Opacity,65,F,PA,CHEST,CR,1
+a867e456-d903-4beb-ab77-dff28e2ddfc2,216.0,246.0,216.0,435.0,Lung Opacity,52,F,AP,CHEST,CR,1
+a867e456-d903-4beb-ab77-dff28e2ddfc2,627.0,425.0,169.0,227.0,Lung Opacity,52,F,AP,CHEST,CR,1
+a8aae1e6-2a7a-443b-aaed-aecc02bb3e39,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+a8c785a7-c983-452c-ab25-f595bb5678f0,,,,,No Lung Opacity / Not Normal,64,F,AP,CHEST,CR,0
+a8caec22-eaf7-4acf-bbb8-fa3cdf4f69d5,297.0,292.0,151.0,323.0,Lung Opacity,67,F,AP,CHEST,CR,1
+a8caec22-eaf7-4acf-bbb8-fa3cdf4f69d5,606.0,317.0,206.0,401.0,Lung Opacity,67,F,AP,CHEST,CR,1
+a8f16478-b36a-4bc9-ac8a-75477d8ea168,,,,,No Lung Opacity / Not Normal,5,F,PA,CHEST,CR,0
+a90fa3b1-9f27-462b-8a1d-b2f9d89a78d1,,,,,No Lung Opacity / Not Normal,64,M,AP,CHEST,CR,0
+a917ad13-d23a-4758-b943-34c74acc19c0,,,,,Normal,51,F,PA,CHEST,CR,0
+a925ec9f-c9ea-4e9d-90d5-185d15a3a73f,,,,,Normal,57,F,PA,CHEST,CR,0
+a93c3646-b52d-4dd6-b0b5-40c7fed693bb,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+a94b358c-1e82-484b-a36b-462bd297f9d6,515.0,419.0,242.0,375.0,Lung Opacity,26,M,AP,CHEST,CR,1
+a94b358c-1e82-484b-a36b-462bd297f9d6,88.0,437.0,228.0,297.0,Lung Opacity,26,M,AP,CHEST,CR,1
+a9e29985-9248-4862-ac52-bf81eb514e45,,,,,No Lung Opacity / Not Normal,51,M,AP,CHEST,CR,0
+a9edbcaa-e436-4807-95d7-1d1c7b424324,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+a9ef6dd9-5784-49b6-afa3-61395acbbd17,,,,,No Lung Opacity / Not Normal,46,M,PA,CHEST,CR,0
+aa1970b8-5039-4ba9-a933-4bd96ad81a91,540.0,270.0,296.0,494.0,Lung Opacity,33,F,AP,CHEST,CR,1
+aa1970b8-5039-4ba9-a933-4bd96ad81a91,122.0,231.0,304.0,463.0,Lung Opacity,33,F,AP,CHEST,CR,1
+aa1aa69a-ad81-48b4-9ab9-e475de6b54ad,,,,,No Lung Opacity / Not Normal,58,F,PA,CHEST,CR,0
+aab88291-f31f-4820-8ffe-032378af31e7,,,,,Normal,27,M,PA,CHEST,CR,0
+ab08e493-1108-4f83-bf24-d47c9f6ab582,,,,,Normal,56,F,AP,CHEST,CR,0
+ab166102-1b92-4bf4-88c6-eaa40cf0a56a,349.0,301.0,110.0,424.0,Lung Opacity,63,M,AP,CHEST,CR,1
+ab166102-1b92-4bf4-88c6-eaa40cf0a56a,634.0,585.0,257.0,260.0,Lung Opacity,63,M,AP,CHEST,CR,1
+ab6619ee-546c-4245-be8d-6e0eece3581a,608.0,283.0,214.0,574.0,Lung Opacity,66,M,AP,CHEST,CR,1
+ab6619ee-546c-4245-be8d-6e0eece3581a,249.0,203.0,216.0,602.0,Lung Opacity,66,M,AP,CHEST,CR,1
+ab894b13-e76c-481e-8093-2d64509ad6bd,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+ab9069f0-1511-414d-b37a-2920517004d4,48.0,692.0,240.0,281.0,Lung Opacity,52,F,AP,CHEST,CR,1
+abc7cc15-0123-4640-a14f-aba7c6451520,,,,,Normal,83,M,PA,CHEST,CR,0
+ac0fa091-cdb3-4e17-a8bd-58545c3e0106,617.0,395.0,256.0,253.0,Lung Opacity,45,M,AP,CHEST,CR,1
+ac0fa091-cdb3-4e17-a8bd-58545c3e0106,217.0,436.0,261.0,218.0,Lung Opacity,45,M,AP,CHEST,CR,1
+ac3e813f-0c91-461e-83eb-e3bdac5bb756,550.0,187.0,135.0,174.0,Lung Opacity,51,F,PA,CHEST,CR,1
+ac3e813f-0c91-461e-83eb-e3bdac5bb756,132.0,434.0,247.0,171.0,Lung Opacity,51,F,PA,CHEST,CR,1
+ac3f6948-11eb-430c-b7eb-3df21e68a3ae,91.0,428.0,242.0,140.0,Lung Opacity,48,F,PA,CHEST,CR,1
+ac3f6948-11eb-430c-b7eb-3df21e68a3ae,580.0,209.0,141.0,161.0,Lung Opacity,48,F,PA,CHEST,CR,1
+ac720376-3ba0-4d34-9743-cd152ddcee2c,,,,,Normal,29,F,PA,CHEST,CR,0
+ac8eca4c-6e21-4ed3-95af-8157ff7b7554,,,,,No Lung Opacity / Not Normal,59,F,PA,CHEST,CR,0
+accfe124-5be8-42e4-86fb-630ad1f11c73,,,,,Normal,31,M,AP,CHEST,CR,0
+acf2dc69-0b5e-4600-a2c4-887c5d37438b,,,,,Normal,46,M,PA,CHEST,CR,0
+ad98f461-a276-4e8b-a47d-a0f5fbef3cb3,,,,,No Lung Opacity / Not Normal,58,M,PA,CHEST,CR,0
+adc6368a-70d1-427f-abd8-54ee2022125b,,,,,Normal,28,M,PA,CHEST,CR,0
+adfe4e1e-3a28-461f-948a-2ba9cfe72763,,,,,Normal,76,M,PA,CHEST,CR,0
+ae14b8c5-43a3-481e-b92b-7e673ed78a06,,,,,Normal,51,F,PA,CHEST,CR,0
+ae49a25b-557c-410b-a598-771d3e1a3f27,,,,,No Lung Opacity / Not Normal,46,F,AP,CHEST,CR,0
+aeac2576-33b3-41a1-bf61-355103e4d3ea,472.0,344.0,300.0,420.0,Lung Opacity,38,F,AP,CHEST,CR,1
+aeac2576-33b3-41a1-bf61-355103e4d3ea,124.0,378.0,225.0,365.0,Lung Opacity,38,F,AP,CHEST,CR,1
+aec849c0-4ef4-4d4e-9d09-573f1ce4cbd1,,,,,Normal,58,M,PA,CHEST,CR,0
+aeed4687-0e91-4584-a5ba-01678fc4215d,,,,,Normal,50,F,PA,CHEST,CR,0
+aef87dc2-a097-4683-9fb1-d1af6838a16a,188.0,482.0,173.0,181.0,Lung Opacity,71,F,PA,CHEST,CR,1
+af06dfe8-ee19-4097-9129-95cbdb6929e5,,,,,No Lung Opacity / Not Normal,27,F,AP,CHEST,CR,0
+afe8e940-8718-4fbe-b852-fd462a7c3274,635.0,479.0,156.0,153.0,Lung Opacity,27,M,PA,CHEST,CR,1
+afe8e940-8718-4fbe-b852-fd462a7c3274,359.0,431.0,109.0,156.0,Lung Opacity,27,M,PA,CHEST,CR,1
+aff7f699-462b-406e-9f70-f5232799a2ef,,,,,Normal,43,M,PA,CHEST,CR,0
+b01d24dd-ff2e-4b9b-99bc-29023fc5b3ec,502.0,191.0,161.0,279.0,Lung Opacity,61,F,AP,CHEST,CR,1
+b01d24dd-ff2e-4b9b-99bc-29023fc5b3ec,228.0,234.0,131.0,317.0,Lung Opacity,61,F,AP,CHEST,CR,1
+b03ceaa1-870b-4bfb-8e84-7132be831e64,,,,,Normal,36,M,PA,CHEST,CR,0
+b05766ae-c0d4-4e29-855b-1112c7ae956e,559.0,316.0,236.0,304.0,Lung Opacity,28,M,AP,CHEST,CR,1
+b07a9877-908a-49d9-86e9-23bd91b6565b,,,,,No Lung Opacity / Not Normal,62,F,PA,CHEST,CR,0
+b0d16665-b0e7-4b00-bd5f-e0e34db867d2,,,,,No Lung Opacity / Not Normal,33,M,AP,CHEST,CR,0
+b0d34352-21d3-490e-8ecd-16baee334aba,169.0,430.0,186.0,336.0,Lung Opacity,72,M,AP,CHEST,CR,1
+b1066280-4520-4377-ac12-b466c84828ed,,,,,Normal,34,F,AP,CHEST,CR,0
+b1358746-8e0b-47d6-b653-dcd10b317429,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+b15d2886-4bc4-4ed8-9be1-2d4d3a59a8c0,,,,,No Lung Opacity / Not Normal,39,M,PA,CHEST,CR,0
+b171964f-e911-42a4-a1ec-e57128258011,507.0,476.0,219.0,475.0,Lung Opacity,66,F,AP,CHEST,CR,1
+b171964f-e911-42a4-a1ec-e57128258011,52.0,105.0,322.0,742.0,Lung Opacity,66,F,AP,CHEST,CR,1
+b17ebcce-1181-4571-a1c8-f5089cfc6fb3,,,,,Normal,62,M,PA,CHEST,CR,0
+b18c9700-19db-4b5a-887a-f6b61549dcb2,,,,,No Lung Opacity / Not Normal,29,M,PA,CHEST,CR,0
+b1976cfc-3bae-4bae-a968-4892e6f953ca,643.0,233.0,222.0,388.0,Lung Opacity,67,M,AP,CHEST,CR,1
+b1976cfc-3bae-4bae-a968-4892e6f953ca,168.0,203.0,272.0,642.0,Lung Opacity,67,M,AP,CHEST,CR,1
+b1a36998-390d-45e5-bd85-21c2c33690f3,155.0,174.0,223.0,575.0,Lung Opacity,27,F,AP,CHEST,CR,1
+b1a975a0-4a69-4c65-b761-44a506b86be6,287.0,168.0,205.0,492.0,Lung Opacity,53,F,AP,CHEST,CR,1
+b1a975a0-4a69-4c65-b761-44a506b86be6,607.0,259.0,243.0,440.0,Lung Opacity,53,F,AP,CHEST,CR,1
+b1c27227-035d-4fdc-a6fb-89bba42ae359,,,,,Normal,27,F,PA,CHEST,CR,0
+b1ebd57e-6037-42a0-9e31-612968c4ff92,,,,,Normal,72,M,PA,CHEST,CR,0
+b20c86c3-84f9-466a-a405-a0cd7207a84e,192.0,592.0,239.0,195.0,Lung Opacity,36,M,PA,CHEST,CR,1
+b20c86c3-84f9-466a-a405-a0cd7207a84e,613.0,517.0,204.0,238.0,Lung Opacity,36,M,PA,CHEST,CR,1
+b241dfb4-3ba4-40b0-93de-2eaafaa13dfc,,,,,Normal,69,F,PA,CHEST,CR,0
+b273a85e-eacc-4bee-b534-5ee42cf1300f,265.0,490.0,181.0,194.0,Lung Opacity,73,F,AP,CHEST,CR,1
+b28024d4-4281-4d77-ac09-e4e07dedb611,,,,,Normal,39,F,PA,CHEST,CR,0
+b29d8671-94c2-4c12-b609-74f52d95f5e6,,,,,No Lung Opacity / Not Normal,56,M,PA,CHEST,CR,0
+b2a1a665-acaa-491f-9164-58a248045c81,,,,,Normal,54,M,PA,CHEST,CR,0
+b2db97fe-2ad5-48d9-800a-b909a36e7158,,,,,No Lung Opacity / Not Normal,45,M,AP,CHEST,CR,0
+b2f114bd-c0cf-4c98-a929-ac5add3103b7,,,,,No Lung Opacity / Not Normal,17,F,AP,CHEST,CR,0
+b30df62a-be07-4d97-8869-2192bf6fa004,,,,,No Lung Opacity / Not Normal,32,M,PA,CHEST,CR,0
+b344e7ac-52f9-418c-a5a1-bba1f5b543bf,282.0,585.0,197.0,192.0,Lung Opacity,56,M,AP,CHEST,CR,1
+b344e7ac-52f9-418c-a5a1-bba1f5b543bf,680.0,575.0,214.0,288.0,Lung Opacity,56,M,AP,CHEST,CR,1
+b353a850-9c2b-452b-9610-21e27b01d4fa,248.0,668.0,162.0,240.0,Lung Opacity,32,M,AP,CHEST,CR,1
+b353a850-9c2b-452b-9610-21e27b01d4fa,579.0,762.0,224.0,211.0,Lung Opacity,32,M,AP,CHEST,CR,1
+b3a7782d-13d4-417f-b897-67e873c757c7,,,,,Normal,43,M,PA,CHEST,CR,0
+b3cbba88-1fcf-4235-9810-ad1ea8059fb9,,,,,Normal,52,M,PA,CHEST,CR,0
+b3e5becd-9009-4981-82ab-bbf28f4a834b,665.0,373.0,200.0,272.0,Lung Opacity,61,M,AP,CHEST,CR,1
+b3fea5aa-119e-45ab-93ca-b42022961cb7,,,,,Normal,44,M,PA,CHEST,CR,0
+b42eaeb8-b6d3-41d7-836c-56fd0922abf6,513.0,159.0,124.0,197.0,Lung Opacity,16,F,AP,CHEST,CR,1
+b42eaeb8-b6d3-41d7-836c-56fd0922abf6,314.0,485.0,136.0,207.0,Lung Opacity,16,F,AP,CHEST,CR,1
+b42eaeb8-b6d3-41d7-836c-56fd0922abf6,590.0,458.0,128.0,228.0,Lung Opacity,16,F,AP,CHEST,CR,1
+b4342a1f-02b6-480d-932c-7a8d924b219f,,,,,No Lung Opacity / Not Normal,83,M,PA,CHEST,CR,0
+b4356234-df8c-44f4-b13c-bf2225665686,,,,,No Lung Opacity / Not Normal,53,F,AP,CHEST,CR,0
+b441b807-25e0-4c5d-a1c3-bbf000a38b19,,,,,Normal,54,F,AP,CHEST,CR,0
+b47667ed-c87d-4fa6-924f-4f8383a26417,,,,,No Lung Opacity / Not Normal,22,F,AP,CHEST,CR,0
+b482e039-2679-4fd9-886a-b0fea2cba242,654.0,335.0,194.0,312.0,Lung Opacity,49,F,AP,CHEST,CR,1
+b4a86f67-272e-4204-9dab-749ec2ec627f,193.0,232.0,225.0,493.0,Lung Opacity,71,F,AP,CHEST,CR,1
+b4a86f67-272e-4204-9dab-749ec2ec627f,531.0,277.0,235.0,357.0,Lung Opacity,71,F,AP,CHEST,CR,1
+b4ea3ed4-ba8e-4b62-8150-72e39aef9055,,,,,Normal,52,M,PA,CHEST,CR,0
+b539f1e2-09f8-4050-835a-8d39b460d5d8,,,,,No Lung Opacity / Not Normal,67,F,AP,CHEST,CR,0
+b547f70e-e50e-40fc-b3e3-db94bcea0734,,,,,Normal,63,F,AP,CHEST,CR,0
+b5630ae2-40eb-4df8-b5c7-5a33e3e7adb4,239.0,468.0,168.0,239.0,Lung Opacity,65,F,PA,CHEST,CR,1
+b56e253f-df19-4485-928b-d3b3f66d6c47,660.0,518.0,239.0,233.0,Lung Opacity,25,F,AP,CHEST,CR,1
+b56e253f-df19-4485-928b-d3b3f66d6c47,305.0,526.0,224.0,293.0,Lung Opacity,25,F,AP,CHEST,CR,1
+b59a6d82-6686-4691-917e-8c98b6752b01,219.0,339.0,215.0,170.0,Lung Opacity,48,F,AP,CHEST,CR,1
+b5c7d8f1-91f7-4251-a761-7388800ad0ed,,,,,Normal,60,F,PA,CHEST,CR,0
+b5c9f691-020c-4f70-bac8-25b067f0b357,,,,,Normal,43,F,PA,CHEST,CR,0
+b5fda723-b6c7-4b82-a960-83d3f52f385a,,,,,Normal,72,M,PA,CHEST,CR,0
+b6485351-ddd3-4bae-9b4e-6038370e827b,122.0,219.0,271.0,726.0,Lung Opacity,34,M,AP,CHEST,CR,1
+b6485351-ddd3-4bae-9b4e-6038370e827b,541.0,222.0,337.0,771.0,Lung Opacity,34,M,AP,CHEST,CR,1
+b697ecb0-3185-4ea6-a460-c5357b452e7a,267.0,355.0,172.0,295.0,Lung Opacity,66,F,PA,CHEST,CR,1
+b6f8ef19-5d1c-4b9c-8c3a-e9afbf1f863c,,,,,No Lung Opacity / Not Normal,14,F,AP,CHEST,CR,0
+b71d89cc-dd37-4883-830e-cba59a8f8e6e,,,,,No Lung Opacity / Not Normal,73,M,AP,CHEST,CR,0
+b72afa3e-644b-479a-845d-14fe8351cdb0,569.0,290.0,310.0,685.0,Lung Opacity,33,M,AP,CHEST,CR,1
+b72afa3e-644b-479a-845d-14fe8351cdb0,159.0,279.0,255.0,611.0,Lung Opacity,33,M,AP,CHEST,CR,1
+b87a09c7-b7fa-4869-b7aa-0b2a395a4215,709.0,313.0,251.0,506.0,Lung Opacity,49,M,AP,CHEST,CR,1
+b87a09c7-b7fa-4869-b7aa-0b2a395a4215,261.0,393.0,233.0,358.0,Lung Opacity,49,M,AP,CHEST,CR,1
+b8a563db-5bfd-4638-9b55-30c3a230485f,285.0,430.0,162.0,160.0,Lung Opacity,38,M,AP,CHEST,CR,1
+b8a563db-5bfd-4638-9b55-30c3a230485f,626.0,457.0,238.0,161.0,Lung Opacity,38,M,AP,CHEST,CR,1
+b8c3bf25-8f13-4c19-9744-84ef64173989,,,,,No Lung Opacity / Not Normal,34,M,PA,CHEST,CR,0
+b8d825e5-fcd7-491e-a45a-9b04f5433092,687.0,352.0,200.0,626.0,Lung Opacity,26,M,AP,CHEST,CR,1
+b8d825e5-fcd7-491e-a45a-9b04f5433092,240.0,202.0,262.0,612.0,Lung Opacity,26,M,AP,CHEST,CR,1
+b95d289f-8019-4491-8f90-39a55d321c37,318.0,366.0,171.0,209.0,Lung Opacity,71,F,AP,CHEST,CR,1
+b95d289f-8019-4491-8f90-39a55d321c37,650.0,509.0,94.0,178.0,Lung Opacity,71,F,AP,CHEST,CR,1
+b9a94f80-1935-4f40-a52d-ef9da973a3d5,,,,,Normal,62,M,PA,CHEST,CR,0
+b9c687bf-4fa5-447c-b526-24ea3ce3d6e2,653.0,191.0,290.0,695.0,Lung Opacity,81,F,AP,CHEST,CR,1
+b9c687bf-4fa5-447c-b526-24ea3ce3d6e2,319.0,223.0,237.0,661.0,Lung Opacity,81,F,AP,CHEST,CR,1
+b9cd73cb-2dfc-4c9b-9ea0-61c0d0b10a87,571.0,350.0,229.0,519.0,Lung Opacity,54,M,AP,CHEST,CR,1
+b9cd73cb-2dfc-4c9b-9ea0-61c0d0b10a87,194.0,325.0,260.0,532.0,Lung Opacity,54,M,AP,CHEST,CR,1
+b9db0f75-18af-49e4-b547-71e0d302c4aa,541.0,24.0,262.0,491.0,Lung Opacity,63,M,AP,CHEST,CR,1
+b9db0f75-18af-49e4-b547-71e0d302c4aa,181.0,98.0,247.0,478.0,Lung Opacity,63,M,AP,CHEST,CR,1
+b9f8516d-e115-4f48-a43f-79d4ba74840e,,,,,Normal,15,M,PA,CHEST,CR,0
+ba0e4666-cf09-4ba1-a758-f4960ef162c9,649.0,286.0,259.0,357.0,Lung Opacity,47,M,AP,CHEST,CR,1
+ba0e4666-cf09-4ba1-a758-f4960ef162c9,295.0,276.0,186.0,254.0,Lung Opacity,47,M,AP,CHEST,CR,1
+ba2a7072-eae8-4e2b-9afe-71e94b09e13d,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+ba30b9a4-bebd-4196-a972-e7178508b55e,148.0,497.0,248.0,124.0,Lung Opacity,55,M,PA,CHEST,CR,1
+ba353385-091c-4c4a-8048-eca0388c7a43,180.0,147.0,251.0,574.0,Lung Opacity,30,M,AP,CHEST,CR,1
+ba353385-091c-4c4a-8048-eca0388c7a43,566.0,204.0,200.0,584.0,Lung Opacity,30,M,AP,CHEST,CR,1
+ba3766e2-8065-45ab-a8a3-a5e5d81d5c15,314.0,255.0,216.0,620.0,Lung Opacity,47,F,AP,CHEST,CR,1
+ba3766e2-8065-45ab-a8a3-a5e5d81d5c15,665.0,282.0,248.0,497.0,Lung Opacity,47,F,AP,CHEST,CR,1
+ba40ac09-3350-40f4-86d7-d0116a5ce26d,,,,,Normal,30,M,PA,CHEST,CR,0
+ba560799-4c34-456a-8968-1e4a0cc98c46,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+ba614c4f-bb2a-4153-9a46-1927aa826585,,,,,Normal,63,M,PA,CHEST,CR,0
+ba7af3a4-033a-44cd-879d-13130fad6d60,,,,,Normal,35,M,PA,CHEST,CR,0
+ba8516cc-aa1b-4f6c-ac7a-e34c5b2cda39,,,,,Normal,56,M,AP,CHEST,CR,0
+baa5cbde-acb9-4160-a8e9-d19ab0cf8063,626.0,302.0,285.0,668.0,Lung Opacity,50,M,AP,CHEST,CR,1
+baa5cbde-acb9-4160-a8e9-d19ab0cf8063,137.0,271.0,312.0,673.0,Lung Opacity,50,M,AP,CHEST,CR,1
+bab71d24-89ad-4ae5-bbc1-4d0b6fefcc52,,,,,Normal,70,M,PA,CHEST,CR,0
+bac6c0e9-9e87-4d76-92a6-e9b0b11983e9,631.0,429.0,208.0,551.0,Lung Opacity,69,M,AP,CHEST,CR,1
+bac6c0e9-9e87-4d76-92a6-e9b0b11983e9,123.0,304.0,361.0,473.0,Lung Opacity,69,M,AP,CHEST,CR,1
+baccc2b6-a7d5-4d89-a110-932adaa6a9ba,129.0,300.0,317.0,458.0,Lung Opacity,26,M,PA,CHEST,CR,1
+badc0335-1212-4fb3-8417-a63a9df523c3,,,,,Normal,14,F,AP,CHEST,CR,0
+bade0f31-c385-4f3f-b16f-bdcc83b2c687,,,,,Normal,25,F,PA,CHEST,CR,0
+bb1548e0-0d9f-42de-bd43-627c90259a8b,,,,,No Lung Opacity / Not Normal,26,F,PA,CHEST,CR,0
+bb189459-2735-44c6-a344-a645a9721dfb,212.0,514.0,272.0,289.0,Lung Opacity,30,M,AP,CHEST,CR,1
+bb189459-2735-44c6-a344-a645a9721dfb,611.0,464.0,265.0,326.0,Lung Opacity,30,M,AP,CHEST,CR,1
+bb38452e-c1ea-4a6c-b46a-a4e7c5a9ca4b,,,,,Normal,49,F,PA,CHEST,CR,0
+bb50ac9d-6cb2-417f-b468-3c1eec9a2f69,,,,,No Lung Opacity / Not Normal,42,M,PA,CHEST,CR,0
+bb9a72f0-c455-471a-a511-ae90d0215adb,,,,,No Lung Opacity / Not Normal,34,M,AP,CHEST,CR,0
+bbcafe04-651f-4c43-bd9c-c94d51900478,211.0,512.0,200.0,234.0,Lung Opacity,24,M,AP,CHEST,CR,1
+bbcafe04-651f-4c43-bd9c-c94d51900478,492.0,338.0,185.0,331.0,Lung Opacity,24,M,AP,CHEST,CR,1
+bbecaf72-370b-4667-a4bf-088091cfae00,684.0,639.0,194.0,184.0,Lung Opacity,66,M,AP,CHEST,CR,1
+bc237587-65cc-4747-8ccf-20b271c452f6,227.0,623.0,231.0,148.0,Lung Opacity,65,M,AP,CHEST,CR,1
+bc2873dc-5ea1-4c4a-954b-d94987bca42f,,,,,Normal,49,F,PA,CHEST,CR,0
+bc867365-1d77-44f9-8908-3b79b21c859a,,,,,No Lung Opacity / Not Normal,66,F,PA,CHEST,CR,0
+bc9bd81f-13cb-4fb1-acb8-2f79d4d58954,596.0,428.0,267.0,220.0,Lung Opacity,62,M,PA,CHEST,CR,1
+bc9bd81f-13cb-4fb1-acb8-2f79d4d58954,157.0,403.0,230.0,200.0,Lung Opacity,62,M,PA,CHEST,CR,1
+bcab0525-079e-492e-8e20-c51c779884aa,182.0,679.0,222.0,238.0,Lung Opacity,56,M,AP,CHEST,CR,1
+bcab0525-079e-492e-8e20-c51c779884aa,571.0,610.0,236.0,273.0,Lung Opacity,56,M,AP,CHEST,CR,1
+bcd8008f-1545-42ef-8f75-b40ecf1aa90a,,,,,Normal,29,F,PA,CHEST,CR,0
+bcdbc728-859b-4989-8621-bc8cdfece25c,,,,,Normal,69,M,PA,CHEST,CR,0
+bd1356ed-d7fc-41d7-a11b-b1b1f2c5add1,138.0,79.0,274.0,591.0,Lung Opacity,24,F,AP,CHEST,CR,1
+bd1356ed-d7fc-41d7-a11b-b1b1f2c5add1,533.0,108.0,188.0,715.0,Lung Opacity,24,F,AP,CHEST,CR,1
+bd164f7a-a3a5-40d0-933c-0d623be3ad94,323.0,218.0,174.0,265.0,Lung Opacity,17,M,AP,CHEST,CR,1
+bd32649e-99f1-4563-b4a4-4f4d8e547f12,159.0,498.0,196.0,232.0,Lung Opacity,62,F,AP,CHEST,CR,1
+bd3be67d-192e-4cfc-91e3-381fc8465019,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+bd4fa84d-813d-4ed5-b68f-c88127ed2f80,192.0,210.0,211.0,492.0,Lung Opacity,19,M,AP,CHEST,CR,1
+bd4fa84d-813d-4ed5-b68f-c88127ed2f80,583.0,142.0,250.0,577.0,Lung Opacity,19,M,AP,CHEST,CR,1
+bd562b4a-0bcd-4d3f-8fe5-b8bfb3875b1c,617.0,451.0,137.0,230.0,Lung Opacity,53,M,PA,CHEST,CR,1
+bd59abda-3e57-4be0-9140-22c8f6de8c3c,,,,,Normal,56,M,AP,CHEST,CR,0
+bd5cba97-38f8-440d-9365-401af84b6c4f,,,,,Normal,44,F,PA,CHEST,CR,0
+bd6e1c5f-cd5d-403d-a09e-271283187b35,,,,,Normal,40,M,PA,CHEST,CR,0
+bd73138b-5909-47be-bfd7-ae53e4a3c765,,,,,No Lung Opacity / Not Normal,45,F,PA,CHEST,CR,0
+bda7d05e-c319-44a5-96c2-7c7c2e77ff4a,,,,,Normal,81,M,PA,CHEST,CR,0
+bdc61d06-50cb-4f97-914e-eba06a7f6552,358.0,536.0,150.0,267.0,Lung Opacity,59,M,AP,CHEST,CR,1
+bdc61d06-50cb-4f97-914e-eba06a7f6552,737.0,543.0,215.0,298.0,Lung Opacity,59,M,AP,CHEST,CR,1
+bdef94bc-4e2e-4df3-b06e-126aed15846a,257.0,113.0,235.0,430.0,Lung Opacity,22,M,AP,CHEST,CR,1
+bdef94bc-4e2e-4df3-b06e-126aed15846a,634.0,201.0,207.0,548.0,Lung Opacity,22,M,AP,CHEST,CR,1
+be03b6e9-e030-4491-b23e-ac1d7efc73bb,254.0,150.0,290.0,272.0,Lung Opacity,63,M,AP,CHEST,CR,1
+be03b6e9-e030-4491-b23e-ac1d7efc73bb,684.0,461.0,235.0,275.0,Lung Opacity,63,M,AP,CHEST,CR,1
+be1a004a-5911-4b0f-a431-bf909eed1e60,607.0,399.0,237.0,212.0,Lung Opacity,50,F,PA,CHEST,CR,1
+be35c13b-705d-4466-ae3f-ed690080ac9d,169.0,445.0,245.0,305.0,Lung Opacity,59,F,AP,CHEST,CR,1
+be35c13b-705d-4466-ae3f-ed690080ac9d,563.0,270.0,188.0,440.0,Lung Opacity,59,F,AP,CHEST,CR,1
+be367de2-d888-41df-90bd-82baaa80541f,200.0,392.0,247.0,275.0,Lung Opacity,56,M,AP,CHEST,CR,1
+be367de2-d888-41df-90bd-82baaa80541f,606.0,425.0,240.0,215.0,Lung Opacity,56,M,AP,CHEST,CR,1
+be590287-c599-4d86-8308-ac6cdb760eae,,,,,Normal,39,M,PA,CHEST,CR,0
+be5d4e59-c207-4359-b7ad-a88fb593f2c7,238.0,140.0,230.0,563.0,Lung Opacity,24,F,AP,CHEST,CR,1
+be5d4e59-c207-4359-b7ad-a88fb593f2c7,578.0,132.0,225.0,559.0,Lung Opacity,24,F,AP,CHEST,CR,1
+be658bed-445c-4b31-a581-88ba0a008f4d,280.0,176.0,222.0,473.0,Lung Opacity,56,M,AP,CHEST,CR,1
+be658bed-445c-4b31-a581-88ba0a008f4d,707.0,320.0,199.0,405.0,Lung Opacity,56,M,AP,CHEST,CR,1
+bef1083b-21b4-4583-ac75-9f2ffb41622d,,,,,No Lung Opacity / Not Normal,32,M,PA,CHEST,CR,0
+bf27db61-1c2e-4710-9f25-31eacb526f5e,165.0,714.0,221.0,269.0,Lung Opacity,82,M,AP,CHEST,CR,1
+bf27db61-1c2e-4710-9f25-31eacb526f5e,586.0,667.0,287.0,272.0,Lung Opacity,82,M,AP,CHEST,CR,1
+bfbd4ed3-1d78-437b-b5dc-09ab063b55fa,242.0,252.0,195.0,368.0,Lung Opacity,29,M,AP,CHEST,CR,1
+c00bf44e-5b65-470d-8ddb-b704e630bd5e,585.0,347.0,160.0,282.0,Lung Opacity,43,F,AP,CHEST,CR,1
+c00bf44e-5b65-470d-8ddb-b704e630bd5e,247.0,354.0,133.0,313.0,Lung Opacity,43,F,AP,CHEST,CR,1
+c18b879f-fd67-4cc1-bb9f-176e44d63a1e,,,,,No Lung Opacity / Not Normal,23,F,AP,CHEST,CR,0
+c21d91c2-1444-4398-a5f7-4044d8e7f75c,75.0,126.0,218.0,407.0,Lung Opacity,34,F,AP,CHEST,CR,1
+c21d91c2-1444-4398-a5f7-4044d8e7f75c,525.0,251.0,120.0,194.0,Lung Opacity,34,F,AP,CHEST,CR,1
+c22ef690-d5e9-41ae-a896-11643a0fe168,,,,,No Lung Opacity / Not Normal,56,F,AP,CHEST,CR,0
+c2886322-b4ab-46ca-bcac-4d70db04071b,,,,,Normal,48,F,PA,CHEST,CR,0
+c2a5babf-0f62-4d68-9d96-7e10842a524d,,,,,No Lung Opacity / Not Normal,63,F,PA,CHEST,CR,0
+c2a5f77c-517d-4987-84e3-0338ad29704e,635.0,651.0,92.0,141.0,Lung Opacity,52,M,PA,CHEST,CR,1
+c2bf72e6-cedf-423b-9a25-f60e60f678d6,,,,,Normal,63,M,PA,CHEST,CR,0
+c2d450e6-291a-439e-9a22-57a16448d751,,,,,No Lung Opacity / Not Normal,25,M,AP,CHEST,CR,0
+c34ea5d9-c6ef-43bc-8df1-30918c113d99,,,,,Normal,59,M,PA,CHEST,CR,0
+c37cfadd-1e52-4704-9831-403826ad2974,239.0,153.0,275.0,539.0,Lung Opacity,46,M,AP,CHEST,CR,1
+c37cfadd-1e52-4704-9831-403826ad2974,667.0,158.0,279.0,466.0,Lung Opacity,46,M,AP,CHEST,CR,1
+c386e937-e121-4981-87f1-14afe0315fea,,,,,Normal,28,F,PA,CHEST,CR,0
+c38ee02e-2fb7-4868-a909-d28167ea5fb6,,,,,No Lung Opacity / Not Normal,25,F,PA,CHEST,CR,0
+c399ab28-b477-433b-924e-6d6046ff23ff,300.0,453.0,169.0,331.0,Lung Opacity,32,M,AP,CHEST,CR,1
+c399ab28-b477-433b-924e-6d6046ff23ff,667.0,192.0,183.0,361.0,Lung Opacity,32,M,AP,CHEST,CR,1
+c39c065c-40fb-4920-9f9a-36ccbb212c0d,598.0,318.0,163.0,354.0,Lung Opacity,10,F,AP,CHEST,CR,1
+c39c065c-40fb-4920-9f9a-36ccbb212c0d,269.0,275.0,178.0,356.0,Lung Opacity,10,F,AP,CHEST,CR,1
+c39e60a0-f1dc-4a16-aae8-c6df8362a877,,,,,Normal,69,F,PA,CHEST,CR,0
+c3bff4b1-efa9-4b87-a32d-bcbe6d31c4f2,595.0,440.0,222.0,236.0,Lung Opacity,57,F,PA,CHEST,CR,1
+c3bff4b1-efa9-4b87-a32d-bcbe6d31c4f2,199.0,461.0,242.0,202.0,Lung Opacity,57,F,PA,CHEST,CR,1
+c3cf79fc-a710-4704-86c3-597656bcfa0f,,,,,No Lung Opacity / Not Normal,49,M,PA,CHEST,CR,0
+c4090b37-aa75-4b78-80cb-836e281a71b2,,,,,No Lung Opacity / Not Normal,50,F,AP,CHEST,CR,0
+c40989b5-ca9d-42ac-a215-99eb4da0d7c5,,,,,No Lung Opacity / Not Normal,53,M,AP,CHEST,CR,0
+c4542463-c7e3-4af7-a6d2-bb6cf6388012,,,,,No Lung Opacity / Not Normal,46,M,AP,CHEST,CR,0
+c4ac5bf6-b3be-4acb-b8c8-a3d9d2a99647,622.0,458.0,173.0,207.0,Lung Opacity,56,M,AP,CHEST,CR,1
+c4ac5bf6-b3be-4acb-b8c8-a3d9d2a99647,216.0,381.0,145.0,272.0,Lung Opacity,56,M,AP,CHEST,CR,1
+c4acd677-ae5e-4b23-b888-2e8e2e1c3996,216.0,149.0,218.0,468.0,Lung Opacity,43,F,AP,CHEST,CR,1
+c4acd677-ae5e-4b23-b888-2e8e2e1c3996,556.0,168.0,214.0,503.0,Lung Opacity,43,F,AP,CHEST,CR,1
+c4c02f02-e91c-4a0f-8a56-d89f9fec81f3,578.0,175.0,236.0,575.0,Lung Opacity,47,F,AP,CHEST,CR,1
+c4c02f02-e91c-4a0f-8a56-d89f9fec81f3,247.0,124.0,216.0,612.0,Lung Opacity,47,F,AP,CHEST,CR,1
+c4ea653c-ffa5-46f4-80ef-7b83b1abc16b,,,,,No Lung Opacity / Not Normal,62,M,AP,CHEST,CR,0
+c506805c-9dd3-42c0-8851-e35e0c8627b5,,,,,Normal,37,M,PA,CHEST,CR,0
+c56cc0dc-78a2-4f91-8f86-7214ae601d5e,,,,,No Lung Opacity / Not Normal,57,F,PA,CHEST,CR,0
+c5d59db9-58ab-4164-9d77-4e9ac03ec273,164.0,555.0,237.0,381.0,Lung Opacity,9,F,AP,CHEST,CR,1
+c5dc3440-1fcb-42f5-ad20-aaa163d7b8e0,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+c60f4603-c33d-4e47-8d3b-580805e6fbe2,,,,,No Lung Opacity / Not Normal,20,M,AP,CHEST,CR,0
+c61e57d7-952d-49ba-9bb6-da27b034478a,,,,,Normal,47,F,PA,CHEST,CR,0
+c6a5426f-108f-45d5-ba62-644c004d497b,,,,,Normal,55,M,PA,CHEST,CR,0
+c6af753a-b070-4000-afc3-c4623b84aad0,,,,,Normal,23,F,PA,CHEST,CR,0
+c6cf1348-45b7-4faf-808b-18e5797194b7,,,,,Normal,53,F,AP,CHEST,CR,0
+c6d961b8-706e-4d1e-a82b-8cb156ee0938,,,,,Normal,52,F,PA,CHEST,CR,0
+c7215e8b-1a56-4d3f-910f-fb187ec0e672,,,,,No Lung Opacity / Not Normal,43,M,AP,CHEST,CR,0
+c7544763-e97a-4aba-bd71-99eef140ff91,,,,,No Lung Opacity / Not Normal,42,F,AP,CHEST,CR,0
+c75ada7c-f5f2-4ea0-9876-05d332328e67,130.0,300.0,163.0,130.0,Lung Opacity,57,M,AP,CHEST,CR,1
+c7869ddf-64cb-4640-9b39-8b7ff5668f8e,,,,,No Lung Opacity / Not Normal,26,M,AP,CHEST,CR,0
+c79c8c80-4f48-4e28-ab5b-cc53e86388b2,,,,,No Lung Opacity / Not Normal,19,M,PA,CHEST,CR,0
+c7b46935-439f-47fb-8c7b-10d8079c2cda,622.0,425.0,221.0,336.0,Lung Opacity,57,F,AP,CHEST,CR,1
+c7b46935-439f-47fb-8c7b-10d8079c2cda,233.0,507.0,204.0,236.0,Lung Opacity,57,F,AP,CHEST,CR,1
+c7b4e202-d634-49e8-ba7c-13292ab4db66,,,,,No Lung Opacity / Not Normal,63,M,AP,CHEST,CR,0
+c7b82296-619f-4af1-9948-a1837c474117,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+c7c62636-1ee0-4bc3-80a1-99aaf640b59a,,,,,Normal,46,F,AP,CHEST,CR,0
+c8463dfe-4d56-45b5-ad45-4c1236a55633,,,,,No Lung Opacity / Not Normal,19,M,AP,CHEST,CR,0
+c848c8e3-50ac-4185-8317-e8baecaabc0e,,,,,Normal,53,M,PA,CHEST,CR,0
+c8565201-fcaa-41ed-8ed0-d8d5a2228fc6,,,,,Normal,46,F,AP,CHEST,CR,0
+c87992ba-0fed-475e-9391-a8d2acd82bde,,,,,No Lung Opacity / Not Normal,30,F,AP,CHEST,CR,0
+c87c655c-7aa0-475d-b764-8cf5831e1244,205.0,464.0,287.0,194.0,Lung Opacity,22,F,AP,CHEST,CR,1
+c88f26fb-b256-40bf-85a8-cc6059c079b7,,,,,Normal,65,M,PA,CHEST,CR,0
+c8a5645a-4d8d-4ab5-9644-e4bda9a395cb,,,,,No Lung Opacity / Not Normal,34,M,PA,CHEST,CR,0
+c8b5303b-d3f4-4aeb-8dd1-89cc191694f2,,,,,No Lung Opacity / Not Normal,46,F,PA,CHEST,CR,0
+c8e36af3-6b75-49ac-b144-975daf5aaa38,,,,,No Lung Opacity / Not Normal,30,M,AP,CHEST,CR,0
+c8e8c3ff-52e1-44bb-84b0-e2a90ffcfd32,,,,,No Lung Opacity / Not Normal,35,F,PA,CHEST,CR,0
+c8f13fa3-eae9-4e24-ac7f-2ad597b62921,,,,,No Lung Opacity / Not Normal,52,M,AP,CHEST,CR,0
+c8fd8ff0-2c24-45b8-aada-6784d3327582,,,,,No Lung Opacity / Not Normal,64,F,PA,CHEST,CR,0
+c91c57aa-ced9-4499-a231-36b78e5fa786,,,,,Normal,42,F,PA,CHEST,CR,0
+c93a4ab9-f06d-4851-a596-7778ea749c70,,,,,No Lung Opacity / Not Normal,70,M,AP,CHEST,CR,0
+c94946c0-c511-426b-ade0-f70f71c0cb79,,,,,No Lung Opacity / Not Normal,64,F,PA,CHEST,CR,0
+c9a6d04a-89ee-42dd-8837-9ae4e58dde35,,,,,Normal,18,M,AP,CHEST,CR,0
+c9c976bf-b105-4b7d-ba23-e2922186c95f,,,,,Normal,43,F,PA,CHEST,CR,0
+c9ef5f00-e918-46d6-897f-ee78fc1310d5,128.0,251.0,290.0,522.0,Lung Opacity,49,M,AP,CHEST,CR,1
+c9ef5f00-e918-46d6-897f-ee78fc1310d5,517.0,190.0,369.0,637.0,Lung Opacity,49,M,AP,CHEST,CR,1
+ca7682e6-7ba1-4939-8d27-b4bced25ff5e,,,,,No Lung Opacity / Not Normal,45,M,AP,CHEST,CR,0
+ca96493d-0643-4f69-87d7-1fd1c339ae84,,,,,No Lung Opacity / Not Normal,57,F,PA,CHEST,CR,0
+cad2d80a-288b-4bff-95e4-90a519c5e3ee,,,,,No Lung Opacity / Not Normal,47,F,AP,CHEST,CR,0
+cb1bf059-6398-45bb-9dc0-5c3c993dfad3,,,,,No Lung Opacity / Not Normal,57,M,AP,CHEST,CR,0
+cb2677d3-4272-470e-8ca0-97298e86b68a,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+cb31cb03-5e10-4e97-b0c0-6308f4726306,,,,,No Lung Opacity / Not Normal,48,F,PA,CHEST,CR,0
+cbb7effe-9dcf-4f68-80ce-6671cf0e733d,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+cc3177c8-6570-497c-aef3-6fbddef692f6,262.0,175.0,207.0,481.0,Lung Opacity,26,F,AP,CHEST,CR,1
+cc3177c8-6570-497c-aef3-6fbddef692f6,585.0,191.0,233.0,543.0,Lung Opacity,26,F,AP,CHEST,CR,1
+cc31a747-f6e8-480b-aad9-8ff352fcc703,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+cc410edb-e28f-4fad-b7d2-764fc9480007,,,,,No Lung Opacity / Not Normal,44,F,AP,CHEST,CR,0
+cc7f5632-634e-43eb-9f97-b7d6b91bdabf,,,,,No Lung Opacity / Not Normal,60,F,AP,CHEST,CR,0
+ccd41f6b-7715-4c84-9957-c5eaee20b0f1,240.0,241.0,278.0,228.0,Lung Opacity,58,M,AP,CHEST,CR,1
+ccee103f-fd2f-44b1-a14d-5f78c7073868,326.0,287.0,191.0,292.0,Lung Opacity,55,F,AP,CHEST,CR,1
+ccfb61b2-a283-4024-8daa-f7273825a18f,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+cd0ca2b5-ec57-41a9-864d-0aab3bf61848,543.0,332.0,307.0,506.0,Lung Opacity,22,M,AP,CHEST,CR,1
+cd0ca2b5-ec57-41a9-864d-0aab3bf61848,179.0,322.0,279.0,503.0,Lung Opacity,22,M,AP,CHEST,CR,1
+cd10b0eb-c04d-4231-a24e-90581c4b4af2,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+cd544eaa-5084-4bd3-81d1-8d02da582260,275.0,262.0,231.0,410.0,Lung Opacity,22,M,AP,CHEST,CR,1
+cd544eaa-5084-4bd3-81d1-8d02da582260,681.0,245.0,265.0,350.0,Lung Opacity,22,M,AP,CHEST,CR,1
+cd79b093-d3a2-49bd-8868-b463ff05f3e8,604.0,336.0,264.0,294.0,Lung Opacity,25,M,AP,CHEST,CR,1
+cd84b533-e235-4458-a278-69b67d743b83,,,,,No Lung Opacity / Not Normal,40,M,AP,CHEST,CR,0
+cdcecbe8-45cd-42a5-a47d-d58bc638f937,621.0,527.0,268.0,303.0,Lung Opacity,42,M,AP,CHEST,CR,1
+cdcecbe8-45cd-42a5-a47d-d58bc638f937,206.0,480.0,175.0,318.0,Lung Opacity,42,M,AP,CHEST,CR,1
+ce6517d2-cba5-4e79-936d-1d8bff1559fe,,,,,Normal,38,F,AP,CHEST,CR,0
+ce7de6c5-a66f-4c77-913a-7d29fe5ea882,,,,,No Lung Opacity / Not Normal,70,M,PA,CHEST,CR,0
+ce894c80-15b8-4e95-98a2-49f09bddd6b1,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+ce9f0c38-a86b-484d-93ae-99a7203ace0b,,,,,No Lung Opacity / Not Normal,66,F,PA,CHEST,CR,0
+ceb09017-9dc8-42aa-bb67-2fe3d65f9b1c,,,,,No Lung Opacity / Not Normal,44,M,PA,CHEST,CR,0
+ceb1eb5c-ba1e-4994-a7fc-05584969b569,,,,,Normal,29,M,AP,CHEST,CR,0
+cedb4eb3-65e1-40c9-9683-c3b582991877,,,,,No Lung Opacity / Not Normal,14,M,PA,CHEST,CR,0
+cee471f5-f330-4216-8df1-737158cc5fc4,,,,,Normal,66,F,PA,CHEST,CR,0
+cee8b61a-d0aa-42f7-8f90-0be7aac05636,,,,,Normal,34,M,PA,CHEST,CR,0
+cf2b0a13-fc2c-475c-89f2-eaa17690a00a,,,,,No Lung Opacity / Not Normal,73,M,PA,CHEST,CR,0
+cf417f5d-5b23-47e0-a1ea-69e79994d31c,,,,,Normal,31,F,AP,CHEST,CR,0
+cf6ea318-8cf0-4383-9e13-500d0f01c248,,,,,No Lung Opacity / Not Normal,35,M,PA,CHEST,CR,0
+cf81cc61-16b5-496f-999d-d34b434a9cde,161.0,208.0,304.0,402.0,Lung Opacity,56,F,AP,CHEST,CR,1
+cfb8976e-5c7f-45e2-baee-1b3dd901393c,,,,,No Lung Opacity / Not Normal,51,M,AP,CHEST,CR,0
+cfc7e223-b50b-4204-973a-6cabce3072a0,,,,,No Lung Opacity / Not Normal,74,M,PA,CHEST,CR,0
+cfe3d40b-4292-4de1-95b0-0c25f5048bcd,,,,,No Lung Opacity / Not Normal,53,F,AP,CHEST,CR,0
+cfe768fc-4a0c-41fb-b3e3-86229e2cb94a,185.0,245.0,315.0,400.0,Lung Opacity,51,F,AP,CHEST,CR,1
+d03f855d-a0b8-45b9-afdb-8844186c11eb,181.0,230.0,265.0,450.0,Lung Opacity,61,M,AP,CHEST,CR,1
+d03f855d-a0b8-45b9-afdb-8844186c11eb,542.0,237.0,262.0,474.0,Lung Opacity,61,M,AP,CHEST,CR,1
+d0ab1dbe-b649-4590-9cb0-73acab682050,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+d0b9dbae-fb6e-4957-a853-76a199ad0868,,,,,No Lung Opacity / Not Normal,60,M,AP,CHEST,CR,0
+d0ca74f7-0792-4399-839c-63ea481412e0,,,,,No Lung Opacity / Not Normal,19,M,AP,CHEST,CR,0
+d0cf8016-d549-4239-9d81-969f13e39663,,,,,No Lung Opacity / Not Normal,84,M,PA,CHEST,CR,0
+d0da70f4-e597-4261-ac43-d639c6f78f15,,,,,Normal,23,F,PA,CHEST,CR,0
+d0f3dd8b-a619-407e-95ff-b6bb1a0581bf,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+d101a3ca-db2f-4914-83f0-a4d7f81af99e,,,,,Normal,34,F,PA,CHEST,CR,0
+d116680f-3c52-4012-aadb-ac37bb984e7b,,,,,No Lung Opacity / Not Normal,34,F,PA,CHEST,CR,0
+d1a8f4a6-bfca-4e3c-8ca4-a7c38cce99d7,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+d1d94c7c-aa35-44f0-b561-8c31676f0c99,,,,,Normal,44,M,PA,CHEST,CR,0
+d2110d1b-304a-4989-afc1-76b600a9bc61,,,,,No Lung Opacity / Not Normal,68,M,PA,CHEST,CR,0
+d212e9df-1853-4593-b6a4-e4b3458bdc85,,,,,No Lung Opacity / Not Normal,67,F,AP,CHEST,CR,0
+d213b300-15b6-446f-b9cb-3d9ddc4baf4f,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+d230c1d2-52fe-427d-bf5b-9cfbd2b4ebd5,,,,,No Lung Opacity / Not Normal,28,F,AP,CHEST,CR,0
+d25e7721-294f-4dab-a8bd-7bd26c706658,,,,,No Lung Opacity / Not Normal,38,F,PA,CHEST,CR,0
+d29dee03-1ae6-472d-9685-0d3201fd8689,239.0,377.0,271.0,296.0,Lung Opacity,31,F,AP,CHEST,CR,1
+d29dee03-1ae6-472d-9685-0d3201fd8689,545.0,319.0,292.0,386.0,Lung Opacity,31,F,AP,CHEST,CR,1
+d2b1cc21-3ac8-4458-aab8-49c93be82a73,,,,,No Lung Opacity / Not Normal,66,M,AP,CHEST,CR,0
+d2c96cb5-4d36-497a-8685-a5876f06c423,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+d2df9079-f91a-4fd7-87f2-b5de67ef2afb,,,,,No Lung Opacity / Not Normal,73,F,PA,CHEST,CR,0
+d352c8d9-df59-47d4-b294-5e01462ea55b,,,,,No Lung Opacity / Not Normal,63,F,PA,CHEST,CR,0
+d35c525d-3838-42df-934d-fb79b6053d37,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+d3a2879b-bca0-4b60-89f7-37defbf1b092,,,,,No Lung Opacity / Not Normal,75,M,AP,CHEST,CR,0
+d3b89ac5-a2ce-4631-984b-7da22da71cd2,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+d44dd021-1a9b-4250-a560-ae745a511fb1,,,,,Normal,40,F,PA,CHEST,CR,0
+d46b428d-9c61-4b2e-a0ff-bcc755ed4ffd,,,,,Normal,81,F,PA,CHEST,CR,0
+d4874b9e-a350-4143-9dea-8f3282605f77,,,,,Normal,51,F,AP,CHEST,CR,0
+d48a9b1d-3a60-4506-bf86-4192997d343b,,,,,No Lung Opacity / Not Normal,43,M,PA,CHEST,CR,0
+d4977648-972e-467e-9a7b-9143c23ec00c,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+d4e1dc31-00c9-4339-b0d1-ece6d32b13fa,,,,,No Lung Opacity / Not Normal,27,M,PA,CHEST,CR,0
+d5277276-f8f8-40e9-b8e1-791cf5d96ac0,186.0,293.0,286.0,403.0,Lung Opacity,38,M,AP,CHEST,CR,1
+d52cbb5a-1d0a-457d-8c72-0f7aeec21ca7,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+d55faf33-fa7a-4d88-8050-abf7686577bf,,,,,Normal,41,M,PA,CHEST,CR,0
+d564b24d-50c8-418c-bd27-6368d2f3e733,,,,,Normal,51,M,PA,CHEST,CR,0
+d5750138-776e-47e3-80c9-a413c2ea72cc,,,,,No Lung Opacity / Not Normal,66,M,PA,CHEST,CR,0
+d599cb5c-08fa-4366-bdf2-b06d1116cd59,740.0,458.0,176.0,171.0,Lung Opacity,43,M,AP,CHEST,CR,1
+d599cb5c-08fa-4366-bdf2-b06d1116cd59,146.0,480.0,276.0,216.0,Lung Opacity,43,M,AP,CHEST,CR,1
+d5a60727-74c7-45bd-8313-bb945a137900,,,,,No Lung Opacity / Not Normal,48,M,AP,CHEST,CR,0
+d5d8b914-f94c-4156-a403-9ce6b51da7db,,,,,No Lung Opacity / Not Normal,65,M,AP,CHEST,CR,0
+d5e9f517-48f2-4eb4-9ef8-1fc91ec9490e,,,,,No Lung Opacity / Not Normal,68,M,PA,CHEST,CR,0
+d62fb630-b633-4b16-b533-79c594e9f0e9,,,,,Normal,56,M,PA,CHEST,CR,0
+d650a7aa-b41b-4452-ba7e-91a73394997c,,,,,Normal,25,F,AP,CHEST,CR,0
+d667579e-aa2d-461e-a869-4799ad466add,564.0,193.0,283.0,584.0,Lung Opacity,23,M,AP,CHEST,CR,1
+d667579e-aa2d-461e-a869-4799ad466add,218.0,241.0,140.0,509.0,Lung Opacity,23,M,AP,CHEST,CR,1
+d6d5e9ad-6ed7-40b5-86ec-be83b8316987,,,,,Normal,55,M,PA,CHEST,CR,0
+d6d83188-257a-493c-a35b-b13089cc28b7,,,,,Normal,61,M,PA,CHEST,CR,0
+d753889e-9bb2-480f-b320-cd7a9f88b90a,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+d7571c7c-0a9d-4e24-9488-6e42b6572b36,,,,,Normal,52,M,PA,CHEST,CR,0
+d78fde71-f582-4ab3-9f55-d68a44cbd158,,,,,No Lung Opacity / Not Normal,65,M,PA,CHEST,CR,0
+d7b55359-5045-410e-9820-4776cdaa137b,,,,,Normal,53,F,PA,CHEST,CR,0
+d82b903c-b2e5-454f-aaa3-2d7253858348,,,,,No Lung Opacity / Not Normal,44,F,AP,CHEST,CR,0
+d86c6699-534d-4396-ad9c-49c978acbcec,,,,,No Lung Opacity / Not Normal,57,F,AP,CHEST,CR,0
+d91637ff-b5c7-4c68-83bd-7a51b54188b8,,,,,Normal,49,F,PA,CHEST,CR,0
+d91ae721-fc89-4a3d-b7f7-a9581d0abb33,,,,,No Lung Opacity / Not Normal,74,F,PA,CHEST,CR,0
+d926bf61-53f6-49e8-8a7f-e81e5a3c18ba,,,,,Normal,52,F,PA,CHEST,CR,0
+d9333580-cd98-4b0c-a16d-ab13c02e6479,,,,,No Lung Opacity / Not Normal,41,F,AP,CHEST,CR,0
+d96e0480-194e-4f3c-85ee-ecf9e38a59cd,,,,,No Lung Opacity / Not Normal,42,M,AP,CHEST,CR,0
+d9863bc6-3f95-4f30-81c7-a63ed66cc831,,,,,Normal,49,M,PA,CHEST,CR,0
+d987c6cd-1a63-4309-b02d-6efdd518da44,,,,,No Lung Opacity / Not Normal,48,F,AP,CHEST,CR,0
+d9cc9aa2-0682-47aa-93be-c2a0b98cf22e,,,,,Normal,48,M,AP,CHEST,CR,0
+da433d3b-2ada-4a20-8d8c-37c8be4f53fe,,,,,No Lung Opacity / Not Normal,70,M,AP,CHEST,CR,0
+da4e0509-b237-4dc6-b779-ac7a33d9927e,,,,,No Lung Opacity / Not Normal,48,F,AP,CHEST,CR,0
+daa6676b-8de9-4653-9e18-72be4bf7737b,,,,,No Lung Opacity / Not Normal,49,F,PA,CHEST,CR,0
+dab65a9f-4277-44e2-8d07-ad2365849224,,,,,No Lung Opacity / Not Normal,61,M,PA,CHEST,CR,0
+dae0dd94-d374-40d0-a12b-a8feee49f3a2,,,,,Normal,66,F,PA,CHEST,CR,0
+db16e9ac-b5e2-4d81-9b70-7c31b6852c66,,,,,No Lung Opacity / Not Normal,41,M,AP,CHEST,CR,0
+db4b1a7b-b949-4eca-896d-e1fb03fb56b4,,,,,No Lung Opacity / Not Normal,14,F,PA,CHEST,CR,0
+db5c4b38-0c83-4f5b-a159-ea4c3e1bc7a8,,,,,No Lung Opacity / Not Normal,45,F,AP,CHEST,CR,0
+db750e84-7776-440f-a985-84f5fbfd010b,,,,,Normal,23,M,PA,CHEST,CR,0
+dc04f15d-9a30-4295-9d65-0832a923f5b7,,,,,No Lung Opacity / Not Normal,70,M,PA,CHEST,CR,0
+dc24cf44-9b3a-43b2-a02c-915f79657714,,,,,Normal,50,F,PA,CHEST,CR,0
+dc6e47c3-c3a6-4b05-ad0f-59fa588f1369,,,,,Normal,40,F,PA,CHEST,CR,0
+dcbc1eb6-52a1-41ab-862c-547f94f0ee05,367.0,259.0,62.0,196.0,Lung Opacity,38,F,PA,CHEST,CR,1
+dccd9ab8-e731-408d-93e0-8b8e06357967,,,,,No Lung Opacity / Not Normal,20,F,PA,CHEST,CR,0
+dcea5db2-1995-4d68-bdfd-f6cf7ba08c1b,,,,,No Lung Opacity / Not Normal,57,F,AP,CHEST,CR,0
+dd0e54b8-9e25-483c-a45a-51a72c3203f7,,,,,No Lung Opacity / Not Normal,36,M,AP,CHEST,CR,0
+dd1c3cab-8b7a-4922-95d4-ddfd2c686d15,645.0,233.0,266.0,551.0,Lung Opacity,40,M,AP,CHEST,CR,1
+dd1c3cab-8b7a-4922-95d4-ddfd2c686d15,257.0,270.0,256.0,497.0,Lung Opacity,40,M,AP,CHEST,CR,1
+dd4ec674-ab56-4df2-9131-6cc5a2de3629,,,,,No Lung Opacity / Not Normal,60,F,AP,CHEST,CR,0
+ddb4f535-9e42-420a-9851-3fb6a06a0143,314.0,187.0,170.0,404.0,Lung Opacity,52,F,AP,CHEST,CR,1
+ddb4f535-9e42-420a-9851-3fb6a06a0143,706.0,219.0,133.0,358.0,Lung Opacity,52,F,AP,CHEST,CR,1
+ddcd7ff7-bd2f-4b84-93e8-4d389f34e2f9,,,,,No Lung Opacity / Not Normal,24,M,PA,CHEST,CR,0
+de244b8d-49cc-4403-a716-3fc4201da8ad,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+de31731a-a0ad-42fd-ad28-679d712fe6c0,,,,,Normal,74,M,PA,CHEST,CR,0
+de8c525c-3b1b-4c28-afae-ac58c6a640e5,,,,,No Lung Opacity / Not Normal,43,F,PA,CHEST,CR,0
+ded4a0d9-8af3-4088-94cc-595ecb978db1,,,,,Normal,42,M,AP,CHEST,CR,0
+def275a4-0817-4190-b7db-50c8ad92ca43,,,,,No Lung Opacity / Not Normal,36,F,AP,CHEST,CR,0
+deffdefd-81f7-4028-a8cd-a4ef500d20e2,,,,,No Lung Opacity / Not Normal,56,M,AP,CHEST,CR,0
+df1179b1-ff4d-4f34-9768-a4abccea5f8b,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+df173df1-e168-4409-bc5d-9b1021e59f60,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+df87b0c4-8ef7-480e-b07e-5d55da14a863,,,,,No Lung Opacity / Not Normal,73,M,AP,CHEST,CR,0
+df90e020-b740-4732-802c-22c3e7252e69,,,,,No Lung Opacity / Not Normal,42,F,AP,CHEST,CR,0
+df976027-3267-46e9-8833-9f5f50534969,573.0,166.0,195.0,191.0,Lung Opacity,24,F,PA,CHEST,CR,1
+df98a660-0233-4aa3-b2e6-4e722e8fc43a,,,,,Normal,16,F,PA,CHEST,CR,0
+e02141c5-2d46-499d-ab51-0b724455ca49,,,,,No Lung Opacity / Not Normal,36,F,AP,CHEST,CR,0
+e02f00b9-c031-4ca7-abc6-97da619b08fb,,,,,No Lung Opacity / Not Normal,81,M,PA,CHEST,CR,0
+e06e5f32-c3a0-43ee-b912-f31669644d14,,,,,No Lung Opacity / Not Normal,45,F,PA,CHEST,CR,0
+e088ad69-eac7-4438-9230-1c7320dfaad4,,,,,Normal,65,F,PA,CHEST,CR,0
+e09d050c-ac21-40c1-8b6f-9895582f4508,,,,,Normal,27,M,PA,CHEST,CR,0
+e0a1ffef-682a-4d15-a232-46439d4e4d9c,273.0,433.0,168.0,123.0,Lung Opacity,33,M,PA,CHEST,CR,1
+e0a86d60-2d8c-4e72-acd8-ccf7924bdefa,,,,,Normal,20,M,AP,CHEST,CR,0
+e0bcafb9-957c-4b6a-9e3d-93f7680b10f6,,,,,No Lung Opacity / Not Normal,54,M,AP,CHEST,CR,0
+e116c5ed-910a-4013-a3ec-1144fcaae8e7,,,,,Normal,73,M,PA,CHEST,CR,0
+e12cc2da-8324-45eb-a748-45a3924fdc93,,,,,Normal,65,F,PA,CHEST,CR,0
+e15aeca6-1ab9-477d-8b29-8a4736caa8ea,,,,,No Lung Opacity / Not Normal,29,F,PA,CHEST,CR,0
+e1643f4f-42a8-42ae-99d4-f5de6b0b7073,,,,,Normal,56,M,PA,CHEST,CR,0
+e16bb5b9-44bb-476f-9e5a-3b8ee59c5b3b,,,,,Normal,36,M,PA,CHEST,CR,0
+e1fb9b92-637b-4e69-a19d-19e890ed925a,,,,,No Lung Opacity / Not Normal,25,M,PA,CHEST,CR,0
+e2028cc0-af7d-4546-97ec-57a543c35d03,,,,,No Lung Opacity / Not Normal,29,F,PA,CHEST,CR,0
+e28ed2f3-6562-4464-aa3a-5958339ea040,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+e29a81ec-a8ac-4cb9-b495-f095c502e6f9,,,,,No Lung Opacity / Not Normal,65,F,PA,CHEST,CR,0
+e2ccf977-8d04-4ae4-b2e3-d40302cc39b5,,,,,No Lung Opacity / Not Normal,42,M,AP,CHEST,CR,0
+e2e68ab6-6f4a-4264-9a2c-ca64e51cd6fa,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+e319ed0d-cd63-4bd0-828e-9acca7997565,,,,,Normal,50,F,PA,CHEST,CR,0
+e37f89d4-3cdd-41af-8a07-3238b93230ce,192.0,481.0,140.0,110.0,Lung Opacity,39,F,PA,CHEST,CR,1
+e37fd2df-ca9d-481e-bb73-6a85eca02ea3,,,,,Normal,60,M,AP,CHEST,CR,0
+e38ab400-f316-4091-8316-ddaf0b75f4dc,230.0,516.0,177.0,128.0,Lung Opacity,41,F,AP,CHEST,CR,1
+e3b52ea4-7bc0-4fbe-a5d1-5594ef83abcd,,,,,Normal,13,F,PA,CHEST,CR,0
+e3c9fc4d-54d8-4474-81cc-2da90c149e21,,,,,No Lung Opacity / Not Normal,24,M,PA,CHEST,CR,0
+e3cd4296-8b0d-4dda-af6a-d19fd7784c90,,,,,Normal,73,F,PA,CHEST,CR,0
+e3dc00b7-5675-4ebf-88ac-42a60e2ed893,294.0,471.0,149.0,139.0,Lung Opacity,45,M,AP,CHEST,CR,1
+e3dc00b7-5675-4ebf-88ac-42a60e2ed893,817.0,483.0,100.0,143.0,Lung Opacity,45,M,AP,CHEST,CR,1
+e3e8b710-8dac-4cdf-8bdd-74611badc5a8,,,,,Normal,32,M,PA,CHEST,CR,0
+e3ec7cd9-f81f-4630-9ddb-6ca08417082f,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+e42ba38d-5675-4054-8f93-1751856013d2,,,,,No Lung Opacity / Not Normal,26,F,AP,CHEST,CR,0
+e432a26b-f360-4b51-bc5f-d7907eef6658,,,,,Normal,57,F,PA,CHEST,CR,0
+e44c4be2-e7e5-4fd4-aae1-03219d2855b9,,,,,No Lung Opacity / Not Normal,51,M,PA,CHEST,CR,0
+e4548b4a-731d-4f0a-9530-7b19ba43115b,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+e4568bcd-57af-45df-b172-5758cc4643e5,,,,,No Lung Opacity / Not Normal,40,F,PA,CHEST,CR,0
+e470b835-92bb-480b-8905-5d6ea3f1827b,,,,,No Lung Opacity / Not Normal,19,F,PA,CHEST,CR,0
+e4ab5eae-5d47-4ed6-91f5-708b5617a600,,,,,Normal,29,M,AP,CHEST,CR,0
+e4f130d7-0a85-4d4d-a989-936db8cbf598,154.0,628.0,130.0,156.0,Lung Opacity,69,M,PA,CHEST,CR,1
+e50a07f7-47f4-4a25-8d45-a2f1d66a2aaa,327.0,239.0,107.0,241.0,Lung Opacity,37,F,AP,CHEST,CR,1
+e5134a5d-70af-4ca8-a163-305441fbcf9e,,,,,No Lung Opacity / Not Normal,65,M,PA,CHEST,CR,0
+e54154d0-c66c-497c-ab84-cc4a25ebc79f,,,,,No Lung Opacity / Not Normal,24,F,AP,CHEST,CR,0
+e5fbeafc-202a-4719-a4a2-e19dc5a81d9f,,,,,Normal,48,M,AP,CHEST,CR,0
+e5ffd138-39af-4e75-a79f-3531f2ff1b9e,,,,,Normal,35,M,PA,CHEST,CR,0
+e68a970a-cd2b-422c-9859-c38c4fb1ff05,,,,,No Lung Opacity / Not Normal,11,M,AP,CHEST,CR,0
+e6955379-383b-4931-9e00-c5e9453a3616,,,,,No Lung Opacity / Not Normal,56,F,AP,CHEST,CR,0
+e6a58e74-2b7b-4acc-b15f-1af4cdbd9a4e,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+e6a915b0-0a5a-467f-97da-ede1e3dc47a9,,,,,No Lung Opacity / Not Normal,31,M,AP,CHEST,CR,0
+e6de4a23-0cc4-4452-a3ac-30ce33d935a7,,,,,No Lung Opacity / Not Normal,23,M,AP,CHEST,CR,0
+e72249f8-330b-4852-a7d2-bea2f75666c7,,,,,Normal,45,M,AP,CHEST,CR,0
+e7763b77-4ec7-4dbe-af09-5e074b13689a,,,,,Normal,44,M,PA,CHEST,CR,0
+e7a47a98-2dd9-45af-9818-1ebd88cfb700,184.0,603.0,165.0,124.0,Lung Opacity,56,M,PA,CHEST,CR,1
+e7a47a98-2dd9-45af-9818-1ebd88cfb700,703.0,627.0,121.0,103.0,Lung Opacity,56,M,PA,CHEST,CR,1
+e80a7eb1-664c-45de-91cd-8689e2590930,,,,,Normal,32,F,PA,CHEST,CR,0
+e83b9d1d-e6b8-4a11-be97-2cd5df61defc,,,,,Normal,21,M,PA,CHEST,CR,0
+e8921e9f-85d7-474c-a444-9fabbcda6e18,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+e8ba66b2-5146-4f31-8108-22811bf65832,,,,,Normal,71,M,PA,CHEST,CR,0
+e8fe76e2-fef3-4d7b-8678-26fb32573f82,,,,,Normal,62,F,PA,CHEST,CR,0
+e912a77a-18b3-4d94-8c70-9f15fc32b47b,,,,,Normal,81,F,PA,CHEST,CR,0
+e96897e3-73bb-4540-a0d2-b587afd9633d,,,,,No Lung Opacity / Not Normal,51,F,PA,CHEST,CR,0
+e993e66f-2c76-467a-9369-78756d67a2fe,,,,,No Lung Opacity / Not Normal,37,M,AP,CHEST,CR,0
+ea083eb6-6908-4457-8155-8b3fd4b56f67,,,,,No Lung Opacity / Not Normal,76,F,AP,CHEST,CR,0
+ea0fce90-a135-4c80-93ca-b0db1ed05068,,,,,Normal,55,F,AP,CHEST,CR,0
+ea1e5c39-8d0b-4b4d-ba6b-4c3fae623e0a,,,,,No Lung Opacity / Not Normal,51,F,AP,CHEST,CR,0
+ea358350-8f2a-433d-b687-96b05ebf4c1d,,,,,Normal,54,F,PA,CHEST,CR,0
+ea58f4e5-f999-497e-a7ae-5b428df04eb1,,,,,No Lung Opacity / Not Normal,61,M,AP,CHEST,CR,0
+ea5c9883-171e-48ab-901c-e9b7b507afe3,,,,,No Lung Opacity / Not Normal,87,M,AP,CHEST,CR,0
+eb0461f9-6255-4af8-9d71-0707e043e384,,,,,Normal,49,M,PA,CHEST,CR,0
+eb14c72c-7645-4e79-bfc9-6eba7e2d6dbe,,,,,No Lung Opacity / Not Normal,79,M,PA,CHEST,CR,0
+eb1bbfe5-e56b-43d9-a6e9-dbebb646c947,,,,,No Lung Opacity / Not Normal,43,F,AP,CHEST,CR,0
+eb4b4e84-96c3-4f17-a2bb-a498f772023a,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+eb91a618-122c-4de4-88ab-eb534c3ef4c5,555.0,300.0,213.0,570.0,Lung Opacity,21,F,AP,CHEST,CR,1
+eb91a618-122c-4de4-88ab-eb534c3ef4c5,165.0,289.0,243.0,563.0,Lung Opacity,21,F,AP,CHEST,CR,1
+eb91e5d2-e41f-433f-afd4-61429951efc4,,,,,No Lung Opacity / Not Normal,45,F,AP,CHEST,CR,0
+eb98571a-e1f0-400a-b8ff-17c4bc332c06,,,,,No Lung Opacity / Not Normal,60,M,AP,CHEST,CR,0
+ebbdd65b-fac9-4bca-b3a3-ebfdf73b03a8,,,,,No Lung Opacity / Not Normal,24,F,PA,CHEST,CR,0
+ebd0999b-f778-4d0f-8307-f633c22f9f1f,,,,,No Lung Opacity / Not Normal,41,M,AP,CHEST,CR,0
+ec3bdec5-13df-49c0-862a-c8dd8124bfce,,,,,Normal,23,F,PA,CHEST,CR,0
+ec811ac3-19ca-4a43-990b-4e4704a7b649,,,,,Normal,51,M,AP,CHEST,CR,0
+ec885fc7-04cc-47a5-b971-11ef284c229f,191.0,244.0,172.0,171.0,Lung Opacity,27,M,AP,CHEST,CR,1
+ec885fc7-04cc-47a5-b971-11ef284c229f,588.0,304.0,222.0,434.0,Lung Opacity,27,M,AP,CHEST,CR,1
+ec885fc7-04cc-47a5-b971-11ef284c229f,138.0,443.0,181.0,240.0,Lung Opacity,27,M,AP,CHEST,CR,1
+ecb5a45c-314e-478f-946f-ac620738c00b,588.0,352.0,179.0,275.0,Lung Opacity,29,M,AP,CHEST,CR,1
+ecbadacf-7590-4e97-be69-a4ca9e7a7d38,,,,,Normal,28,M,PA,CHEST,CR,0
+ecf0161e-f058-4166-825e-4e1d5bf98d1e,,,,,No Lung Opacity / Not Normal,26,F,PA,CHEST,CR,0
+ed1b89c8-cba0-4c9b-8a95-c5e8af62049a,,,,,No Lung Opacity / Not Normal,37,M,PA,CHEST,CR,0
+ed2092c1-23ce-48d1-bb13-b3d7a078e7ab,,,,,No Lung Opacity / Not Normal,38,F,AP,CHEST,CR,0
+ed21ee4c-97e4-4306-b473-3cca22b4f13d,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+ed6d4b42-0789-4c10-9f79-606233052103,,,,,Normal,23,F,PA,CHEST,CR,0
+ed9b6f2c-4f02-42d8-8f86-7f272f3c6e01,,,,,No Lung Opacity / Not Normal,72,F,AP,CHEST,CR,0
+eda49900-8110-4529-b1ed-abb154c92396,269.0,276.0,209.0,478.0,Lung Opacity,27,M,AP,CHEST,CR,1
+eda49900-8110-4529-b1ed-abb154c92396,629.0,251.0,236.0,541.0,Lung Opacity,27,M,AP,CHEST,CR,1
+eda8b862-53de-4bf9-8eb1-6f271cd73630,,,,,No Lung Opacity / Not Normal,42,F,AP,CHEST,CR,0
+edc75fe6-7499-4c32-9090-300ea5d669f4,,,,,No Lung Opacity / Not Normal,38,F,AP,CHEST,CR,0
+edff33a8-b569-43a1-83a0-9d2a0bd97cdf,,,,,Normal,51,F,PA,CHEST,CR,0
+ee078a5e-c6ff-4e78-a4b2-5aee68972112,,,,,No Lung Opacity / Not Normal,54,M,AP,CHEST,CR,0
+ee48599c-0c53-4afc-b319-299710053553,,,,,No Lung Opacity / Not Normal,24,M,AP,CHEST,CR,0
+ee695084-676c-48e9-a0d2-77945c936577,,,,,No Lung Opacity / Not Normal,59,F,AP,CHEST,CR,0
+eea5fa9b-b0d2-4ae1-8ac1-db63d0f5bf01,,,,,Normal,43,F,PA,CHEST,CR,0
+eeb032a7-7856-41c4-ad44-647d1b6eac96,,,,,Normal,48,F,PA,CHEST,CR,0
+eee3497c-fb69-4a48-96e6-c204b0ee9b84,193.0,183.0,227.0,249.0,Lung Opacity,16,M,PA,CHEST,CR,1
+eeef960b-b82b-4a8c-8845-0da4d580cf16,,,,,No Lung Opacity / Not Normal,82,M,AP,CHEST,CR,0
+eef7f5e9-8a8d-44f6-800c-cf3774b51f0e,,,,,No Lung Opacity / Not Normal,77,F,AP,CHEST,CR,0
+ef0d7576-9fb6-4b42-89c1-a05ddfffc14f,,,,,No Lung Opacity / Not Normal,48,M,PA,CHEST,CR,0
+ef3f258f-aff0-4ef1-9aa1-bc424d9d7b2e,,,,,No Lung Opacity / Not Normal,44,F,AP,CHEST,CR,0
+ef426ed4-3967-482e-b5fd-df945555094d,,,,,No Lung Opacity / Not Normal,58,M,AP,CHEST,CR,0
+ef503977-63a8-4fcf-9019-78e8e70511f3,186.0,686.0,188.0,151.0,Lung Opacity,57,M,AP,CHEST,CR,1
+ef761069-33cf-4ba2-86cd-30d385004b32,,,,,No Lung Opacity / Not Normal,37,M,AP,CHEST,CR,0
+ef76af54-ff7a-483f-854f-3d8527e720ef,,,,,Normal,55,F,PA,CHEST,CR,0
+efa863b3-24a7-4688-9015-e656c933d04c,225.0,469.0,184.0,121.0,Lung Opacity,64,M,PA,CHEST,CR,1
+effc3b6b-4088-41e6-a06a-cfad22c0e1da,,,,,No Lung Opacity / Not Normal,82,M,PA,CHEST,CR,0
+f00c52d3-4333-4bd8-8548-c626db9c2c3f,,,,,No Lung Opacity / Not Normal,33,F,PA,CHEST,CR,0
+f0123546-61c0-4c34-9488-36cbfc3c3937,,,,,Normal,66,M,PA,CHEST,CR,0
+f0163438-7fad-4c43-b49d-ae23beea475c,538.0,498.0,237.0,171.0,Lung Opacity,23,M,AP,CHEST,CR,1
+f0163438-7fad-4c43-b49d-ae23beea475c,216.0,424.0,98.0,78.0,Lung Opacity,23,M,AP,CHEST,CR,1
+f04fe181-ce05-4610-a226-dd6a44107f43,,,,,Normal,56,F,PA,CHEST,CR,0
+f0a2aab7-9019-449a-bbde-5978f1d3df71,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+f0bc4c9b-48f7-40a7-b5f2-5de61422dd41,,,,,Normal,67,M,PA,CHEST,CR,0
+f0d89c6a-e677-42d9-8a56-ef6227a771bf,,,,,No Lung Opacity / Not Normal,60,M,PA,CHEST,CR,0
+f1599b74-dd5c-4a4f-9c6c-1a8d4e4af353,,,,,Normal,66,M,PA,CHEST,CR,0
+f16e1f39-243d-49ef-ac41-9d932a86ab8e,,,,,No Lung Opacity / Not Normal,57,M,PA,CHEST,CR,0
+f171645d-065f-433a-ba6c-3afcbe007517,,,,,No Lung Opacity / Not Normal,31,F,PA,CHEST,CR,0
+f171adf5-5c87-4051-8152-91ba18268669,,,,,Normal,55,M,PA,CHEST,CR,0
+f1a16b1b-e3dd-4b75-81e8-f1d05f07f5ba,,,,,No Lung Opacity / Not Normal,47,F,PA,CHEST,CR,0
+f1b4ca70-18b8-4ec5-b185-d15e15316cb7,,,,,No Lung Opacity / Not Normal,58,M,PA,CHEST,CR,0
+f1c1c792-af12-4b8a-bc67-317347a7e8d8,546.0,225.0,168.0,294.0,Lung Opacity,56,F,AP,CHEST,CR,1
+f1c3f262-dcfd-4904-b108-38d3479e3201,597.0,366.0,159.0,242.0,Lung Opacity,58,M,AP,CHEST,CR,1
+f1c3f262-dcfd-4904-b108-38d3479e3201,242.0,227.0,138.0,239.0,Lung Opacity,58,M,AP,CHEST,CR,1
+f1c3f262-dcfd-4904-b108-38d3479e3201,155.0,588.0,185.0,120.0,Lung Opacity,58,M,AP,CHEST,CR,1
+f1d1ceac-9e6d-4ca8-b0da-f918df585511,,,,,No Lung Opacity / Not Normal,71,F,PA,CHEST,CR,0
+f1dfdb40-da03-4577-95a1-da4b170613d1,280.0,441.0,129.0,95.0,Lung Opacity,73,F,PA,CHEST,CR,1
+f20e900e-22ad-46a9-8d46-0c2734241672,,,,,No Lung Opacity / Not Normal,55,F,AP,CHEST,CR,0
+f2252c5e-084f-4653-8fa9-0dc963f0755b,,,,,Normal,70,M,PA,CHEST,CR,0
+f23ba6fa-6625-4b77-9d81-332e5091b50d,,,,,Normal,45,F,PA,CHEST,CR,0
+f26ede75-cee6-4248-9219-017f327b25ca,220.0,344.0,206.0,306.0,Lung Opacity,55,F,AP,CHEST,CR,1
+f27e1121-c394-4577-80c6-762f47e916b2,261.0,216.0,238.0,396.0,Lung Opacity,55,M,AP,CHEST,CR,1
+f27e1121-c394-4577-80c6-762f47e916b2,638.0,352.0,203.0,280.0,Lung Opacity,55,M,AP,CHEST,CR,1
+f29da87d-abd4-4141-96d9-e48f95ca67ab,570.0,373.0,194.0,386.0,Lung Opacity,63,M,AP,CHEST,CR,1
+f29da87d-abd4-4141-96d9-e48f95ca67ab,171.0,357.0,191.0,367.0,Lung Opacity,63,M,AP,CHEST,CR,1
+f2a55ee5-fea4-4504-8156-0bbac0e6a11d,,,,,No Lung Opacity / Not Normal,68,F,AP,CHEST,CR,0
+f2ca38b7-7222-4f3e-819d-c3c3713d9238,,,,,Normal,20,M,PA,CHEST,CR,0
+f2d1a06c-2475-4d1c-b41d-849b8fe1f77f,,,,,Normal,44,M,PA,CHEST,CR,0
+f2ed2022-f1e9-499f-b1a2-549d4090c9e4,,,,,No Lung Opacity / Not Normal,64,F,AP,CHEST,CR,0
+f320219c-ef2e-486b-8a20-705e09f2ff66,,,,,No Lung Opacity / Not Normal,17,F,PA,CHEST,CR,0
+f35df256-c4bf-4767-b9ab-bdf429af9903,,,,,Normal,54,F,PA,CHEST,CR,0
+f3b39f98-862a-4323-91be-088327ab6da8,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+f3ce6341-8c12-417b-b674-be1a2dcdd750,,,,,No Lung Opacity / Not Normal,75,M,AP,CHEST,CR,0
+f3f98941-5ec0-450a-a616-16f23750184b,,,,,No Lung Opacity / Not Normal,77,M,PA,CHEST,CR,0
+f40574cd-4fc5-43a7-a2e8-8bf66093c80a,607.0,273.0,311.0,575.0,Lung Opacity,38,M,AP,CHEST,CR,1
+f40574cd-4fc5-43a7-a2e8-8bf66093c80a,149.0,246.0,268.0,578.0,Lung Opacity,38,M,AP,CHEST,CR,1
+f455013b-884e-4f9f-b603-86b137c2b845,,,,,No Lung Opacity / Not Normal,71,M,AP,CHEST,CR,0
+f468acf0-c324-44c8-b60f-65bb2ca843c5,,,,,No Lung Opacity / Not Normal,61,F,PA,CHEST,CR,0
+f4caca65-760a-4726-a622-38ddc68e55e9,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+f4e98c8f-b5f6-4e9d-9f9f-1d4694cad954,,,,,Normal,52,F,AP,CHEST,CR,0
+f50f3c2d-e52b-40d2-9acc-277cd996e673,,,,,No Lung Opacity / Not Normal,54,M,PA,CHEST,CR,0
+f560fc1c-ec3a-409c-a035-344bff1bbc06,252.0,385.0,149.0,246.0,Lung Opacity,51,F,AP,CHEST,CR,1
+f574b116-7f36-4ed5-9d6c-d885fd7b6caf,,,,,No Lung Opacity / Not Normal,69,M,PA,CHEST,CR,0
+f5755261-fe82-4af9-9086-b7c7558d6738,,,,,No Lung Opacity / Not Normal,52,F,AP,CHEST,CR,0
+f57866db-e88b-45f6-b9ce-1a185ac5dea8,,,,,Normal,38,F,PA,CHEST,CR,0
+f5920dcb-fa9b-40fd-95c6-5adc7ca33b78,,,,,No Lung Opacity / Not Normal,27,F,PA,CHEST,CR,0
+f6236cb5-cc36-4ec4-895c-d11ce043341d,,,,,Normal,68,M,PA,CHEST,CR,0
+f62c81d2-f85c-432f-861d-1911b66d9727,,,,,No Lung Opacity / Not Normal,30,M,PA,CHEST,CR,0
+f6795551-1ff4-4f68-850a-8f84b31fef4d,,,,,No Lung Opacity / Not Normal,30,M,AP,CHEST,CR,0
+f6889509-932d-48fd-849a-c2bc6dd32b0a,,,,,No Lung Opacity / Not Normal,21,M,AP,CHEST,CR,0
+f68d03d0-4afd-490f-8132-06e2103b690e,,,,,Normal,27,F,PA,CHEST,CR,0
+f6cbfc94-c9d9-458e-8ee0-4a80a3a9e49c,,,,,No Lung Opacity / Not Normal,63,M,AP,CHEST,CR,0
+f77b0afe-0085-4ee0-afad-a1e9fda8fe65,327.0,153.0,186.0,270.0,Lung Opacity,29,F,AP,CHEST,CR,1
+f77b0afe-0085-4ee0-afad-a1e9fda8fe65,702.0,246.0,139.0,259.0,Lung Opacity,29,F,AP,CHEST,CR,1
+f79893ef-5f7f-4b63-bcbe-694a2bd8bf42,,,,,Normal,59,F,PA,CHEST,CR,0
+f79fa94e-8886-425c-95d4-81abfea92aee,,,,,Normal,43,F,PA,CHEST,CR,0
+f7d0ac07-d563-4dde-b27b-0fad32e59274,,,,,No Lung Opacity / Not Normal,35,F,AP,CHEST,CR,0
+f7efd4bc-b7b8-4da0-bd04-291c912e98e8,,,,,No Lung Opacity / Not Normal,82,F,PA,CHEST,CR,0
+f87a8977-f5a8-4f0f-9502-0abe1bbd04ef,,,,,No Lung Opacity / Not Normal,29,M,PA,CHEST,CR,0
+f888c6c9-2c96-484d-b16f-bd7495288635,,,,,No Lung Opacity / Not Normal,28,M,PA,CHEST,CR,0
+f8913627-b157-4236-aa0a-272639a52724,,,,,No Lung Opacity / Not Normal,40,M,PA,CHEST,CR,0
+f8a1abfb-bce3-495e-b0e4-ded21381efcb,,,,,No Lung Opacity / Not Normal,47,M,PA,CHEST,CR,0
+f8aea454-db83-4024-ac88-400a1cc955e3,,,,,No Lung Opacity / Not Normal,32,M,PA,CHEST,CR,0
+f8dffe8e-2715-47ec-bdef-8d33db0464ee,,,,,No Lung Opacity / Not Normal,24,F,PA,CHEST,CR,0
+f8e647ad-f72d-4843-a19a-ea0b9abf8777,,,,,No Lung Opacity / Not Normal,39,F,PA,CHEST,CR,0
+f8fef94a-8314-462a-a3de-a45fd2265efe,,,,,No Lung Opacity / Not Normal,64,M,PA,CHEST,CR,0
+f974e98d-2659-463a-9c69-6c596b1f249d,,,,,Normal,25,M,PA,CHEST,CR,0
+f992640c-368e-4af3-a315-6240af940587,,,,,No Lung Opacity / Not Normal,34,F,AP,CHEST,CR,0
+fa087745-6e5e-414b-9900-f15f597c76ab,,,,,Normal,39,M,PA,CHEST,CR,0
+fa2c4817-831b-4c4f-81f1-645acb122756,,,,,No Lung Opacity / Not Normal,18,M,AP,CHEST,CR,0
+fa9279e7-29b5-4997-b30d-dcfa0a3ba47f,,,,,Normal,30,F,PA,CHEST,CR,0
+fabcaf4a-8724-4d33-848a-541457221d89,,,,,No Lung Opacity / Not Normal,45,M,PA,CHEST,CR,0
+fb0eb436-4668-46fe-8a94-9f06164271f8,,,,,No Lung Opacity / Not Normal,66,F,AP,CHEST,CR,0
+fb2ce3bd-513d-488d-9701-f942437f841a,,,,,No Lung Opacity / Not Normal,65,F,AP,CHEST,CR,0
+fbe58065-a841-4d40-84c3-76e932562beb,,,,,No Lung Opacity / Not Normal,21,F,AP,CHEST,CR,0
+fbfc5c95-feb2-43b8-a37f-0846c5db5848,,,,,Normal,40,M,PA,CHEST,CR,0
+fc0db61a-1db4-44ab-ae7c-ca4fafcacad9,,,,,No Lung Opacity / Not Normal,56,F,PA,CHEST,CR,0
+fc4df6a3-1d49-4c2b-bcf6-40d3a8a34ba5,,,,,No Lung Opacity / Not Normal,50,M,AP,CHEST,CR,0
+fc6811a4-fc77-41cc-bd7a-9336bb59c42d,,,,,No Lung Opacity / Not Normal,44,M,PA,CHEST,CR,0
+fc81660d-7d13-43ab-9f1c-0608f5f21d45,,,,,Normal,66,F,PA,CHEST,CR,0
+fcf2398a-3fa9-4837-9128-2c60462b9acd,,,,,Normal,48,F,PA,CHEST,CR,0
+fd08f9c5-1101-4353-bfc0-12d06be82d0c,,,,,No Lung Opacity / Not Normal,50,F,PA,CHEST,CR,0
+fd3d5191-b17d-46ec-90f3-05cf72e62c14,,,,,No Lung Opacity / Not Normal,63,F,PA,CHEST,CR,0
+fd4af787-7516-406e-8f06-671e28d791cb,,,,,No Lung Opacity / Not Normal,26,M,PA,CHEST,CR,0
+fda9946c-adac-4be9-a57d-c1ee75887c3c,,,,,No Lung Opacity / Not Normal,60,F,PA,CHEST,CR,0
+fdca8fb0-7118-4143-b87d-cc42bb8b4f5a,,,,,No Lung Opacity / Not Normal,58,F,AP,CHEST,CR,0
+fe02ac25-6a2a-4c6b-909e-c8a9c7c67f53,,,,,Normal,51,F,PA,CHEST,CR,0
+fe047967-9495-42a5-a25b-b5c22f7724c3,,,,,No Lung Opacity / Not Normal,49,M,AP,CHEST,CR,0
+fe7f6d2d-9ee1-4e1d-ac8c-bad8d2c4317b,619.0,202.0,194.0,414.0,Lung Opacity,46,F,AP,CHEST,CR,1
+fe7f6d2d-9ee1-4e1d-ac8c-bad8d2c4317b,260.0,209.0,196.0,284.0,Lung Opacity,46,F,AP,CHEST,CR,1
+fea6191a-f4d4-4cc6-8bf7-5e81bd097209,236.0,322.0,160.0,390.0,Lung Opacity,61,F,AP,CHEST,CR,1
+fec6554c-a84f-4d37-a05b-3838bbdd914d,,,,,Normal,41,M,PA,CHEST,CR,0
+fecc154a-42d7-4621-9518-07adf1b9d72d,,,,,No Lung Opacity / Not Normal,75,M,AP,CHEST,CR,0
+fee0c2fd-5a4d-4636-9d31-39a58ae0c8b8,,,,,Normal,48,F,PA,CHEST,CR,0
+fee34cf4-5179-488b-bf71-3e8f00f26840,,,,,No Lung Opacity / Not Normal,31,M,PA,CHEST,CR,0
+fef734db-9599-4df3-83cb-45de251a98d9,,,,,No Lung Opacity / Not Normal,52,F,PA,CHEST,CR,0
+ff781779-1ab8-43a8-914c-070cbbd97967,,,,,No Lung Opacity / Not Normal,41,M,AP,CHEST,CR,0
+ffe16061-b19f-4333-8a03-b41aab42b47d,,,,,Normal,42,F,PA,CHEST,CR,0
+ffe4707d-517c-4ed0-8a9f-3ad149748991,,,,,No Lung Opacity / Not Normal,58,M,PA,CHEST,CR,0
+025d196b-cfa4-44a5-9e31-0f73dc3b318f,605.0,559.0,106.0,75.0,Lung Opacity,57,F,AP,CHEST,CR,1
+02e4191e-fb03-4581-914c-f0438a17e53e,,,,,Normal,60,M,PA,CHEST,CR,0
+02f1ea1a-375f-4d1a-bac5-dd7a4b41fdbc,,,,,No Lung Opacity / Not Normal,58,F,PA,CHEST,CR,0
+037e120a-24fa-4f9c-8813-111136e3c288,,,,,Normal,55,M,AP,CHEST,CR,0
+03aeb73d-0520-48ad-b21a-8249dfcf95d8,,,,,No Lung Opacity / Not Normal,32,F,PA,CHEST,CR,0
+03df15ef-8653-44c6-8088-4242a5073318,,,,,No Lung Opacity / Not Normal,33,M,AP,CHEST,CR,0
+03e4827c-7338-4de3-9ac6-8831ba5637e9,310.0,388.0,140.0,133.0,Lung Opacity,24,F,PA,CHEST,CR,1
+04558d1a-1f4d-47aa-bf07-a6f6595f9cec,729.0,299.0,183.0,454.0,Lung Opacity,49,M,AP,CHEST,CR,1
+0456cd35-da6b-459a-8ca6-47af176000c3,,,,,Normal,55,F,PA,CHEST,CR,0
+05b2d676-777a-4a4d-82ab-bf3f5f9b4d60,558.0,144.0,193.0,388.0,Lung Opacity,64,M,AP,CHEST,CR,1
+0d2b7272-c9e2-4ab9-a8a6-5806a6572348,,,,,Normal,38,M,PA,CHEST,CR,0
+0da8c767-77b7-4c69-98d4-2c5c91b9affc,219.0,262.0,239.0,516.0,Lung Opacity,53,F,AP,CHEST,CR,1
+0da8c767-77b7-4c69-98d4-2c5c91b9affc,579.0,252.0,274.0,602.0,Lung Opacity,53,F,AP,CHEST,CR,1
+0fc18a4c-0666-4287-a25d-e295bcb18351,,,,,No Lung Opacity / Not Normal,55,M,PA,CHEST,CR,0
+10155593-ee63-4405-861a-81ef41ddeb56,,,,,No Lung Opacity / Not Normal,70,M,PA,CHEST,CR,0
+10163e08-1de2-44e1-9145-1922f4dd6805,,,,,Normal,75,M,AP,CHEST,CR,0
+11a355bd-9544-4211-bfa8-451777c1d3c2,627.0,488.0,263.0,338.0,Lung Opacity,68,M,PA,CHEST,CR,1
+11a355bd-9544-4211-bfa8-451777c1d3c2,267.0,308.0,156.0,280.0,Lung Opacity,68,M,PA,CHEST,CR,1
+1260a8e0-dad4-4b75-8448-0c54c1e21f84,,,,,Normal,62,M,PA,CHEST,CR,0
+12c0fe21-2770-49eb-8aa1-c4aca13c1712,88.0,307.0,124.0,210.0,Lung Opacity,52,M,PA,CHEST,CR,1
+12c0fe21-2770-49eb-8aa1-c4aca13c1712,76.0,567.0,259.0,126.0,Lung Opacity,52,M,PA,CHEST,CR,1
+13b42b81-7e2f-436f-9dd7-63ec96eccb6e,,,,,Normal,66,F,PA,CHEST,CR,0
+14972d5d-9c7c-430b-bc31-17ce7fc3422e,,,,,Normal,40,M,PA,CHEST,CR,0
+14df3d5a-f3fd-4a64-ae75-5a9610575e11,301.0,294.0,121.0,429.0,Lung Opacity,62,F,PA,CHEST,CR,1
+14df3d5a-f3fd-4a64-ae75-5a9610575e11,609.0,362.0,191.0,388.0,Lung Opacity,62,F,PA,CHEST,CR,1
+19c705ea-6af7-48f2-a2e7-f500ef840280,144.0,663.0,214.0,155.0,Lung Opacity,34,M,AP,CHEST,CR,1
+19c705ea-6af7-48f2-a2e7-f500ef840280,582.0,449.0,283.0,430.0,Lung Opacity,34,M,AP,CHEST,CR,1
+19d52cc1-9453-4f25-b74a-a84eb23c1b27,,,,,Normal,21,M,AP,CHEST,CR,0
+1a132cab-43fd-486d-b5db-0fcece5fab39,,,,,No Lung Opacity / Not Normal,55,M,AP,CHEST,CR,0
+1a4326c3-303c-4140-8747-ae962f87a981,,,,,Normal,18,F,PA,CHEST,CR,0
+1a9c2e64-7cbd-480c-9598-9de93b69d6b2,172.0,451.0,165.0,222.0,Lung Opacity,40,M,AP,CHEST,CR,1
+1a9c2e64-7cbd-480c-9598-9de93b69d6b2,568.0,517.0,179.0,217.0,Lung Opacity,40,M,AP,CHEST,CR,1
+1caf1ab4-68ee-4b55-ba89-1c3f3bee1435,634.0,702.0,183.0,205.0,Lung Opacity,39,F,AP,CHEST,CR,1
+1cee8f22-8603-49a8-a69c-ea807158db1b,209.0,475.0,142.0,166.0,Lung Opacity,20,M,AP,CHEST,CR,1
+1cee8f22-8603-49a8-a69c-ea807158db1b,572.0,490.0,161.0,228.0,Lung Opacity,20,M,AP,CHEST,CR,1
+1d542f61-b3df-439b-bdbd-c8b38eb8454f,,,,,Normal,53,F,PA,CHEST,CR,0
+1d5af9ab-1f62-47b2-980f-71e8409d7c3c,,,,,No Lung Opacity / Not Normal,27,M,PA,CHEST,CR,0
+1dad3414-88c9-4c56-af5d-3a1488af452c,210.0,432.0,141.0,208.0,Lung Opacity,55,M,AP,CHEST,CR,1
+1dad3414-88c9-4c56-af5d-3a1488af452c,633.0,466.0,206.0,270.0,Lung Opacity,55,M,AP,CHEST,CR,1
+1f29d0c9-e758-4b71-ba67-38eb605a9dd4,,,,,No Lung Opacity / Not Normal,67,M,AP,CHEST,CR,0
+1f724a40-9826-4e46-84df-bf4c333c676e,,,,,Normal,53,F,PA,CHEST,CR,0
+20527dda-ec34-4c48-9e6a-c03e0d7d0ff4,,,,,No Lung Opacity / Not Normal,64,M,AP,CHEST,CR,0
+20d3f1cf-6f6b-4119-8008-bc5c6e105464,261.0,480.0,164.0,73.0,Lung Opacity,27,M,PA,CHEST,CR,1
+214dcd68-4220-4010-8510-4c8eee830c70,,,,,Normal,58,F,PA,CHEST,CR,0
+24a37f78-cea1-42eb-94a7-b2c51c0f0915,,,,,No Lung Opacity / Not Normal,44,M,PA,CHEST,CR,0
+25310577-2bea-495f-b73c-7eff7954571e,157.0,606.0,145.0,116.0,Lung Opacity,55,M,AP,CHEST,CR,1
+25310577-2bea-495f-b73c-7eff7954571e,534.0,564.0,181.0,113.0,Lung Opacity,55,M,AP,CHEST,CR,1
+25ba8a50-bc9a-4ca8-81c3-9f635f52243b,767.0,445.0,101.0,357.0,Lung Opacity,66,M,AP,CHEST,CR,1
+25ba8a50-bc9a-4ca8-81c3-9f635f52243b,289.0,556.0,191.0,178.0,Lung Opacity,66,M,AP,CHEST,CR,1
+25d34f4c-7ebe-4fb7-a609-f0d98f5b06c5,639.0,385.0,175.0,110.0,Lung Opacity,32,F,PA,CHEST,CR,1
+26ace3f3-c994-45a2-af73-d132ed374e77,,,,,Normal,69,M,PA,CHEST,CR,0
+270b8a22-8a8f-4ba9-9f76-bdaff1c98e9c,,,,,Normal,64,F,AP,CHEST,CR,0
+27fa7496-e222-4016-8d1a-5a8dd4db52ed,132.0,310.0,269.0,445.0,Lung Opacity,16,M,AP,CHEST,CR,1
+27fa7496-e222-4016-8d1a-5a8dd4db52ed,536.0,275.0,263.0,458.0,Lung Opacity,16,M,AP,CHEST,CR,1
+28775c77-80e8-4f8c-be85-7a44162b5c28,612.0,354.0,251.0,297.0,Lung Opacity,28,M,PA,CHEST,CR,1
+28b55977-46e6-4113-a582-e93ba5c25cd6,,,,,Normal,25,M,PA,CHEST,CR,0
+28c22b85-a506-469f-a85e-1618a765901c,,,,,Normal,58,M,PA,CHEST,CR,0
+28dfbd38-b24a-4cfb-a355-34c226dd2aa2,622.0,585.0,226.0,333.0,Lung Opacity,66,M,AP,CHEST,CR,1
+28fa453d-027a-4569-9e22-7814e7b74f43,686.0,572.0,100.0,201.0,Lung Opacity,67,F,AP,CHEST,CR,1
+295ed916-1956-43bd-847e-d77ddb89b5fd,,,,,No Lung Opacity / Not Normal,57,M,AP,CHEST,CR,0
+29e4656b-0648-470c-ace8-cef7398e0fc5,,,,,Normal,51,F,PA,CHEST,CR,0
+2afaf9b4-664c-4c87-b9f5-4e411789da5d,663.0,243.0,98.0,196.0,Lung Opacity,56,M,AP,CHEST,CR,1
+2baa8ae3-27e1-4193-b51e-68e2a1cc516a,,,,,No Lung Opacity / Not Normal,67,M,AP,CHEST,CR,0
+2bbd1729-f918-4712-bdc7-691240c8636f,,,,,No Lung Opacity / Not Normal,71,F,AP,CHEST,CR,0
+2c43c983-3fb6-4110-87d4-a282af171b69,,,,,Normal,38,F,PA,CHEST,CR,0
+2d0ebb7e-9c57-4a78-9728-e79b0f2bc91c,594.0,513.0,250.0,207.0,Lung Opacity,70,M,AP,CHEST,CR,1
+2dfde10a-53c1-4c69-b49a-43aa4543b7f4,,,,,Normal,70,F,PA,CHEST,CR,0
+2e34adf2-9e00-4e46-8510-a8d0fc2d3b94,,,,,Normal,39,F,PA,CHEST,CR,0
+2fd675cd-8340-498c-90a2-64f5e9abf7b3,,,,,Normal,20,M,AP,CHEST,CR,0
+30181ed4-6337-47e1-89b7-9dfe63c95131,600.0,590.0,226.0,134.0,Lung Opacity,64,M,AP,CHEST,CR,1
+30181ed4-6337-47e1-89b7-9dfe63c95131,242.0,577.0,166.0,158.0,Lung Opacity,64,M,AP,CHEST,CR,1
+3132440e-c4bc-4dc5-b7af-ef3e082ed989,,,,,No Lung Opacity / Not Normal,38,M,AP,CHEST,CR,0
+c09b4889-d8d1-4690-806e-dfada1f79e0b,606.0,555.0,156.0,129.0,Lung Opacity,52,F,AP,CHEST,CR,1
+c102bfc2-601d-4275-b986-d928bf170ef9,662.0,395.0,253.0,488.0,Lung Opacity,21,M,AP,CHEST,CR,1
+c102bfc2-601d-4275-b986-d928bf170ef9,220.0,402.0,239.0,490.0,Lung Opacity,21,M,AP,CHEST,CR,1
