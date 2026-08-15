@@ -1,81 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sign in — MedScan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bone:#f6f2ea;--surface:#ffffff;--ink:#1d1b17;--ink-soft:#3a362f;--muted:#6d675c;
-    --hair:#e3dccf;--teal:#0f5c53;--teal-dk:#0a433c;
-    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Charter,Georgia,"Times New Roman",serif;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  }
+  html{scroll-behavior:smooth}
+  body{margin:0;min-height:100vh;background:#f4f3f0;color:#16181b;font-family:"Libre Franklin",Helvetica,Arial,sans-serif;font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
   *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;background:var(--bone);color:var(--ink);font-family:var(--sans);
-    font-size:16px;line-height:1.6;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
-  a{color:var(--teal);text-decoration:none}
-  a:hover{text-decoration:underline}
+  a{color:#10395e;text-decoration:none}
+  a:hover{color:#16181b;text-decoration:underline;text-underline-offset:2px}
+  h1{margin:0}
+  .mono{font-family:"IBM Plex Mono",monospace}
+  .serif{font-family:Newsreader,Georgia,serif}
 
-  header{border-bottom:1px solid var(--hair);background:rgba(246,242,234,.85);backdrop-filter:blur(8px)}
-  .nav{max-width:1120px;margin:0 auto;padding:0 24px;height:66px;display:flex;align-items:center}
-  .brand{display:flex;align-items:center;gap:11px;color:var(--ink);text-decoration:none}
-  .brand .mark{width:32px;height:32px;flex:none}
-  .brand b{font-family:var(--serif);font-size:20px;letter-spacing:-.01em}
-  .brand small{display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:-2px}
+  .topbar{background:#16181b;color:#c9ccd1}
+  .topbar-in{max-width:1180px;margin:0 auto;padding:9px 32px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.07em;text-transform:uppercase}
+  .topbar-in .dim{color:#7f858e}
 
-  main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 24px}
-  .card{width:100%;max-width:410px;background:var(--surface);border:1px solid var(--hair);border-radius:18px;
-    box-shadow:0 1px 2px rgba(29,27,23,.04),0 12px 40px rgba(29,27,23,.08);padding:38px 34px}
-  .eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
-  h1{font-family:var(--serif);font-weight:600;font-size:28px;letter-spacing:-.01em;margin:10px 0 6px}
-  .sub{color:var(--muted);font-size:14.5px;margin-bottom:26px}
+  header{background:rgba(244,243,240,.93);backdrop-filter:blur(10px);border-bottom:1px solid #dedcd6}
+  .nav{max-width:1180px;margin:0 auto;padding:0 32px;height:70px;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:baseline;gap:10px;color:#16181b}
+  .brand b{font-weight:700;font-size:19px;letter-spacing:.10em;text-transform:uppercase}
+  .brand span.tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#797d85;border-left:1px solid #dedcd6;padding-left:10px}
 
-  label{display:block;font-size:13px;font-weight:600;color:var(--ink-soft);margin:0 0 7px}
+  main{flex:1;display:flex;align-items:center;justify-content:center;padding:52px 24px}
+  .card{width:100%;max-width:430px;background:#fff;border:1px solid #16181b;border-radius:3px}
+  .card-in{padding:38px 34px}
+  .kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#10395e}
+  h1.title{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:29px;line-height:1.1;letter-spacing:-.01em;margin:12px 0 8px}
+  .sub{color:#797d85;font-size:14.5px;margin-bottom:26px}
+
+  label.fld{display:block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:#454951;margin:0 0 8px}
   .field{margin-bottom:18px}
-  input{width:100%;font-family:var(--sans);font-size:15.5px;padding:12px 14px;border:1px solid var(--hair);
-    border-radius:10px;background:#fdfcf9;color:var(--ink);transition:border-color .12s,box-shadow .12s}
-  input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(15,92,83,.12)}
-  .row{display:flex;align-items:center;justify-content:space-between;margin:-4px 0 22px;font-size:13.5px}
-  .row label{font-weight:500;color:var(--muted);display:flex;align-items:center;gap:7px;margin:0}
-  .row input{width:auto}
+  input{width:100%;font-family:inherit;font-size:15.5px;padding:12px 14px;border:1px solid #dedcd6;border-radius:2px;background:#fbfaf8;color:#16181b}
+  input:focus{outline:none;border-color:#10395e;background:#fff}
+  .btn{width:100%;font-family:inherit;font-size:14.5px;font-weight:700;padding:13px;border-radius:3px;border:0;background:#16181b;color:#fff;cursor:pointer}
+  .btn:hover{background:#10395e}
+  .foot{text-align:center;margin-top:22px;font-size:14px;color:#797d85}
+  .err{background:#f6efed;border:1px solid #e3ccc7;border-left:3px solid #98362a;color:#98362a;font-size:13.5px;padding:12px 14px;border-radius:2px;margin-bottom:18px}
+  .privacy{margin-top:26px;padding-top:18px;border-top:1px solid #dedcd6;font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.7;letter-spacing:.03em;color:#797d85}
 
-  .btn{width:100%;font-family:var(--sans);font-size:15.5px;font-weight:600;padding:13px;border-radius:10px;
-    border:0;background:var(--teal);color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(15,92,83,.22);transition:background .15s}
-  .btn:hover{background:var(--teal-dk)}
-  .foot{text-align:center;margin-top:22px;font-size:14px;color:var(--muted)}
-  .privacy{margin-top:26px;padding-top:18px;border-top:1px solid var(--hair);font-size:12.5px;color:var(--muted);
-    display:flex;gap:9px;align-items:flex-start}
-  .privacy svg{flex:none;margin-top:1px}
-  .err{background:#f7e3e0;border:1px solid #e0b4ae;color:#a5281f;font-size:13.5px;padding:11px 13px;border-radius:9px;margin-bottom:18px}
+  footer{background:#16181b;color:#7f858e;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+  .foot-in{max-width:1180px;margin:0 auto;padding:20px 32px}
 </style>
 </head>
 <body>
-<header>
-  <div class="nav">
-    <a class="brand" href="/">
-      <svg class="mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0f5c53"/><path d="M16 7c-.9 0-1.6.7-1.6 1.6v3.2c0 1.2-.5 2.3-1.4 3.1l-2 1.8c-.9.8-1.4 1.9-1.4 3.1V23c0 1.1.9 2 2 2 .9 0 1.7-.6 1.9-1.5l.7-2.8c.2-.7.8-1.2 1.5-1.2h.6c.7 0 1.3.5 1.5 1.2l.7 2.8c.2.9 1 1.5 1.9 1.5 1.1 0 2-.9 2-2v-3.2c0-1.2-.5-2.3-1.4-3.1l-2-1.8c-.9-.8-1.4-1.9-1.4-3.1V8.6C17.6 7.7 16.9 7 16 7Z" fill="#eaf3f1"/></svg>
-      <span><b>MedScan</b><small>Valley&nbsp;Fever&nbsp;Triage</small></span>
-    </a>
-  </div>
-</header>
+<div class="topbar"><div class="topbar-in">
+  <span>Research preview — not a diagnostic device</span>
+  <span class="dim">Phoenix, Arizona · built for the endemic Southwest</span>
+</div></div>
+
+<header><div class="nav">
+  <a class="brand" href="/"><b>MedScan</b><span class="tag">Valley fever triage</span></a>
+  <a class="mono" href="/" style="font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#454951">&larr; Back to site</a>
+</div></header>
 
 <main>
-  <div class="card">
-    <span class="eyebrow" id="eyebrow">Your account</span>
-    <h1 id="title">Sign in to check your scan</h1>
-    <p class="sub" id="subtitle">Sign in to enter your scan results. Keeping an account keeps each check private to you — and your report still never leaves your browser.</p>
+  <div class="card"><div class="card-in">
+    <div class="kicker">Your account</div>
+    <h1 class="title" id="title">Sign in to check your scan</h1>
+    <p class="sub" id="subtitle">Sign in to upload a scan and run a check. Keeping an account keeps each check private to you — and your scan still opens in your browser, never on a server.</p>
 
-    <!-- Error banners driven by ?error= in the URL -->
     <div class="err" id="errBanner" style="display:none"></div>
 
     <form method="POST" action="/loginData" id="authForm" autocomplete="on">
       <div class="field">
-        <label for="username">Email or username</label>
+        <label class="fld" for="username">Email or username</label>
         <input type="text" id="username" name="username" required autocomplete="username" placeholder="you@email.com">
       </div>
       <div class="field">
-        <label for="password">Password</label>
+        <label class="fld" for="password">Password</label>
         <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="••••••••">
       </div>
       <button class="btn" type="submit" id="submitBtn">Sign in</button>
@@ -83,12 +81,11 @@
 
     <p class="foot" id="toggleLine">New here? <a href="#" id="toggleLink">Create an account</a></p>
 
-    <div class="privacy">
-      <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M8 1.5 2.5 4v3.8c0 3.3 2.3 5.5 5.5 6.7 3.2-1.2 5.5-3.4 5.5-6.7V4L8 1.5Z" stroke="#0f5c53" stroke-width="1.3"/><path d="M5.8 8.1 7.3 9.6l3-3.2" stroke="#0f5c53" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span>Your account only unlocks the checker. Your scan report itself is analyzed in your browser and is never uploaded or stored.</span>
-    </div>
-  </div>
+    <div class="privacy">Your account only unlocks the checker. The scan itself is analyzed in your browser and is never uploaded, stored, or logged.</div>
+  </div></div>
 </main>
+
+<footer><div class="foot-in">MedScan · Valley fever triage · Not a diagnostic device</div></footer>
 
 <script>
   const params = new URLSearchParams(location.search);
@@ -100,8 +97,8 @@
     form.action = register ? '/registerData' : '/loginData';
     document.getElementById('title').textContent = register ? 'Create your account' : 'Sign in to check your scan';
     document.getElementById('subtitle').textContent = register
-      ? 'Create a free account to unlock the scan checker. Your report is still analyzed in your browser and never uploaded or stored.'
-      : 'Sign in to enter your scan results. Keeping an account keeps each check private to you — and your report still never leaves your browser.';
+      ? 'Create a free account to unlock the scan checker. Your scan is still analyzed in your browser and never uploaded, stored, or logged.'
+      : 'Sign in to upload a scan and run a check. Keeping an account keeps each check private to you — and your scan still opens in your browser, never on a server.';
     document.getElementById('submitBtn').textContent = register ? 'Create account' : 'Sign in';
     pw.setAttribute('autocomplete', register ? 'new-password' : 'current-password');
     document.getElementById('toggleLine').innerHTML = register
@@ -113,7 +110,6 @@
     });
   }
 
-  // Error banner from the server redirect
   const err = params.get('error');
   if (err) {
     const banner = document.getElementById('errBanner');
@@ -123,7 +119,6 @@
     banner.style.display = 'block';
   }
 
-  // Start in register mode if the server sent us here that way
   setMode(params.get('mode') === 'register' ? 'register' : 'login');
 </script>
 </body>
