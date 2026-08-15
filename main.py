@@ -296,15 +296,23 @@ Pneumonia detection score: {pneumonia_score}
 Return only JSON in exactly this format:
 {wanted}"""
 
+        # Gemini calling code as written by the other contributor (unchanged),
+        # except the key is read from GEMINI_API_KEY so a live key is never
+        # committed to the repo.
         from google import genai
         client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
-        model_name = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
-        resp = client.models.generate_content(model=model_name, contents=prompt)
-        parsed = _parse_assessment(resp.text)
+        interaction = client.interactions.create(model="gemini-3.6-flash",
+                                                 input=prompt)
+        response = interaction.output_text
+
+        detectionOfValleyFever = response.split('"detectionOfValleyFever": "')[1].split('"')[0]
+        confidence = float(response.split('"confidence": ')[1].split(',')[0])
+        reasoning = response.split('"reasoning": "')[1].rsplit('"', 1)[0]
+
         assessment = {
-            "detection": parsed.get("detection"),
-            "confidence": parsed.get("confidence"),
-            "reasoning": parsed.get("reasoning"),
+            "detection": detectionOfValleyFever,
+            "confidence": confidence,
+            "reasoning": reasoning,
             "pneumoniaScore": pneumonia_score,
         }
     except Exception as e:
