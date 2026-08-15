@@ -283,11 +283,11 @@ def api_submit():
     print(prompt)
     import base64
     from google import genai
-    client = genai.Client(api_key=base64.decode("QVEuQWI4Uk42S3ZrelgxWV9oek1TTXViVFVudEE5WUUtR1dMUkZ4LVB3VkI0UFBwSHVOR1E="))
+    client = genai.Client(api_key="")
     interaction = client.interactions.create(model="gemini-3.6-flash",
                                              input=prompt)
 
-    import json
+    # import json
     response = interaction.output_text
 
     detectionOfValleyFever = response.split('"detectionOfValleyFever": "')[1].split('"')[0]
