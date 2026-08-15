@@ -101,6 +101,7 @@ const state = {
   page:'home', step:0, answers:{}, stop:null, copied:false,
   file:null, previewUrl:null, dragging:false, fileError:null,
   authed:false, _scrollTo:null,
+  providersZip:'', providers:null, provLoading:false, provError:null, provSource:null,
 };
 
 /* ---------- scoring + clinician document ---------- */
@@ -357,6 +358,41 @@ function stopStage(){
     </div>
   </div>`;
 }
+function providersResult(){
+  if(state.provLoading) return `<p style="margin-top:16px;font-family:${MONO};font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#a8a59d">Searching the NPPES registry…</p>`;
+  if(state.provError) return `<p style="margin-top:16px;font-size:14px;color:#98362a">${esc(state.provError)}</p>`;
+  if(!state.providers) return '';
+  if(!state.providers.length) return `<p style="margin-top:16px;font-size:14px;color:#797d85">No listings found for that ZIP. Try a nearby ZIP, or ask your primary-care clinic for an infectious-disease referral.</p>`;
+  const rows = state.providers.map(p=>{
+    const addr = [p.address, [p.city,p.state].filter(Boolean).join(', '), p.zip].filter(Boolean).join(' · ');
+    const phone = p.phone ? `<a href="tel:${esc(String(p.phone).replace(/[^0-9]/g,''))}" style="font-family:${MONO};font-size:13px;color:#10395e">${esc(p.phone)}</a>` : '';
+    return `<div style="display:grid;grid-template-columns:1fr auto;gap:12px;padding:15px 0;border-bottom:1px solid #dedcd6;align-items:start">
+      <div>
+        <div style="font-size:15.5px;font-weight:600;color:#16181b">${esc(p.name)}</div>
+        <div style="margin-top:3px;font-family:${MONO};font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#797d85">${esc(p.specialty||'')}</div>
+        ${addr?`<div style="margin-top:6px;font-size:13.5px;color:#797d85">${esc(addr)}</div>`:''}
+      </div>
+      <div style="text-align:right;white-space:nowrap">${phone}</div>
+    </div>`;
+  }).join('');
+  const src = state.provSource==='fallback'
+    ? 'Live registry lookup was unavailable — here are Arizona clinics and resources to start with.'
+    : 'Source: the federal NPPES NPI registry.';
+  return `<div style="margin-top:14px">${rows}
+    <p style="margin-top:14px;font-family:${MONO};font-size:11px;letter-spacing:.04em;line-height:1.7;color:#a8a59d">${src} For the blood draw itself, Sonora Quest Laboratories has patient service centers across Arizona.</p>
+  </div>`;
+}
+function providersBlock(){
+  return `<div style="margin-top:30px;border-top:1px solid #16181b;padding-top:22px">
+    <div style="font-family:${MONO};font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#797d85">Find a clinician near you</div>
+    <p style="margin-top:8px;font-size:14.5px;color:#454951;max-width:66ch">Enter your ZIP to pull infectious-disease and pulmonary clinicians in your area from the federal NPPES registry. Your scan and answers stay in your browser &mdash; only the ZIP is sent, to look up nearby clinics.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px">
+      <input id="provzip" inputmode="numeric" maxlength="5" placeholder="e.g. 85004" value="${esc(state.providersZip||'')}" style="font-family:${MONO};font-size:14px;padding:11px 13px;border:1px solid #dedcd6;border-radius:2px;background:#fbfaf8;width:150px">
+      <button data-act="findProviders" style="border:0;background:#16181b;color:#fff;font-size:14px;font-weight:700;padding:11px 20px;border-radius:3px;cursor:pointer">${state.provLoading?'Searching…':'Find clinicians'}</button>
+    </div>
+    ${providersResult()}
+  </div>`;
+}
 function resultStage(){
   const r = score();
   let band, headline, blurb, showDoc = false, accent = '#10395e', bg = '#eceff2', bd = '#cfdae3';
@@ -410,6 +446,7 @@ function resultStage(){
     ${urgencyBlock}
     <div style="margin-top:20px;border-left:2px solid #10395e;background:#eceff2;padding:15px 17px;font-size:14px;color:#454951;max-width:70ch">This is a screening aid, not a diagnosis. Valley fever can resemble tuberculosis or lung cancer on imaging &mdash; a low score here does not rule those out, and serology can be falsely negative in the first one to three weeks. Follow your clinician&rsquo;s judgment.</div>
     ${docBlock}
+    ${providersBlock()}
     <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;margin-top:26px;padding-top:22px;border-top:1px solid #dedcd6">
       <button data-act="restart" style="background:none;border:0;padding:0;color:#797d85;font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer">&larr; Start over</button>
       <button data-act="goStories" style="border:1px solid #16181b;background:#fff;color:#16181b;font-size:14px;font-weight:600;padding:11px 18px;border-radius:3px;cursor:pointer">Read patient stories &rarr;</button>
@@ -590,8 +627,20 @@ function onAct(e){
     }
     case 'restart': {
       if(state.previewUrl) URL.revokeObjectURL(state.previewUrl);
-      Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null});
+      Object.assign(state, {step:0, answers:{}, stop:null, copied:false, file:null, previewUrl:null, fileError:null,
+        providersZip:'', providers:null, provLoading:false, provError:null, provSource:null});
       render(); break;
+    }
+    case 'findProviders': {
+      const el = document.getElementById('provzip');
+      const zip = ((el && el.value) || '').trim();
+      if(!/^\d{5}$/.test(zip)){ state.provError='Please enter a 5-digit ZIP code.'; state.providers=null; render(); return; }
+      state.providersZip=zip; state.provError=null; state.provLoading=true; state.providers=null; render();
+      fetch('/api/providers?zip='+encodeURIComponent(zip), {cache:'no-store'})
+        .then(r=>r.json())
+        .then(j=>{ state.provLoading=false; state.provSource=j.source; state.providers=j.providers||[]; render(); })
+        .catch(()=>{ state.provLoading=false; state.provError='Could not reach the provider registry. Please try again.'; render(); });
+      break;
     }
     case 'clearFile': {
       e.preventDefault(); e.stopPropagation();
